@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/devTeam.css"
+import "./devTeam.css"
 
 function DevTeam() {
   return (

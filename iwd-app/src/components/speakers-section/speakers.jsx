@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/speakers.css"
+import "./speakers.css"
 
 function Speakers() {
   return (

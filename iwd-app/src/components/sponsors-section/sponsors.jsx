@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/sponsors.css"
+import "./sponsors.css"
 
 function Sponsors() {
   return (

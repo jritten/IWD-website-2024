@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/sessions.css"
+import "./sessions.css"
 
 function Sessions() {
   return (
