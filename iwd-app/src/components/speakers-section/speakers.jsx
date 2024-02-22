@@ -1,10 +1,10 @@
-import React from 'react';
-import "./speakers.css"
+import React from "react";
+import "./speakers.css";
 
 function Speakers() {
   return (
     <div className="speakers-div">
-      {/* Speaker div content goes here */}
+      {/* Speaker div content goes here */}I am Speakers
     </div>
   );
 }
