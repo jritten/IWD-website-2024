@@ -28,7 +28,7 @@ For bug fixes, create a branch named `bug-fix/<bug-name>`.
 
 ### Refactoring
 
-For refactoring tasks, create a branch named `refactor/<task-name>`. Refractoring is when I ask you to modify/clean up the code without changing it's function. that might involve moving it to a different file, making it more modular, etc. 
+For refactoring tasks, create a branch named `refactor/<task-name>`. Refractoring is when I ask you to modify/clean up the code without changing its function. that might involve moving it to a different file, making it more modular, etc. 
 
 ### Creating Your Branch
 
