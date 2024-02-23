@@ -20,7 +20,7 @@ Always ensure your branches are created off the `dev` branch. Don't commit direc
 
 ### Feature Branches
 
-For new features, create a branch named `feature/<feature-name>`. For example, if you are adding a navbar, create a branch called `feature/navbar`. 
+For new features, create a branch named `feature/<feature-name>`. For example, if you are adding a navbar, create a branch called `feature/navbar`. I would prefer if your feature name aligns with your issue name. 
 
 ### Bug Fixes
 
