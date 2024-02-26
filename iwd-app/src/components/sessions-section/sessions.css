@@ -3,3 +3,11 @@
     height: 700px;
     background-color: lightblue;
 }
+
+.sessions-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
