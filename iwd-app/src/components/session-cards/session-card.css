@@ -78,6 +78,10 @@
     transform: rotate(180deg);
   }
 
- 
+  @media (max-width: 500px) {
+    .imageContainer {
+      display: none; 
+    }
+  }
   
   
