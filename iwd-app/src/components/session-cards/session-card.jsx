@@ -35,11 +35,18 @@ function SessionCard({ title, imageUrl, speaker, time, place, description }) {
           </span>
         </div>
       </div>
-      {isExpanded && (
-        <div className="description-container">
+      <div
+        className="description-container"
+        style={{
+          maxHeight: isExpanded ? "1000px" : "0px",
+          transition: "max-height 0.6s ease",
+          overflow: "hidden",
+        }}
+      >
+        {isExpanded && ( // Render description content only when expanded
           <div className="description">{description}</div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
