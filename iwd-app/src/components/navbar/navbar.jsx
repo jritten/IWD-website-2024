@@ -30,7 +30,7 @@ function NavBar() {
         </li>
 
         <li className={activeItem === 'location-div' ? 'active' : ''}>
-          <a onClick={() => scrollHandler('location-div')}>location</a>
+          <a onClick={() => scrollHandler('location-div')}>Location</a>
         </li>
 
         <li className={activeItem === 'sponsors-div' ? 'active' : ''}>
@@ -38,7 +38,7 @@ function NavBar() {
         </li>
 
         <li className={activeItem === 'organizers-div' ? 'active' : ''}>
-          <a onClick={() => scrollHandler('organizers-div')}>organizers</a>
+          <a onClick={() => scrollHandler('organizers-div')}>Organizers</a>
         </li>
 
         <li className={activeItem === 'facilitators-div' ? 'active' : ''}>
