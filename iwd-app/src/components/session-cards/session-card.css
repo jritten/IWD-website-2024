@@ -1,5 +1,6 @@
 .session-card {
     display: column;
+    background-color: #FFFFFF;
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 12px;
@@ -8,8 +9,15 @@
     max-width: 1000px;
     height: auto;
     margin: 0 auto;
-    border: 3px solid #000000;
+    border: 2px solid #000000;
     transition: height 0.3s ease;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075)
+    ;
   }
 
   .main-content{
@@ -28,7 +36,7 @@
     width: 100%; 
     height: 100%; 
     border-radius: 20%; 
-    border: 2px solid #00DCAB;
+    border: 3px solid #00DCAB;
     object-fit: cover;
   }
 
