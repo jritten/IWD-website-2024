@@ -1,7 +1,7 @@
 .location-div {
     width: 100%;
     height: 400px;
-    background-color: lightcoral;
+    background-color: white;
     display: flex;
     /* This aligns our child (location-container) vertically */
     align-items: center;
@@ -14,22 +14,36 @@
     flex-direction: row;
     height: 300px;
     width: 90%;
-    /* This is temporary, just so you can see the outline of the container */
-    border: 2px solid black;
 }
 
 /* TODO: Make child a row */
 
 .child{
-    /* the styles that you define below should control the height
-    and width of each child */
-
-    /* This is temporary, just so you can see the outline of the child */
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 40px;
+    margin-right: 40px;
 }
 
 /* TODO: Make text column a column */
 
+
 .text-column{
-    
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
 }
+
+.text-header{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.text-description{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
