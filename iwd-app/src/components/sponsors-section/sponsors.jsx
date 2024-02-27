@@ -5,7 +5,9 @@ function Sponsors() {
   return (
     <div className="sponsors-div">
       {/* Sponsors div content goes here */} 
-      <h1 className="sponsors-div" >Sponsors</h1>
+      <div>
+        <h1 className="sponsors-title" >Sponsors</h1>
+      </div>
     </div>
   );
 }
