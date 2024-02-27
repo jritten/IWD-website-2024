@@ -1,42 +1,59 @@
 .sponsors-div {
-    width: 100%;
-    height: 500px;
-    background-color: #f9f9f9;
-    font-family: Rock Salt;
-    font-size: 40px;
-    text-align: center;
+  width: 100%;
+  height: 500px;
+  background-color: #f9f9f9;
 }
 
 
-#underline {
-  width: 200px;
-  height: 30px;
+.title{
+width: 100%;
+height: 152px;
+text-align: center;
+font-family: 'Rock Salt', bold;
+font-weight: 400;
+font-size: 40px;
+line-height: 95.43px;
 }
 
-#swe {
-    margin-top: 20px;
-    position: absolute;
-    width: 272;
-    height: 246;
-    top: 100px;
-    left: 420px;
-  }
 
-  #NSBE {
-    margin-top: 20px;
-    position: absolute;
-    width: 250;
-    height: 248;
-    top: 100px;
-    left: 1200px;
-  }
+.underline{
+display: flex;
+margin: 1px auto;
+margin-top: -65px;
+height: 36.6px;
+width: 23%;
+}
 
-  #google {
-    margin-top: 20px;
-    position: absolute;
-    width: 418px;
-    height: 138px;
-    top: 350px;
-    left: 724px;
-  }
-  
+
+.sponsors-image{
+display: flex;
+justify-content: space-between;
+align-content: center;
+margin-top: -20px;
+}
+
+
+
+
+.SWE{
+margin: 50px;
+margin-top: -20px;
+width: auto;
+height: 248px;
+}
+
+
+.google{
+margin: 50px;
+width: auto;
+height: 138px;
+margin-top: -20px;
+}
+
+
+.NSBE{
+margin: 50px;
+width: auto;
+height: 242px;
+margin-top: -20px;
+}
