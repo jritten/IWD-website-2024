@@ -7,10 +7,12 @@ function Sessions() {
   return (
     <div className="sessions-div">
       {sessionCards.map((session, index) => (
-        
+        // Use React.Fragment to keep the structure without rendering anything
+        <React.Fragment key={index}>
+          {/* <SessionCard {...session} /> */}
+        </React.Fragment>
       ))}
     </div>
   );
 }
-
 export default Sessions;
