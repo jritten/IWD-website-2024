@@ -1,63 +1,117 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(150, 150, 255);
+  position: fixed;
+}
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .Nav {
-    height: 60px;
-    position: fixed;
-    width: 100%;
-    background-color: #43A6F0;
-    display: flex;
-    justify-content: right;
-    justify-items: center;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: #43a6f0;
+  display: flex;
+  justify-content: right;
+  justify-items: center;
 }
 
 .Nav a {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    padding: .25rem 20px; 
-    margin-right: 10px; 
-    transition: background-color 0.3s ease, padding 0s; 
-    display: flex; 
-    align-items: center; 
-    transition: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.25rem 20px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, padding 0s;
+  display: flex;
+  align-items: center;
+  transition: none;
 }
 
 .Nav li {
-    margin-right: -0.25rem;
-     
-    margin-left: -0.80rem;
-    list-style: none;
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    transition: background-color 0.3s ease, padding 0s; ; 
+  margin-right: -0.25rem;
+
+  margin-left: -0.8rem;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.3s ease, padding 0s;
 }
 
-.Nav li:hover{
-    color: darkgray;
-    background-color: #238CBF;
-    
+.Nav li:hover {
+  color: darkgray;
+  background-color: #238cbf;
 }
 .Nav li.active {
-    background-color: #124b67;
-  
+  background-color: #124b67;
 }
 
 .Nav ul {
-    
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+/* THE FOLLOWING CORRESPONDS TO THE HAMBURGER LIST */
+.hamburger {
+  display: none;
+}
+
+.hamburger Button {
+  padding: 1rem;
+}
+
+.hamburger-list {
+  height: 14.5rem;
+  gap: 0.5rem;
+  font-size: 0.8em;
+  width: 100%;
+  margin: 0;
+  padding-inline-start: 0px;
+
+  list-style: none;
+  background-color: #43a6f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.hamburger-list li {
+  width: 100px;
+  padding-left: 1rem;
+  margin: 0.25rem;
+  border-radius: 7px;
+}
+.hamburger-list li:hover {
+  background-color: #238cbf;
+  cursor: pointer;
+}
+
+/* 836 px */
+@media screen and (max-width: 836px) {
+  /* HAMBURGER */
+  .hamburger {
+    display: block;
+    margin-right: auto;
+  }
+
+  .Nav {
+  }
+
+  .Nav ul {
+    display: none;
+  }
 }
