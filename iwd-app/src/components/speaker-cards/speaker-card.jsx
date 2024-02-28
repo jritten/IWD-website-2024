@@ -1,23 +1,23 @@
 import React from 'react';
 import "./speaker-card.css";
 
-function SpeakerCard(imageurl, name, position, NA, description) {
+function SpeakerCard(imageurl, name, position, company, description) {
   return (
     <div className="speaker-card">
        <div className="speaker-image">
-          <img src={"https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"} alt="Speaker image"/>
+          <img src={imageurl} alt="Speaker image"/>
        </div>
        <div className='speaker-name'>
-          Martin Jacobs
+          {name}
        </div>
        <div className='speaker-position'>
-          UX Designer
+          {position}
        </div>
-       <div className='speaker-NA'>
-          Rocket Homes
+       <div className='speaker-company'>
+          {company}
        </div>
        <div className='speaker-description'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ut lectus non sollicitudin. 
+          {description} 
        </div>
     </div>
   );
