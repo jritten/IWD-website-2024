@@ -9,16 +9,18 @@ function Location() {
       <div className="location-container">
         <div className="child">
           <img alt={""} width={160} height={140} src={WHENPATH}></img>
-          <div className= "text-column">
+          <div className="text-column">
             <p className="text-header">When</p>
-          {<p className= "text-description">Sat, Mar 30, 8:30 AM (EDT)</p>} 
+            <p className="text-description">Sat, Mar 30, 8:30 AM (EDT)</p>
           </div>
         </div>
         <div className="child">
           <img alt={""} width={160} height={140} src={WHEREPATH}></img>
-          <div className= "text-column">
-          <p className= "text-header">Where</p>
-          {<p className= "text-description">Google Detroit, 52 Henry Street, Detroit 48201 </p> }
+          <div className="text-column">
+            <p className="text-header">Where</p>
+            <p className="text-description">
+              Google Detroit, 52 Henry Street, Detroit 48201{" "}
+            </p>
           </div>
         </div>
         <div className="child">

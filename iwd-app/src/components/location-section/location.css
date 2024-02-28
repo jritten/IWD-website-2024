@@ -3,9 +3,7 @@
     height: 400px;
     background-color: white;
     display: flex;
-    /* This aligns our child (location-container) vertically */
     align-items: center;
-    /* This aligns our child (location-container) horizontally */
     justify-content: center;
 }
 
@@ -16,8 +14,6 @@
     width: 90%;
 }
 
-/* TODO: Make child a row */
-
 .child{
     display: flex;
     flex-direction: row;
@@ -25,9 +21,6 @@
     margin-top: 40px;
     margin-right: 40px;
 }
-
-/* TODO: Make text column a column */
-
 
 .text-column{
     display: flex;
@@ -46,4 +39,3 @@
     font-weight: 100;
     margin-top: 0px;
 }
-
