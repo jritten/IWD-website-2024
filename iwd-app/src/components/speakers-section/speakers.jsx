@@ -10,6 +10,9 @@ function Speakers() {
         <SpeakerCard/>
         <SpeakerCard/>
         <SpeakerCard/>
+        <SpeakerCard/>
+        <SpeakerCard/>
+        <SpeakerCard/>
       </div>
     </div>
   );
