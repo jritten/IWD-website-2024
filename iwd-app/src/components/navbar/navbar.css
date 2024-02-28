@@ -1,7 +1,5 @@
 .navbar {
-  /* height: 60px; */
   width: 100%;
-  /* background-color: rgb(150, 150, 255); */
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -17,7 +15,6 @@ body {
 
 .Nav {
   height: 60px;
-  /* position: fixed; */
   width: 100%;
   background-color: #43a6f0;
   display: flex;
@@ -39,7 +36,6 @@ body {
 
 .Nav li {
   margin-right: -0.25rem;
-
   margin-left: -0.8rem;
   list-style: none;
   color: inherit;
@@ -48,7 +44,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
   transition: background-color 0.3s ease, padding 0s;
 }
 
@@ -108,7 +103,6 @@ body {
 
 .drawer{
     /* margin-top: 60px; */
- 
 }
 
 /* 836 px */
