@@ -39,7 +39,7 @@ function NavBar() {
   return (
     <nav className="Nav">
       <div className="hamburger">
-        <Button className="hamburger-btn" onClick={handleDrawerOpen}>
+        <Button onClick={handleDrawerOpen}>
           <MenuIcon />
         </Button>
       </div>
@@ -48,6 +48,12 @@ function NavBar() {
         {/* the following is copy-pasted, the only difference is that this list has the class name hamburger-list,
             and thats how its modified in the css, instead of Nav li or Nav ul for the main header list */}
         <ul className="hamburger-list">
+          <div className="hamburger">
+            <Button onClick={handleDrawerClose}>
+              <MenuIcon />
+            </Button>
+          </div>
+
           <li className={activeItem === "speakers-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
           </li>

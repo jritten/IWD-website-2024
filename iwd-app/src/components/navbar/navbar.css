@@ -100,15 +100,16 @@ body {
   cursor: pointer;
 }
 
+.hamburger-list .hamburger {
+  display: block;
+}
+
 /* 836 px */
 @media screen and (max-width: 836px) {
   /* HAMBURGER */
   .hamburger {
     display: block;
     margin-right: auto;
-  }
-
-  .Nav {
   }
 
   .Nav ul {
