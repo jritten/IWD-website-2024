@@ -17,14 +17,20 @@
 }
 
 .speaker-image{
-    flex: 0 0 auto;
     box-sizing: border-box;
     width: 165px;
     height: 165px;
     margin: 2px;
 
     /* background: url(https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg); */
-    background: #FFFFFF;
+}
+
+.speaker-image img{
+    max-width: inherit;
+    max-height: inherit;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
     border: 5px solid #FFCA41;
     border-radius: 50px;
 }
@@ -66,7 +72,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     text-align: center;
     margin: 2px;
 
