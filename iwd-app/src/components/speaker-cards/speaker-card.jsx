@@ -5,7 +5,7 @@ function SpeakerCard(imageurl, name, position, NA, description) {
   return (
     <div className="speaker-card">
        <div className="speaker-image">
-          <img src={imageurl} alt="Speaker image"/>
+          <img src={"https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"} alt="Speaker image"/>
        </div>
        <div className='speaker-name'>
           Martin Jacobs
