@@ -7,7 +7,6 @@ function Speakers() {
 
   return (
     <div className="speakers-div">
-      {/* Speaker div content goes here */}I am Speakers
       <div className="speaker-cards-container">
         {speakersData.map((speaker, index) => (
           <SpeakerCard key={index} {...speaker}/>
