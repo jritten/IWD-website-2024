@@ -1,3 +1,15 @@
+.speaker-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;     
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto; 
+
+}
+
 .speakers-div{
     width:100%;
     height:900px;
