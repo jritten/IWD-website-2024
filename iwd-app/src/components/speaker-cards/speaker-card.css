@@ -35,7 +35,7 @@
 }
 
 .speaker-name{
-    font-family: 'Lato';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -47,7 +47,7 @@
 }
 
 .speaker-position{
-    font-family: 'Lato';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -68,7 +68,7 @@
 }
 
 .speaker-company{
-    font-family: 'Lato';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -83,7 +83,7 @@
     width: 186.12px;
     height: 45.6px;
 
-    font-family: 'Lato';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
