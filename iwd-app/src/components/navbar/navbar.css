@@ -9,6 +9,7 @@ body {
 .Nav {
     height: 60px;
     position: fixed;
+    z-index: 1000; /* This is an arbitrary high value to ensure it's on top */
     width: 100%;
     background-color: #43A6F0;
     display: flex;
