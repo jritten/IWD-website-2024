@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import { useEffect } from "react";
 import NavBar from "./components/navbar/navbar";
 import Hero from "./components/hero-banner/hero";
