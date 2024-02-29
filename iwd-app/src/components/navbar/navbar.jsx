@@ -8,7 +8,6 @@ function NavBar() {
   const [activeItem, setActiveItem] = useState(null);
 
   const scrollHandler = (className) => {
-    // responsible for the scrolling
     const element = document.querySelector(`.${className}`);
 
     if (element) {
@@ -18,9 +17,6 @@ function NavBar() {
         inline: "start",
       });
       setActiveItem(className);
-      {
-        /* if use hovers over a section set it as active section */
-      }
     }
   };
 
