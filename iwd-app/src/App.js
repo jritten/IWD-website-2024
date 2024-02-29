@@ -21,8 +21,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Hero />
-      <Speakers />
       <Sessions />
+      <Speakers />
       <Location />
       <Sponsors />
       <Organizers />
