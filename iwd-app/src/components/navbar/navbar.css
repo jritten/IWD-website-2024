@@ -27,7 +27,6 @@ body {
   text-decoration: none;
   cursor: pointer;
   padding: 0.25rem 20px;
-  margin-right: 10px;
   transition: background-color 0.3s ease, padding 0s;
   display: flex;
   align-items: center;
@@ -36,7 +35,7 @@ body {
 
 .Nav li {
   margin-right: -0.25rem;
-  margin-left: -0.8rem;
+  margin-left: -0rem;
   list-style: none;
   color: inherit;
   text-decoration: none;
@@ -60,6 +59,8 @@ body {
   display: flex;
   gap: 1rem;
   align-items: start;
+
+  margin: 0;
 }
 
 /* THE FOLLOWING CORRESPONDS TO THE HAMBURGER LIST */
@@ -72,7 +73,7 @@ body {
 }
 
 .hamburger-list {
-  height: 19rem;
+  height: 15.5rem;
   gap: 0.5rem;
   font-size: 0.8em;
   width: 100%;
@@ -101,8 +102,8 @@ body {
   display: block;
 }
 
-.drawer{
-    /* margin-top: 60px; */
+.drawer {
+  /* margin-top: 60px; */
 }
 
 /* 836 px */
