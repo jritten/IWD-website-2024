@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.organizers-text {
+    width: 100%;
+    height: 152px;
+    background-color: #ffe7e1;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 95.43px;
+}
 .organizers-div {
+
     width: 100%;
     height: 400px;
-    background-color: lightseagreen;
+    background-color: #ffe7e1;
+
+}
+
+.underlineImg {
+    
+    display: block;
+    margin: 1px auto;
+    margin-top: -10px;
+    height: 45px;
+    width: 13%;
+    background-color: #ffe7e1;
+
 }
