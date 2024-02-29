@@ -39,9 +39,6 @@ function NavBar() {
             <MenuIcon />
           </Button>
         </div>
-
-        {/*used class-name of each "div"/component to reference it in the navbar scrolling functionality*/}
-        {/*this part will allow scrolling as well as check which section the user is currently hovering over or clicked*/}
         <ul>
           <li className={activeItem === "speakers-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>

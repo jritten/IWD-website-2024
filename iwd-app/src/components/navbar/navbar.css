@@ -20,6 +20,7 @@ body {
   display: flex;
   justify-content: right;
   justify-items: center;
+  align-items: center;
 }
 
 .Nav a {
@@ -60,6 +61,7 @@ body {
   display: flex;
   gap: 1rem;
   align-items: start;
+  height: 100%;
 }
 
 /* THE FOLLOWING CORRESPONDS TO THE HAMBURGER LIST */
