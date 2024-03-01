@@ -119,7 +119,7 @@
         max-height: 350px; /* Adjust height as necessary */
         width: 80%; /* Adjust width to your preference */
         margin-right: 0; /* Reset right margin */
-        margin-bottom: 20px; /* Add some space below the image */
+        margin-bottom: 0; /* Add some space below the image */
         order: -1;
     }
 
@@ -134,14 +134,8 @@
         justify-content: center;
     }
 
-    /* Adjustments for the background image and date-img-div remain as previously outlined */
     #background-img {
-        width: 100%;
-        min-height: 200px;
-        position: relative;
-        bottom: auto;
-        z-index: auto;
-        margin-bottom: 20px;
+        display: none;
     }
 
     .date-img-div {
@@ -150,9 +144,20 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
+        background-color: white;
     }
+    #date-img{
+    max-width: 90%; /* To maintain the desired width */
+    margin-bottom: 20px;
+}
+#date-animation{
+    max-width: 30%; 
+    margin-right: 25%;
+    margin-bottom: 1px;
+}
     .heading-div h1{
-   font-size: 8vw;
+        margin-top: 0;
+   font-size: 9vw;
    
 }
 .heading-div{
@@ -160,9 +165,8 @@
 }
 
 #globe-gif{
-    max-width: 6vw;
-    height: 90%;
-    margin-left: -4px;
+    max-width: 7vw;
+    margin-left: -6px;
 }
 .title-div h2{
     font-size: 3vw;
