@@ -59,7 +59,7 @@ body {
 .Nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  /* gap: 1rem; */
   align-items: start;
   height: 100%;
   margin: 0;
@@ -90,7 +90,7 @@ body {
 }
 
 .hamburger-list li {
-  width: 100px;
+  width: 100%;
   padding-left: 1rem;
   margin: 0.25rem;
   border-radius: 7px;
