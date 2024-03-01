@@ -104,3 +104,76 @@
     margin-right: 10%;
 
 }
+
+/* Media query for screens narrower than 768 pixels */
+@media (max-width: 768px) {
+    .top-row {
+        flex-direction: column;
+        align-items: center; /* Center-align the children */
+        width: 100%; /* Allow it to take full width */
+        margin-top: 40px; /* Adjust the top margin as necessary */
+    }
+
+    #woman-hero {
+        /* Reset any specific alignment and ensure it takes necessary width */
+        max-height: 350px; /* Adjust height as necessary */
+        width: 80%; /* Adjust width to your preference */
+        margin-right: 0; /* Reset right margin */
+        margin-bottom: 20px; /* Add some space below the image */
+        order: -1;
+    }
+
+    .title-div {
+        /* Ensure title-div follows the normal flow and stacks under the woman-hero */
+        position: relative; /* Change position to ensure it follows document flow */
+        max-width: 90%; /* Adjust width as necessary */
+        width: 100%; /* Use full width */
+        margin: 0 auto; /* Center within the container */
+        height: auto; /* Adjust height as needed */
+        text-align: center; /* Center the text */
+        justify-content: center;
+    }
+
+    /* Adjustments for the background image and date-img-div remain as previously outlined */
+    #background-img {
+        width: 100%;
+        min-height: 200px;
+        position: relative;
+        bottom: auto;
+        z-index: auto;
+        margin-bottom: 20px;
+    }
+
+    .date-img-div {
+        position: relative;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .heading-div h1{
+   font-size: 8vw;
+   
+}
+.heading-div{
+    justify-content: center;
+}
+
+#globe-gif{
+    max-width: 6vw;
+    height: 90%;
+    margin-left: -4px;
+}
+.title-div h2{
+    font-size: 3vw;
+}
+.title-div p{
+    font-size: 2vw;
+    width: auto;
+}
+#tickets-btn{
+    width: auto;
+}
+
+
+}
