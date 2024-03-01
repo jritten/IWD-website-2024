@@ -15,8 +15,9 @@
     height: 550px;
 }
 .title-div{
-    width: 28vw;
-    margin-right: 5%;
+    max-width: 28vw;
+    width: 100%;
+    margin-right: 14%;
     height: 550px;
 }
 
@@ -50,8 +51,7 @@
     margin-left: -5px;
 }
 #woman-hero{
-    max-height: 550px;
-    margin-right: 5%;
+    max-height: 470px;
 }
 #background-img {
     position: absolute;
@@ -59,6 +59,17 @@
     width: 75%; 
     height: auto; 
     z-index: -1;
+    min-height: 300px; 
+}
+
+#date-img{
+    position: absolute;
+    bottom: 0;
+    width: 35%; 
+    height: auto; 
+    z-index: -1;
+    right: 0;
+    margin-right: 10%;
 }
 #tickets-btn{
     width: 80%;

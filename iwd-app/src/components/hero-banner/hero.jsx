@@ -3,7 +3,7 @@ import "./hero.css";
 import globeGIF from "../../assets/hero/globe.gif"
 import heroGirl from "../../assets/hero/women-hero.png";
 import background from "../../assets/hero/hero-background.PNG";
-
+import date from "../../assets/hero/rocket-2.jpeg";
 
 
 function Hero() {
@@ -22,13 +22,14 @@ function Hero() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. 
+            aliquip ex ea commodo consequat.
           </p>
           <btn id="tickets-btn">Namaa's button</btn>
         </div>
         <img id="woman-hero" src={heroGirl}></img>
       </div>
       <img id="background-img" src={background}></img>
+      <img id="date-img" src={date}></img>
     </div>
   );
 }
