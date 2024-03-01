@@ -17,7 +17,7 @@
 .title-div{
     max-width: 28vw;
     width: 100%;
-    margin-right: 14%;
+    margin-right: 9%;
     height: 550px;
 }
 
@@ -51,7 +51,9 @@
     margin-left: -5px;
 }
 #woman-hero{
-    max-height: 470px;
+    max-height: 450px;
+    z-index: 100;
+    margin-right: 6%;
 }
 #background-img {
     position: absolute;
@@ -62,15 +64,22 @@
     min-height: 300px; 
 }
 
-#date-img{
-    position: absolute;
-    bottom: 0;
-    width: 35%; 
-    height: auto; 
-    z-index: -1;
-    right: 0;
-    margin-right: 10%;
+#date-animation, #date-img {
+    position: static; /* default, or remove the position property entirely */
+    width: 100%; /* Adjust this as needed */
+    margin-right: 0; /* Remove the margin-right if it's no longer necessary */
+    height: auto; /* To maintain aspect ratio */
 }
+#date-img{
+    max-width: 35%; /* To maintain the desired width */
+    margin-bottom: 20px;
+}
+#date-animation{
+    max-width: 15%; /* To maintain the desired width */
+    margin-right: 25%;
+    margin-bottom: -1px;
+}
+
 #tickets-btn{
     width: 80%;
     display: flex;
@@ -78,4 +87,18 @@
     justify-content: center;
     background-color: gray;
     height: 6vh;
+}
+
+.date-img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Center-align children if desired */
+    justify-content: center; /* Adjust this if you need to control vertical spacing */
+    height: auto; /* Or a fixed height if you want to explicitly set it */
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    right: 0;
+    margin-right: 10%;
+
 }

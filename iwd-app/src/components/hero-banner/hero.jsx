@@ -4,7 +4,7 @@ import globeGIF from "../../assets/hero/globe.gif"
 import heroGirl from "../../assets/hero/women-hero.png";
 import background from "../../assets/hero/hero-background.PNG";
 import date from "../../assets/hero/rocket-2.jpeg";
-
+import dateAnimation from "../../assets/hero/date-animation.gif";
 
 function Hero() {
   return (
@@ -29,7 +29,10 @@ function Hero() {
         <img id="woman-hero" src={heroGirl}></img>
       </div>
       <img id="background-img" src={background}></img>
-      <img id="date-img" src={date}></img>
+      <div className="date-img-div">
+        <img id="date-animation" src={dateAnimation}></img>
+        <img id="date-img" src={date}></img>
+      </div>
     </div>
   );
 }
