@@ -4,3 +4,33 @@
     background-color: rgb(255, 255, 255);
     padding-top: 60px;
 }
+.title-div{
+    width: 50vw;
+}
+.title-div p{
+    font-family: 'Open Sans', sans-serif;
+    width: 28vw;
+    font-size:0.8vw;
+}
+.title-div h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    margin-top: 0;
+}
+.heading-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0;
+}
+.heading-div h1{
+   font-size: 4vw;
+   margin-bottom: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+#globe-gif{
+    max-width: 3vw;
+    height: 90%;
+    margin-left: -5px;
+}
