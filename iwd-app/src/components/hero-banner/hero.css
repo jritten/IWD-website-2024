@@ -9,13 +9,15 @@
 .top-row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
     margin-top: 2%;
+    height: 550px;
 }
 .title-div{
     width: 28vw;
     margin-right: 5%;
+    height: 550px;
 }
 
 .heading-div{
@@ -48,5 +50,6 @@
     margin-left: -5px;
 }
 #woman-hero{
-    max-height: 500px;
+    max-height: 550px;
+    margin-right: 5%;
 }
