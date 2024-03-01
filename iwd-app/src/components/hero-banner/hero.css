@@ -3,21 +3,21 @@
     height: 100vh;
     background-color: rgb(255, 255, 255);
     padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.top-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
 }
 .title-div{
-    width: 50vw;
-}
-.title-div p{
-    font-family: 'Open Sans', sans-serif;
     width: 28vw;
-    font-size:0.8vw;
+    margin-right: 5%;
 }
-.title-div h2{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.2vw;
-    margin-top: 0;
-}
+
 .heading-div{
     display: flex;
     flex-direction: row;
@@ -25,12 +25,28 @@
     margin: 0;
 }
 .heading-div h1{
-   font-size: 4vw;
+   font-size: 4.5vw;
    margin-bottom: 0;
    font-family: 'Open Sans', sans-serif;
 }
+.title-div h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 0;
+}
+
+.title-div p{
+    font-family: 'Open Sans', sans-serif;
+    width: 28vw;
+    font-size:1vw;
+}
+
 #globe-gif{
     max-width: 3vw;
     height: 90%;
     margin-left: -5px;
+}
+#woman-hero{
+    max-height: 500px;
 }
