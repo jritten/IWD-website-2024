@@ -67,17 +67,17 @@
 }
 
 #date-animation, #date-img {
-    position: static; /* default, or remove the position property entirely */
-    width: 100%; /* Adjust this as needed */
-    margin-right: 0; /* Remove the margin-right if it's no longer necessary */
-    height: auto; /* To maintain aspect ratio */
+    position: static; 
+    width: 100%; 
+    margin-right: 0; 
+    height: auto; 
 }
 #date-img{
-    max-width: 35%; /* To maintain the desired width */
+    max-width: 35%; 
     margin-bottom: 20px;
 }
 #date-animation{
-    max-width: 15%; /* To maintain the desired width */
+    max-width: 15%; 
     margin-right: 25%;
     margin-bottom: -1px;
 }
@@ -94,9 +94,9 @@
 .date-img-div {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Center-align children if desired */
-    justify-content: center; /* Adjust this if you need to control vertical spacing */
-    height: auto; /* Or a fixed height if you want to explicitly set it */
+    align-items: flex-end; 
+    justify-content: center; 
+    height: auto; 
     position: absolute;
     bottom: 0;
     height: auto;
@@ -105,33 +105,29 @@
 
 }
 
-/* Media query for screens narrower than 768 pixels */
 @media (max-width: 768px) {
     .top-row {
         flex-direction: column;
-        align-items: center; /* Center-align the children */
-        width: 100%; /* Allow it to take full width */
-        margin-top: 40px; /* Adjust the top margin as necessary */
+        align-items: center;
+        width: 100%;
+        margin-top: 40px;
+        height: auto; 
     }
 
     #woman-hero {
-        /* Reset any specific alignment and ensure it takes necessary width */
-        max-height: 350px; /* Adjust height as necessary */
-        width: 80%; /* Adjust width to your preference */
-        margin-right: 0; /* Reset right margin */
-        margin-bottom: 0; /* Add some space below the image */
+        max-height: 350px;
+        width: 80%;
+        margin: 0 auto; 
         order: -1;
     }
 
     .title-div {
-        /* Ensure title-div follows the normal flow and stacks under the woman-hero */
-        position: relative; /* Change position to ensure it follows document flow */
-        max-width: 90%; /* Adjust width as necessary */
-        width: 100%; /* Use full width */
-        margin: 0 auto; /* Center within the container */
-        height: auto; /* Adjust height as needed */
-        text-align: center; /* Center the text */
-        justify-content: center;
+        position: relative;
+        max-width: 90%;
+        width: 100%;
+        margin: 0 auto; 
+        height: auto;
+        text-align: center;
     }
 
     #background-img {
@@ -146,38 +142,43 @@
         margin-top: 20px;
         background-color: white;
     }
-    #date-img{
-    max-width: 90%; /* To maintain the desired width */
-    margin-bottom: 20px;
-}
-#date-animation{
-    max-width: 30%; 
-    margin-right: 25%;
-    margin-bottom: 1px;
-}
-    .heading-div h1{
+
+    #date-img, #date-animation {
+        max-width: 90%; 
+        margin: 0 auto; 
+        margin-bottom: 20px;
+    }
+
+    #date-animation {
+        max-width: 30%; 
+        margin-right: 60%;
+        margin-bottom: 0px;
+    }
+
+    .heading-div h1 {
         margin-top: 0;
-   font-size: 9vw;
-   
-}
-.heading-div{
-    justify-content: center;
-}
+        font-size: 9vw;
+    }
 
-#globe-gif{
-    max-width: 7vw;
-    margin-left: -6px;
-}
-.title-div h2{
-    font-size: 3vw;
-}
-.title-div p{
-    font-size: 2vw;
-    width: auto;
-}
-#tickets-btn{
-    width: auto;
-}
+    .heading-div {
+        justify-content: center;
+    }
 
+    #globe-gif {
+        max-width: 7vw;
+        margin-left: -6px;
+    }
 
+    .title-div h2, .title-div p {
+        font-size: 3vw;
+        width: auto;
+    }
+
+    .title-div p {
+        font-size: 2vw; 
+    }
+
+    #tickets-btn {
+        width: auto; 
+    }
 }
