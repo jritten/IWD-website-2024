@@ -5,7 +5,8 @@ import sessionCards from "./content-list";
 
 function Sessions() {
   return (
-    <div className="sessions-div">
+    /* app-section style is necessary, please do not delete */
+    <div className="app-section sessions-div">
       {sessionCards.map((session, index) => (
         // Use React.Fragment to keep the structure without rendering anything
         <React.Fragment key={index}>

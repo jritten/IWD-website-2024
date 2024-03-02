@@ -5,7 +5,8 @@ const WHENPATH = "/when.png";
 
 function Location() {
   return (
-    <div className="location-div">
+    /* app-section style is necessary, please do not delete */
+    <div className="app-section location-div">
       <div className="location-container">
         <div className="child">
           <img alt={"globe"} width={100} height={80} src={WHENPATH}></img>

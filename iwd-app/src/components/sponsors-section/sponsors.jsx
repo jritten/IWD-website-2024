@@ -4,7 +4,8 @@ import "./sponsors.css";
 
 function Sponsors() {
   return (
-    <div className="sponsors-div">
+    /* app-section style is necessary, please do not delete */
+    <div className="app-section sponsors-div">
       <div class="sponsors-title">
         Sponsors
         {/* <img src={underlineImg} alt="" class="underline" /> */}

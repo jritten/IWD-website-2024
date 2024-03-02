@@ -3,7 +3,8 @@ import "./facilitators.css";
 
 function Facilitators() {
   return (
-    <div className="facilitators-div">
+    /* app-section style is necessary, please do not delete */
+    <div className="app-section facilitators-div">
       {/* Facilitators div content goes here */}I am Facilitators
     </div>
   );
