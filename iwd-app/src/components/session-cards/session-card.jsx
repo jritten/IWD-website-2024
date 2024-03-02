@@ -23,16 +23,18 @@ function SessionCard({
         <div className="infoContainer">
           <div className="title">{title}</div>
           {type === "panel" ? (
-            <div className="moderator">
-              <span style={{ fontWeight: "bold" }}>Moderator:</span> {moderator}
+            <div>
+              <div className="moderator">
+                <span style={{ fontWeight: "bold" }}>Moderator:</span>{" "}
+                {moderator}
+              </div>
+              <div className="panelists">
+                <span style={{ fontWeight: "bold" }}>Panelists:</span>{" "}
+                {panelists}
+              </div>
             </div>
           ) : (
             <div className="speaker">By {speaker}</div>
-          )}
-          {type === "panel" && (
-            <div className="panelists">
-              <span style={{ fontWeight: "bold" }}>Panelists:</span> {panelists}
-            </div>
           )}
           <div className="time">
             From <span>{time}</span> in {place}
