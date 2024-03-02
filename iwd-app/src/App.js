@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import { useEffect } from "react";
 import NavBar from "./components/navbar/navbar";
 import Hero from "./components/hero-banner/hero";
 import Speakers from "./components/speakers-section/speakers";
@@ -12,12 +11,6 @@ import Facilitators from "./components/facilitators-section/facilitators";
 import DevTeam from "./components/devTeam-section/devTeam";
 
 function App() {
-  useEffect(() => {
-    // this is basically saying, hey find the tag with className 'App'
-    // and assign it to a variable. We've selected this tag
-    // because this is what the users are scrolling
-    const appDiv = document.querySelector(".App");
-  }, []);
   return (
     <div className="App">
       <NavBar />
