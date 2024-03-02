@@ -1,7 +1,17 @@
 import React, { useState } from "react";
 import "./session-card.css";
 
-function SessionCard({ title, imageUrl, speaker, time, place, description }) {
+function SessionCard({
+  title,
+  imageUrl,
+  speaker,
+  moderator,
+  panelists,
+  time,
+  place,
+  description,
+  type, //for special panel card
+}) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -12,7 +22,20 @@ function SessionCard({ title, imageUrl, speaker, time, place, description }) {
         </div>
         <div className="infoContainer">
           <div className="title">{title}</div>
-          <div className="speaker">By {speaker}</div>
+          {type === "panel" ? (
+            <div>
+              <div className="moderator">
+                <span style={{ fontWeight: "bold" }}>Moderator:</span>{" "}
+                {moderator}
+              </div>
+              <div className="panelists">
+                <span style={{ fontWeight: "bold" }}>Panelists:</span>{" "}
+                {panelists}
+              </div>
+            </div>
+          ) : (
+            <div className="speaker">By {speaker}</div>
+          )}
           <div className="time">
             From <span>{time}</span> in {place}
           </div>

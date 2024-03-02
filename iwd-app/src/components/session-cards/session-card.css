@@ -86,6 +86,16 @@
   transform: rotate(180deg);
 }
 
+
+/*For Panel Card*/
+.moderator {
+  color: #7E7E7E;
+}
+.panelists {
+  margin-bottom: 20px;
+  color: #7E7E7E;
+}
+
 @media (max-width: 500px) {
   .imageContainer {
     display: none;
