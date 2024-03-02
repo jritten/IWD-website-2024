@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import globeGIF from "../../assets/hero/globe.gif"
+import globeGIF from "../../assets/hero/globe.gif";
 import heroGirl from "../../assets/hero/women-hero.png";
 import background from "../../assets/hero/hero-background.PNG";
 import date from "../../assets/hero/rocket-2.jpeg";
@@ -8,7 +8,7 @@ import dateAnimation from "../../assets/hero/date-animation.gif";
 
 function Hero() {
   return (
-    <div className="hero-banner">
+    <div className="app-section hero-banner">
       <div className="top-row">
         <div className="title-div">
           <div className="heading-div">

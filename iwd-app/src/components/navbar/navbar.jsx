@@ -23,37 +23,28 @@ function NavBar() {
   // Also set active item style based on
   // user scroll
   useEffect(() => {
-    const appSections = document.querySelectorAll(".app-section");
-    const handleScroll = () => {
-      const appDiv = document.querySelector(".App");
-      const divScrollTop = appDiv.scrollTop; // Get the current scroll position within the div
-      const scrollHeight = appDiv.scrollHeight; // Total scrollable height
-      const offsetHeight = appDiv.offsetHeight; // Visible height of the div
-      const bottomReached = divScrollTop + offsetHeight >= scrollHeight; // Check if bottom is reached
-
-      // what to do if above all sections (hero banner)
-      let inHeroArea = divScrollTop < appSections[0].offsetTop;
-      if (inHeroArea) {
-        setActiveItem(null);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveItem(entry.target.className);
+          }
+        });
+      },
+      {
+        root: document.querySelector(".App"),
+        rootMargin: "0px",
+        threshold: 0.5,
       }
+    );
 
-      // what to do if within one of the sections
-      appSections.forEach((section, index) => {
-        const sectionTop = section.offsetTop;
-        const sectionBottom = sectionTop + section.offsetHeight;
-        if (divScrollTop >= sectionTop && divScrollTop < sectionBottom) {
-          setActiveItem(section.className);
-        } else if (bottomReached && index === appSections.length - 1) {
-          // If the bottom of the container is reached and it's the last section
-          setActiveItem(section.className);
-        }
-      });
+    document.querySelectorAll(".app-section").forEach((section) => {
+      observer.observe(section);
+    });
+
+    return () => {
+      observer.disconnect();
     };
-
-    const appDiv = document.querySelector(".App");
-    appDiv.addEventListener("scroll", handleScroll);
-
-    return () => appDiv.removeEventListener("scroll", handleScroll);
   }, []);
 
   function toggleDrawer() {
