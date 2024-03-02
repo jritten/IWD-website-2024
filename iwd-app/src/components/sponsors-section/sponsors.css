@@ -4,7 +4,6 @@
   background-color: #f9f9f9;
 }
 
-
 .title{
 width: 100%;
 height: 152px;
@@ -15,45 +14,57 @@ font-size: 40px;
 line-height: 95.43px;
 }
 
-
 .underline{
 display: flex;
 margin: 1px auto;
-margin-top: -65px;
-height: 36.6px;
-width: 23%;
+margin-top: -80px;
+height: 26px;
+width: 21%;
 }
 
-
-.sponsors-image{
-display: flex;
-justify-content: space-between;
-align-content: center;
-margin-top: -20px;
+.sponsors-image {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: -30px;
 }
-
-
-
 
 .SWE{
 margin: 50px;
-margin-top: -20px;
+margin-top: -30px;
 width: auto;
 height: 248px;
+transition: transform 0.3s ease;
 }
-
 
 .google{
 margin: 50px;
 width: auto;
 height: 138px;
-margin-top: -20px;
+margin-top: -30px;
+transition: transform 0.3s ease;
 }
-
 
 .NSBE{
 margin: 50px;
 width: auto;
 height: 242px;
-margin-top: -20px;
+margin-top: -30px;
+transition: transform 0.3s ease;
+}
+
+.sponsor-image:hover {
+  transform: translateY(-10px);
+}
+
+.SWE:hover{
+  transform: translateY(-10px);
+}
+
+.google:hover{
+  transform: translateY(-10px);
+}
+
+.NSBE:hover{
+  transform: translateY(-10px);
 }
