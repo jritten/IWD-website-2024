@@ -1,7 +1,7 @@
 import React from "react";
 import "./location.css";
-const WHEREPATH = "./where.png";
-const WHENPATH = "/when.png";
+import WHEREPATH from "../../assets/where.png";
+import WHENPATH from "../../assets/when.png";
 
 function Location() {
   return (
