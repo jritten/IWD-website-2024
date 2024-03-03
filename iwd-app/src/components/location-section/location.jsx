@@ -1,11 +1,12 @@
 import React from "react";
 import "./location.css";
-const WHEREPATH = "./where.png";
-const WHENPATH = "/when.png";
+import WHEREPATH from "../../assets/where.png";
+import WHENPATH from "../../assets/when.png";
 
 function Location() {
   return (
-    <div className="location-div">
+    /* app-section style is necessary, please do not delete */
+    <div className="app-section location-div">
       <div className="location-container">
         <div className="child">
           <img alt={"globe"} width={100} height={80} src={WHENPATH}></img>
