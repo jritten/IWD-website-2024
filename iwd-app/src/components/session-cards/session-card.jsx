@@ -37,7 +37,7 @@ function SessionCard({
             <div className="speaker">By {speaker}</div>
           )}
           <div className="time">
-            From <span>{time}</span> in {place}
+            At <span>{time}</span> in {place}
           </div>
         </div>
         <div
