@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import "./navbar.css";
-import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
+import Button from "@mui/material/Button";
+import React, { useEffect, useState } from "react";
+import "./navbar.css";
 
 function NavBar() {
   const [activeItem, setActiveItem] = useState(null);
@@ -74,6 +74,12 @@ function NavBar() {
             }
           >
             <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
+          </li>
+
+          <li
+          className={activeItem === "app-section attendees-div" ? "active" : ""}
+          >
+            <a onClick={() => scrollHandler("attendees-div")}>Attendees</a>
           </li>
 
           <li

@@ -1,14 +1,14 @@
-import "./App.css";
 import React from "react";
-import NavBar from "./components/navbar/navbar";
-import Hero from "./components/hero-banner/hero";
-import Speakers from "./components/speakers-section/speakers";
-import Sessions from "./components/sessions-section/sessions";
-import Location from "./components/location-section/location";
-import Sponsors from "./components/sponsors-section/sponsors";
-import Organizers from "./components/organizers-section/organizers";
-import Facilitators from "./components/facilitators-section/facilitators";
+import "./App.css";
 import DevTeam from "./components/devTeam-section/devTeam";
+import Facilitators from "./components/facilitators-section/facilitators";
+import Hero from "./components/hero-banner/hero";
+import Location from "./components/location-section/location";
+import NavBar from "./components/navbar/navbar";
+import Organizers from "./components/organizers-section/organizers";
+import Sessions from "./components/sessions-section/sessions";
+import Speakers from "./components/speakers-section/speakers";
+import Sponsors from "./components/sponsors-section/sponsors";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Hero />
       <Sessions />
       <Speakers />
+      <Attendees /> 
       <Location />
       <Sponsors />
       <Organizers />
