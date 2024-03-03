@@ -9,6 +9,15 @@
   
 }
 
+.sessions-title{
+  width: 100%;
+  height: 152px;
+  font-family: 'Rock Salt', bold;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 95.43px;
+  }
+
 .sessions-row {
     display: flex;
     flex-direction: row;

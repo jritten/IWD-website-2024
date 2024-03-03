@@ -5,10 +5,12 @@ import sessionCards from "./content-list";
 
 function Sessions() {
   return (
-    <div className="sessions-div">
-      <div class="sponsors-title">
-        Agenda
-        {/* <img src={underlineImg} alt="" class="underline" /> */}
+    <div className="app-section sessions-div">
+      <div className="header-container">
+        <div class="sessions-title">
+          Agenda
+          {/* <img src={underlineImg} alt="" class="underline" /> */}
+        </div>
       </div>
       {sessionCards.map((session, index) => (
         <div className="sessions-row" key={index}>

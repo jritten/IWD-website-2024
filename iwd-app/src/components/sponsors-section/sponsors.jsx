@@ -6,7 +6,7 @@ function Sponsors() {
     /* app-section style is necessary, please do not delete */
     <div className="app-section sponsors-div">
       <div class="header-container">
-        <div class="title">Partners</div>
+        <div class="sponsors-title">Partners</div>
         <link
           href="https://fonts.googleapis.com/css?family=Rock+Salt:regular"
           rel="stylesheet"
