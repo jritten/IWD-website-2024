@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
-.sponsors-div {
+.partners-div {
   width: 100%;
   height: 500px;
   background-color: #f9f9f9;
 }
 
 
-.sponsors-title {
+.partners-title {
   display: flex;
   justify-content: center;
   font-family: "Rock Salt", cursive;
@@ -26,7 +26,7 @@ width: 23%;
 }
 
 
-.sponsors-image{
+.partners-image{
 display: flex;
 justify-content: space-between;
 align-content: center;
