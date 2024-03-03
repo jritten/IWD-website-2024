@@ -3,3 +3,9 @@
   overflow-y: auto; 
 }
 
+/* This may look deletable but it is not */
+/* It is critical to highlight current */
+/* app-section in Nav */
+.app-section{
+
+}
