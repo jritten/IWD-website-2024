@@ -23,12 +23,6 @@
     color: #000000;
 }
 
-.underline2{
-    display: flex;
-    text-align: center;
-    margin-left: 5%;
-    margin-bottom: 50px;
-}
 
 .speaker-cards-container {
     display: grid;
