@@ -9,7 +9,6 @@ function Sessions() {
       <div className="header-container">
         <div class="sessions-title">
           Agenda
-          {/* <img src={underlineImg} alt="" class="underline" /> */}
         </div>
       </div>
       {sessionCards.map((session, index) => (
