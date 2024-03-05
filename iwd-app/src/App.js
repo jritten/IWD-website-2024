@@ -9,12 +9,14 @@ import Sponsors from "./components/sponsors-section/sponsors";
 import Organizers from "./components/organizers-section/organizers";
 import Facilitators from "./components/facilitators-section/facilitators";
 import DevTeam from "./components/devTeam-section/devTeam";
+import WomenTechmakers from "./components/wtm-section/wtm";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Hero />
+      <WomenTechmakers />
       <Sessions />
       <Speakers />
       <Location />
