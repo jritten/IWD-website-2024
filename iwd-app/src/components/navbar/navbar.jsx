@@ -61,6 +61,11 @@ function NavBar() {
         </div>
         <ul>
           <li
+            className={activeItem === "app-section wtm-section" ? "active" : ""}
+          >
+            <a onClick={() => scrollHandler("wtm-section")}>Techmakers</a>
+          </li>
+          <li
             className={
               activeItem === "app-section sessions-div" ? "active" : ""
             }
