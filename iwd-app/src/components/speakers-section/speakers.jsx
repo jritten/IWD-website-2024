@@ -7,7 +7,7 @@ import underlineImg from "../../assets/Underline.png";
 function Speakers() {
   return (
     /* app-section style is necessary, please do not delete */
-    <div className="app-section speakers-div">
+    <div className="app-section speakers-div" id="speakers-div">
       <div className="speakers-header">Speakers</div>
       <img src={underlineImg} alt="" className="underline2" />
       <div className="speaker-cards-container">

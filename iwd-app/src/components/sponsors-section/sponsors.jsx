@@ -4,7 +4,7 @@ import "./sponsors.css";
 function Sponsors() {
   return (
     /* app-section style is necessary, please do not delete */
-    <div className="app-section sponsors-div">
+    <div className="app-section sponsors-div" id="sponsors-div">
       <div class="header-container">
         <div class="sponsors-title">Partners</div>
         <link

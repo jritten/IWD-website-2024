@@ -53,8 +53,9 @@ body {
   color: darkgray;
   background-color: #238cbf;
 }
-.Nav li.active {
-  background-color: #124b67;
+.Nav ul li.active a {
+  color: #ff0000; /* Change the color to your desired active link color */
+  font-weight: bold; /* Optionally, make the font bold for the active link */
 }
 
 .Nav ul {

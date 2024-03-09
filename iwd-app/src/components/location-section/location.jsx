@@ -6,7 +6,7 @@ import WHENPATH from "../../assets/when.png";
 function Location() {
   return (
     /* app-section style is necessary, please do not delete */
-    <div className="app-section location-div">
+    <div className="app-section location-div" id="location-div">
       <div className="location-container">
         <div className="child">
           <img alt={"globe"} width={100} height={80} src={WHENPATH}></img>

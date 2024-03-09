@@ -5,7 +5,7 @@ import sessionCards from "./content-list";
 
 function Sessions() {
   return (
-    <div className="app-section sessions-div">
+    <div className="app-section sessions-div" id="sessions-div">
       <div className="header-container">
         <div class="sessions-title">
           Agenda
