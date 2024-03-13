@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./sessions.css";
+import "../../globalStyles.css";
+
 import SessionCard from "../session-cards/session-card";
 import networkingCards from "./content-list";
 import talkSeminarsCards from "./content-list2";
@@ -14,7 +16,7 @@ function Sessions() {
   return (
     <div className="app-section sessions-div">
       <div className="header-container">
-        <div className="sessions-title">Sessions</div>
+        <div className="section-title">Sessions</div>
       </div>
       <div className="tabs-container">
         <div
