@@ -3,3 +3,25 @@
     height: 500px;
     background-color: lightskyblue;
 }
+
+
+.facilitators-header {
+    width: 517px;
+    height: 152px;
+    left: calc(50% - 517px/2 - 642.79px);
+    top: -3021px;
+
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 119.29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: -40px;
+
+    color: #000000;
+}
+
