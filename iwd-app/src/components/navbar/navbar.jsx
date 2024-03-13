@@ -94,7 +94,7 @@ function NavBar() {
               activeItem === "app-section sponsors-div" ? "active" : ""
             }
           >
-            <a onClick={() => scrollHandler("sponsors-div")}>Sponsors</a>
+            <a onClick={() => scrollHandler("sponsors-div")}>Partners</a>
           </li>
 
           <li
@@ -133,7 +133,7 @@ function NavBar() {
             <a onClick={() => scrollHandler("location-div")}>Location</a>
           </li>
           <li className={activeItem === "sponsors-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("sponsors-div")}>Sponsors</a>
+            <a onClick={() => scrollHandler("sponsors-div")}>Partners</a>
           </li>
           <li className={activeItem === "organizers-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
