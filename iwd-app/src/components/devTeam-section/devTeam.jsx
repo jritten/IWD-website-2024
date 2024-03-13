@@ -6,7 +6,7 @@ import "../../globalStyles.css";
 function DevTeam() {
   return (
     <div className="app-section devTeam-div">
-      <div className="section-title">Dev Team</div>
+      <div className="section-title-2">Dev Team</div>
     </div>
   );
 }
