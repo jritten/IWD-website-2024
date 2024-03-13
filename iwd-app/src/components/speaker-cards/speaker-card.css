@@ -23,7 +23,6 @@
     height: 172px;
     margin: 2px;
 
-    /* background: url(https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg); */
 }
 
 .speaker-image img{
@@ -37,7 +36,6 @@
 }
 
 .speaker-name{
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -49,7 +47,6 @@
 }
 
 .speaker-position{
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -70,7 +67,6 @@
 }
 
 .speaker-company{
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -85,7 +81,6 @@
     width: 186.12px;
     height: 45.6px;
 
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
