@@ -1,11 +1,13 @@
 import React from "react";
 import "./facilitators.css";
+import "../../globalStyles.css";
+
 
 function Facilitators() {
   return (
     /* app-section style is necessary, please do not delete */
     <div className="app-section facilitators-div">
-        <div className="facilitators-header">Facilitators</div>
+      <div className="section-title">Facilitators</div>
     </div>
   );
 }
