@@ -1,5 +1,6 @@
 import React from "react";
 import "./organizers.css";
+import OrganizerCard from "../organizer-cards/organizer-cards";
 
 function Organizers() {
   return (
@@ -8,6 +9,7 @@ function Organizers() {
       <div className="organizers-text">
         Organizers
       </div>
+      <OrganizerCard/>
     </div>
   );
 }
