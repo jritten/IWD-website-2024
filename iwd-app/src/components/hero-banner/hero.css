@@ -87,7 +87,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: linear-gradient(to right, #946DF0, #E87DB3, #F3B178);
+    background-image: linear-gradient(to right, #946DF0, #E87DB3, #F3B178);
     height: 6vh;
     box-shadow: 5px 7px 4px 0px #FF384A26;
     border-radius: 30px;
