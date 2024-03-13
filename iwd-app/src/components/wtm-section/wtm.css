@@ -1,13 +1,14 @@
 .wtm-section {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     padding: 20px;
     height: 1500px;
   }
   
   .wtm-section h2 {
     margin-left: 100px;
-    font-size: 64px;
+    font-size: 40px;
     margin-bottom: 10px;
+    font-family: 'Rock Salt', bold;
   }
   
   .wtm-section p {
@@ -15,5 +16,6 @@
     width: 53%;
     font-size: 24px;
     color: #333333;
+    font-family: 'Open Sans', sans-serif;
   }
   
