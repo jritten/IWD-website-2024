@@ -9,6 +9,7 @@ import Organizers from "./components/organizers-section/organizers";
 import Sessions from "./components/sessions-section/sessions";
 import Speakers from "./components/speakers-section/speakers";
 import Sponsors from "./components/sponsors-section/sponsors";
+import Attendees from "./components/atttendee-section/attendee.jsx";
 
 function App() {
   return (
