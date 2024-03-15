@@ -20,13 +20,15 @@ function NavBar() {
     }
   };
 
-  // Also set active item style based on
-  // user scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          const dynamicThreshold =
+            entry.target.clientHeight > window.innerHeight ? 0.1 : 0.5;
+          const isIntersecting = entry.intersectionRatio >= dynamicThreshold;
+
+          if (isIntersecting) {
             setActiveItem(entry.target.className);
           }
         });
@@ -34,7 +36,7 @@ function NavBar() {
       {
         root: document.querySelector(".App"),
         rootMargin: "0px",
-        threshold: 0.5,
+        threshold: [0, 0.1, 0.5, 1.0], 
       }
     );
 
@@ -46,6 +48,7 @@ function NavBar() {
       observer.disconnect();
     };
   }, []);
+
 
   function toggleDrawer() {
     setOpen(!open);
