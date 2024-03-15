@@ -26,8 +26,7 @@
 }
 
 .attendee-image {
-  flex-shrink: 0;
-  width: 100px;
+  width: 100%; 
   height: auto;
   margin: 0 10px;
   animation: horizontalScroll 10s linear infinite;
