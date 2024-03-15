@@ -1,7 +1,7 @@
 import React from "react";
 import "./devTeam.css";
 import devTeamData from "./devTeam-list";
-import OrganizerCard from "../organizer-cards/organizer-cards";
+import DevTeamCard from "../devTeam-cards/devTeam-card";
 
 function DevTeam() {
   return (
@@ -12,7 +12,7 @@ function DevTeam() {
       </div>
       <div className="devTeam-cards-container">
       {devTeamData.map((devMember, index) => (
-          <OrganizerCard key={index} {...devMember}/>
+          <DevTeamCard key={index} {...devMember}/>
         ))}
       </div>
     </div>
