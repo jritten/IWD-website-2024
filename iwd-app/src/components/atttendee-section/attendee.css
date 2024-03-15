@@ -5,6 +5,7 @@
 .attendee-div {
   height: 500px;
   background-color: #f9f9f9;
+  overflow: hidden;
 }
 
 .attendee-title {
@@ -19,17 +20,12 @@
 
 .attendee-images {
   display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 20px 0;
-  scroll-behavior: smooth;
+  animation: horizontalScroll 20s linear infinite; /* Adjust animation duration as needed */
 }
 
 .attendee-image {
-  width: 100%; 
   height: auto;
   margin: 0 10px;
-  animation: horizontalScroll 10s linear infinite;
 }
 
 @keyframes horizontalScroll {
