@@ -6,6 +6,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 function NavBar() {
   const [activeItem, setActiveItem] = useState(null);
   const [open, setOpen] = useState(false);
+  const [navbarStyle, setNavbarStyle] = useState(false);
 
   const scrollHandler = (className) => {
     const element = document.querySelector(`.${className}`);
@@ -32,13 +33,18 @@ function NavBar() {
 
           if (isIntersecting) {
             setActiveItem(entry.target.className);
+            const isAfterWtmSection =
+              entry.target.className.includes("wtm-section") ||
+              document.querySelector(".wtm-section").getBoundingClientRect()
+                .top < entry.target.getBoundingClientRect().top;
+            setNavbarStyle(isAfterWtmSection);
           }
         });
       },
       {
         root: document.querySelector(".App"),
         rootMargin: "0px",
-        threshold: [0, 0.1, 0.5, 1.0], 
+        threshold: [0, 0.1, 0.5, 1.0],
       }
     );
 
@@ -51,13 +57,12 @@ function NavBar() {
     };
   }, []);
 
-
   function toggleDrawer() {
     setOpen(!open);
   }
 
   return (
-    <div className="navbar">
+    <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
       <nav className="Nav">
         <div className="hamburger">
           <Button onClick={toggleDrawer}>
