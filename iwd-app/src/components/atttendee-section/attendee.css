@@ -1,44 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
 .app-section {
   width: 100%;
 }
 
 .attendee-div {
   height: 500px;
-  background-color: #c6a6f4;
+  background-color: #f9f9f9;
 }
-
 
 .attendee-title {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-size: 40px;
-  margin-top: 20px; 
-}
-
-.underline {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 23%;
-  height: 2px; 
-  background-color: #000; 
-  margin-top: -10px;
+  margin-top: 20px;
 }
 
 .attendee-images {
   display: flex;
-  justify-content: center;
-  align-items: center; 
-  margin-top: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+  scroll-behavior: smooth;
 }
 
 .attendee-image {
+  flex-shrink: 0;
   width: 100px;
-  height: 100px;
-  margin: 10px;
+  height: auto;
+  margin: 0 10px;
+  animation: horizontalScroll 10s linear infinite;
+}
+
+@keyframes horizontalScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
