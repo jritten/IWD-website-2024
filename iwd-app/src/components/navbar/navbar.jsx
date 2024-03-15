@@ -20,6 +20,8 @@ function NavBar() {
     }
   };
 
+  // Also set active item style based on
+  // user scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
