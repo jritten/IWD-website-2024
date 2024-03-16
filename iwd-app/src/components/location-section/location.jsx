@@ -37,11 +37,6 @@ function Location() {
           ></iframe>
         </div>
       </div>
-      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <button className="bg-blue-500 md:bg-red-500 text-white font-bold py-2 px-4 rounded">
-        Click me
-      </button>
-      <button>Click me</button> */}
     </div>
   );
 }
