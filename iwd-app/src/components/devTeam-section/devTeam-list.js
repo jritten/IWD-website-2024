@@ -1,5 +1,8 @@
 import MoeAbboud from "../../assets/headshots/MoeAbboud.jpg"
 import MoeChami from "../../assets/headshots/MoeChami.jpg"
+import JesusOrozco from "../../assets/headshots/JesusOrozco.jpg"
+import RazanShams from "../../assets/headshots/RazanShams.jpg"
+import AbdulKhan from "../../assets/headshots/AbdulKhan.jpg"
 
 const devTeamData = [
     {
@@ -13,19 +16,19 @@ const devTeamData = [
         linkedIn: "https://www.linkedin.com/in/moecham/",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
+        imageurl: JesusOrozco,
+        name: "Jesus Orozco",
+        linkedIn: "https://www.linkedin.com/in/eisaa-orozco/",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
+        imageurl: RazanShams,
+        name: "Razan Shams",
+        linkedIn: "https://www.linkedin.com/in/razan-shams-5a6b072ba/",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
+        imageurl: AbdulKhan,
+        name: "Abdulmuiz Khan",
+        linkedIn: "https://www.linkedin.com/in/abdulmuiz-khan/",
     },
     {
         imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
