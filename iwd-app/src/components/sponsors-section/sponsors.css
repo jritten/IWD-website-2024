@@ -1,61 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/* attendee.css */
 
-.sponsors-div {
+.app-section {
   width: 100%;
-  height: 500px;
-  background-color: #f9f9f9;
 }
 
+.attendee-div {
+  height: 500px;
+  background-color: #c5b2e1;
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
 
-.sponsors-title {
-  display: flex;
-  justify-content: center;
+.attendee-title {
   font-family: "Rock Salt", cursive;
   font-weight: 400;
-  font-style: normal;
   font-size: 40px;
+  margin-top: 20px;
 }
 
-
-.underline{
-display: flex;
-margin: 1px auto;
-margin-top: -65px;
-height: 36.6px;
-width: 23%;
+.attendee-images {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-behavior: smooth; /* Add smooth scrolling behavior */
+  animation: horizontalScroll 20s linear infinite; /* Apply horizontal scroll animation */
 }
 
-
-.sponsors-image{
-display: flex;
-justify-content: space-between;
-align-content: center;
-margin-top: -20px;
+.attendee-image {
+  margin: 50px;
+  width: auto;
+  height: 242px;
+  margin-top: -20px;
 }
 
-
-
-
-.SWE{
-margin: 50px;
-margin-top: -20px;
-width: auto;
-height: 248px;
+@keyframes horizontalScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
-
-
-.google{
-margin: 50px;
-width: auto;
-height: 138px;
-margin-top: -20px;
-}
-
-
-.NSBE{
-margin: 50px;
-width: auto;
-height: 242px;
-margin-top: -20px;
-}
-

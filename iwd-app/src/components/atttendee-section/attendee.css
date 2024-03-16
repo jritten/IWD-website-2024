@@ -3,9 +3,8 @@
 }
 
 .attendee-div {
-  height: 500px;
-  background-color: #f9f9f9;
-  overflow: hidden;
+  background-color: #c5b2e1;
+  overflow-x: hidden; 
 }
 
 .attendee-title {
@@ -20,11 +19,11 @@
 
 .attendee-images {
   display: flex;
-  animation: horizontalScroll 20s linear infinite; /* Adjust animation duration as needed */
+  overflow-y: auto; 
 }
 
 .attendee-image {
-  height: auto;
+  height: 100%; 
   margin: 0 10px;
 }
 
