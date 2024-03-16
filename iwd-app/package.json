@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build"
+    "build": "react-scripts --openssl-legacy-provider build",
+    "build-css": "tailwindcss build src/index.css -o public/styles.css"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }

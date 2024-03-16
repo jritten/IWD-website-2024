@@ -7,7 +7,7 @@ function Location() {
   return (
     /* app-section style is necessary, please do not delete */
     <div className="app-section location-div">
-      <div className="location-container">
+      {/* <div className="location-container">
         <div className="child">
           <img alt={"globe"} width={100} height={80} src={WHENPATH}></img>
           <div className="text-column">
@@ -36,7 +36,12 @@ function Location() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </div>
+      </div> */}
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <button className="bg-blue-500 md:bg-red-500 text-white font-bold py-2 px-4 rounded">
+        Click me
+      </button>
+      <button>Click me</button>
     </div>
   );
 }
