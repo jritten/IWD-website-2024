@@ -1,6 +1,9 @@
 .facilitators-div {
     width: 100%;
+    /* height: 500px; */
     background-color: lightskyblue;
+    flex-direction: column;
+    display: flex;
 }
 
 
