@@ -13,7 +13,7 @@ function DevTeamCard({imageurl, name, linkedIn}) {
             </div>
             <div className='devTeam-linkedin'>
                 <a href={linkedIn}>
-                    <img src={linkedInIcon} alt="LinkedIn Icon" />
+                    <img id="linkedin-icon" src={linkedInIcon} alt="LinkedIn Icon" />
                 </a>
             </div>
         </div>
