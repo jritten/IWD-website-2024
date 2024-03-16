@@ -1,0 +1,61 @@
+.devTeam-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: center;
+    justify-self: center;
+
+    box-sizing: border-box;
+    width: 234px; /* Adjusted from 293px */
+    height: 328px; /* Adjusted from 410px */
+    background-color: #FFFFFF;
+    margin: 32px; /* Adjusted from 40px */
+
+    border: 2px solid #000000;
+    border-radius: 19px; /* Adjusted from 24px */
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, .5); /* Slightly adjusted for shadow */
+}
+
+.devTeam-image{
+    box-sizing: border-box;
+    width: 203px; /* Adjusted from 254px */
+    height: 225px; /* Adjusted from 281px */
+    margin: 16px; /* Adjusted from 20px */
+}
+
+.devTeam-image img{
+    max-width: inherit;
+    max-height: inherit;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border: 1.75px solid #000000;
+    border-radius: 6px; /* Slightly adjusted */
+}
+
+.devTeam-name{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px; /* Adjusted from 20px */
+    line-height: 21px; /* Can be adjusted if needed */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 5px; /* Adjust if needed */
+    margin-top: 0px;
+
+    color: #000000;
+}
+
+.devTeam-linkedin{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2px; /* Adjust if needed */
+    color: #000000;
+}
+#linkedin-icon{
+    width: 34px;
+    height: auto;
+}
