@@ -1,4 +1,4 @@
-.sponsors-div {
+.partners-div {
   width: 100%;
   height: 500px;
   background-color: #f9f9f9;
@@ -10,17 +10,7 @@
   flex-direction: column;
 }
 
-.sponsors-title{
-width: 100%;
-height: 152px;
-font-family: 'Rock Salt', bold;
-font-weight: 400;
-font-size: 40px;
-line-height: 95.43px;
-}
-
-
-.sponsors-image {
+.partners-image {
   display: flex;
   justify-content: space-between;
   align-content: center;

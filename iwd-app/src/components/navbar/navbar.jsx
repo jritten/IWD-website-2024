@@ -6,6 +6,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 function NavBar() {
   const [activeItem, setActiveItem] = useState(null);
   const [open, setOpen] = useState(false);
+  const [navbarStyle, setNavbarStyle] = useState(false);
 
   const scrollHandler = (className) => {
     const element = document.querySelector(`.${className}`);
@@ -26,15 +27,24 @@ function NavBar() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          const dynamicThreshold =
+            entry.target.clientHeight > window.innerHeight ? 0.1 : 0.5;
+          const isIntersecting = entry.intersectionRatio >= dynamicThreshold;
+
+          if (isIntersecting) {
             setActiveItem(entry.target.className);
+            const isAfterWtmSection =
+              entry.target.className.includes("wtm-section") ||
+              document.querySelector(".wtm-section").getBoundingClientRect()
+                .top < entry.target.getBoundingClientRect().top;
+            setNavbarStyle(isAfterWtmSection);
           }
         });
       },
       {
         root: document.querySelector(".App"),
         rootMargin: "0px",
-        threshold: 0.5,
+        threshold: [0, 0.1, 0.5, 1.0],
       }
     );
 
@@ -52,7 +62,7 @@ function NavBar() {
   }
 
   return (
-    <div className="navbar">
+    <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
       <nav className="Nav">
         <div className="hamburger">
           <Button onClick={toggleDrawer}>
@@ -91,10 +101,10 @@ function NavBar() {
 
           <li
             className={
-              activeItem === "app-section sponsors-div" ? "active" : ""
+              activeItem === "app-section partners-div" ? "active" : ""
             }
           >
-            <a onClick={() => scrollHandler("sponsors-div")}>Sponsors</a>
+            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
           </li>
 
           <li
@@ -132,8 +142,8 @@ function NavBar() {
           <li className={activeItem === "location-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("location-div")}>Location</a>
           </li>
-          <li className={activeItem === "sponsors-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("sponsors-div")}>Sponsors</a>
+          <li className={activeItem === "partners-div" ? "active" : ""}>
+            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
           </li>
           <li className={activeItem === "organizers-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>

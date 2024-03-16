@@ -3,25 +3,6 @@
     background-color: #E4F2FF;
 }
 
-.speakers-header {
-    width: auto;
-    height: 149.29px;
-    left: calc(50% - 516.85px/2 - 642.79px);
-    top: -3021px;
-
-    font-family: 'Rock Salt';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 115px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-}
-
 
 .speaker-cards-container {
     display: grid;

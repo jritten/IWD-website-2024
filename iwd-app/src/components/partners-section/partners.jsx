@@ -1,18 +1,19 @@
 import React from "react";
-import "./sponsors.css";
+import "./partners.css";
+import "../../globalStyles.css";
 
-function Sponsors() {
+function Partners() {
   return (
     /* app-section style is necessary, please do not delete */
-    <div className="app-section sponsors-div">
+    <div className="app-section partners-div">
       <div class="header-container">
-        <div class="sponsors-title">Partners</div>
+        <div class="section-title-2">Partners</div>
         <link
           href="https://fonts.googleapis.com/css?family=Rock+Salt:regular"
           rel="stylesheet"
         />
       </div>
-      <div class="sponsors-images">
+      <div class="partners-images">
         <a href="https://swe.org/" target="_blank">
           <img
             alt="SWE"
@@ -44,4 +45,4 @@ function Sponsors() {
   );
 }
 
-export default Sponsors;
+export default Partners;
