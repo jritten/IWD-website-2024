@@ -7,9 +7,8 @@
 .attendee-div {
   height: 500px;
   background-color: #c5b2e1;
-  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-x: hidden;
 }
-
 .attendee-title {
   font-family: "Rock Salt", cursive;
   font-weight: 400;
@@ -19,9 +18,9 @@
 
 .attendee-images {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  scroll-behavior: smooth; /* Add smooth scrolling behavior */
-  animation: horizontalScroll 20s linear infinite; /* Apply horizontal scroll animation */
+  overflow-x: auto; 
+  scroll-behavior: smooth;
+  animation: horizontalScroll 20s linear infinite; 
 }
 
 .attendee-image {
