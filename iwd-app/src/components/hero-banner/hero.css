@@ -203,10 +203,6 @@
   }
 }
 @media (min-width: 988px) and (max-width: 1312px) {
-    .hero-banner {
-  height: 63vh;
-}
-    
   #background-img {
     width: 100%;
     height: 90%;
