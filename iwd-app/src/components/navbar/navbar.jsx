@@ -13,8 +13,7 @@ function NavBar() {
     if (element) {
       element.scrollIntoView({
         behavior: "smooth",
-        block: "center",
-        inline: "start",
+        block: "start", 
       });
       setActiveItem(className);
     }
@@ -62,7 +61,7 @@ function NavBar() {
         <ul>
           <li
             className={
-              activeItem === "app-section sessions-div" ? "active" : ""
+              activeItem === "sessions-div" ? "active" : ""
             }
           >
             <a onClick={() => scrollHandler("sessions-div")}>Sessions</a>
@@ -70,21 +69,21 @@ function NavBar() {
 
           <li
             className={
-              activeItem === "app-section speakers-div" ? "active" : ""
+              activeItem === "speakers-div" ? "active" : ""
             }
           >
             <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
           </li>
 
           <li
-          className={activeItem === "app-section attendees-div" ? "active" : ""}
+            className={activeItem === "attendee-div" ? "active" : ""}
           >
-            <a onClick={() => scrollHandler("attendees-div")}>Attendees</a>
+            <a onClick={() => scrollHandler("attendee-div")}>Attendees</a>
           </li>
 
           <li
             className={
-              activeItem === "app-section location-div" ? "active" : ""
+              activeItem === "location-div" ? "active" : ""
             }
           >
             <a onClick={() => scrollHandler("location-div")}>Location</a>
@@ -92,7 +91,7 @@ function NavBar() {
 
           <li
             className={
-              activeItem === "app-section sponsors-div" ? "active" : ""
+              activeItem === "sponsors-div" ? "active" : ""
             }
           >
             <a onClick={() => scrollHandler("sponsors-div")}>Sponsors</a>
@@ -100,7 +99,7 @@ function NavBar() {
 
           <li
             className={
-              activeItem === "app-section organizers-div" ? "active" : ""
+              activeItem === "organizers-div" ? "active" : ""
             }
           >
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
@@ -108,7 +107,7 @@ function NavBar() {
 
           <li
             className={
-              activeItem === "app-section facilitators-div" ? "active" : ""
+              activeItem === "facilitators-div" ? "active" : ""
             }
           >
             <a onClick={() => scrollHandler("facilitators-div")}>
@@ -116,7 +115,7 @@ function NavBar() {
             </a>
           </li>
           <li
-            className={activeItem === "app-section devTeam-div" ? "active" : ""}
+            className={activeItem === "devTeam-div" ? "active" : ""}
           >
             <a onClick={() => scrollHandler("devTeam-div")}>Dev Team</a>
           </li>
@@ -129,6 +128,9 @@ function NavBar() {
           </li>
           <li className={activeItem === "speakers-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
+          </li>
+          <li className={activeItem === "attendee-div" ? "active" : ""}>
+            <a onClick={() => scrollHandler("attendee-div")}>Attendees</a>
           </li>
           <li className={activeItem === "location-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("location-div")}>Location</a>
