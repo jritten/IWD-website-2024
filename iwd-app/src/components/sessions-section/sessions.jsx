@@ -23,7 +23,7 @@ function Sessions() {
           className={`tab ${activeTab === "Networking" ? "active" : ""}`}
           onClick={() => handleTabClick("Networking")}
         >
-          <span>Networking/Social Events</span>
+          <span>Agenda</span>
         </div>
         <div
           className={`tab ${activeTab === "Talks/Seminars" ? "active" : ""}`}
