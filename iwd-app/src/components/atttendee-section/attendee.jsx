@@ -1,14 +1,20 @@
 import React from "react";
 import "./attendee.css";
 
-// Import logos
+// Import images
 import Image1 from "../../assets/attendee_logo/image1.png";
 import Image10 from "../../assets/attendee_logo/image10.png";
 import Image11 from "../../assets/attendee_logo/image11.png";
 import Image12 from "../../assets/attendee_logo/image12.png";
 import Image13 from "../../assets/attendee_logo/image13.png";
 import Image14 from "../../assets/attendee_logo/image14.png";
+import Image15 from "../../assets/attendee_logo/image15.png";
+import Image16 from "../../assets/attendee_logo/image16.png";
+import Image17 from "../../assets/attendee_logo/image17.png";
+import Image18 from "../../assets/attendee_logo/image18.png";
+import Image19 from "../../assets/attendee_logo/image19.png";
 import Image2 from "../../assets/attendee_logo/image2.png";
+import Image20 from "../../assets/attendee_logo/image20.png";
 import Image3 from "../../assets/attendee_logo/image3.png";
 import Image4 from "../../assets/attendee_logo/image4.png";
 import Image5 from "../../assets/attendee_logo/image5.png";
@@ -37,6 +43,12 @@ function Attendees() {
         <img src={Image12} alt="Attendee 12" className="attendee-image" />
         <img src={Image13} alt="Attendee 13" className="attendee-image" />
         <img src={Image14} alt="Attendee 14" className="attendee-image" />
+        <img src={Image15} alt="Attendee 15" className="attendee-image" />
+        <img src={Image16} alt="Attendee 16" className="attendee-image" />
+        <img src={Image17} alt="Attendee 17" className="attendee-image" />
+        <img src={Image18} alt="Attendee 18" className="attendee-image" />
+        <img src={Image19} alt="Attendee 19" className="attendee-image" />
+        <img src={Image20} alt="Attendee 20" className="attendee-image" />
       </div>
     </div>
   );
