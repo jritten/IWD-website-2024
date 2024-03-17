@@ -7,7 +7,7 @@
   height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
+  justify-content: center;
   align-items: center;
   overflow: hidden;
 }
@@ -16,30 +16,55 @@
   font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-size: 40px;
-  margin-top: 10px; 
-  margin-bottom: 10px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .attendee-images {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  overflow: hidden; 
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  animation: horizontalScroll 10s linear infinite; 
 }
 
 .attendee-image {
   height: auto;
-  margin: 0 10px; 
-  animation: horizontalScroll 8s linear infinite;
-  max-width: 200px; 
+  margin: 0 10px;
+  max-width: 200px;
   max-height: 200px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes horizontalScroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%); /* Starting from rigth side of section */
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-100%); /* scrollleft */
   }
 }
+
+/* animation delay for each image */
+.attendee-image:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.attendee-image:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.attendee-image:nth-child(3) {
+  animation-delay: 2s;
+}
+
