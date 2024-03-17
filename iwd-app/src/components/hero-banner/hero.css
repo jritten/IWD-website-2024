@@ -3,7 +3,7 @@
     height: 100vh;
     padding-top: 60px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
 }
 .top-row{
@@ -13,7 +13,13 @@
     width: 70%;
     margin-top: 2%;
     height: 550px;
-    margin-left: auto;
+}
+.background-div{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    z-index: -1;
 }
 .title-div{
     position: absolute;
@@ -21,6 +27,7 @@
     width: 100%;
     margin-right: 45%;
     height: 550px;
+    margin-left: 500px;
 }
 
 .heading-div{
@@ -52,17 +59,23 @@
     height: 90%;
     margin-left: -5px;
 }
+.woman-date-column{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin-bottom: 0px;
+}
 #woman-hero{
     max-height: 450px;
     z-index: 100;
     margin-right: 6%;
+    margin-bottom: 0px;
+    max-width: 500px;
 }
+
 #background-img {
-    position: absolute;
-    bottom: 0;
-    width: 75%; 
-    height: auto; 
-    z-index: -1;
+    width: 90%; 
+    height: 100%; 
     min-height: 300px; 
 }
 
@@ -73,11 +86,11 @@
     height: auto; 
 }
 #date-img{
-    max-width: 35%; 
+    max-width: 75%; 
     margin-bottom: 20px;
 }
 #date-animation{
-    max-width: 15%; 
+    max-width: 30%; 
     margin-right: 25%;
     margin-bottom: -1px;
 }
@@ -94,17 +107,11 @@
 }
 
 .date-img-div {
+    z-index: -1;
     display: flex;
     flex-direction: column;
-    align-items: flex-end; 
+    align-items: center; 
     justify-content: center; 
-    height: auto; 
-    position: absolute;
-    bottom: 0;
-    height: auto;
-    right: 0;
-    margin-right: 10%;
-
 }
 
 @media (max-width: 768px) {
@@ -118,7 +125,7 @@
 
     #woman-hero {
         max-height: 350px;
-        width: 80%;
+        width: 10px;
         margin: 0 auto; 
         order: -1;
     }
@@ -141,7 +148,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 0px;
         background-color: white;
     }
 
