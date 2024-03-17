@@ -28,6 +28,7 @@
     margin-right: 45%;
     height: 550px;
     margin-left: 500px;
+    z-index: -1;
 }
 
 .heading-div{
@@ -58,12 +59,14 @@
     max-width: 3vw;
     height: 90%;
     margin-left: -5px;
+    margin-bottom: 7px;
 }
 .woman-date-column{
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 100vh;
     margin-bottom: 0px;
+    z-index: -1;
 }
 #woman-hero{
     max-height: 450px;
@@ -86,11 +89,11 @@
     height: auto; 
 }
 #date-img{
-    max-width: 75%; 
+    max-width: 80%; 
     margin-bottom: 20px;
 }
 #date-animation{
-    max-width: 30%; 
+    max-width: 20%; 
     margin-right: 25%;
     margin-bottom: -1px;
 }
@@ -101,9 +104,10 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to right, #946DF0, #E87DB3, #F3B178);
-    height: 6vh;
+    height: 8%;
     box-shadow: 5px 7px 4px 0px #FF384A26;
     border-radius: 30px;
+    margin-top: 30px;
 }
 
 .date-img-div {

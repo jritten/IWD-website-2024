@@ -32,7 +32,7 @@ function Hero() {
         <div className="woman-date-column">
           <img id="woman-hero" src={heroGirl}></img>
           <div className="date-img-div">
-            <img id="date-animation" src={dateAnimation}></img>
+            {/* <img id="date-animation" src={dateAnimation}></img> */}
             <img id="date-img" src={date}></img>
           </div>
         </div>
