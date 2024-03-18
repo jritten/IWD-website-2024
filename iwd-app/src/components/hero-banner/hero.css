@@ -104,6 +104,9 @@
 #tickets-btn:hover {
   cursor: pointer;
 }
+#mobile-bg{
+  display: none;
+}
 
 @media (max-width: 768px) {
   .hero-banner {
@@ -193,12 +196,12 @@
   #woman-hero{
     max-width: 95vw;
   }
-  #background-img {
-    display:block;
+  #mobile-bg{
+    display: block;
     position: absolute;
     bottom: 0;
-    width: 30vh;
-    height: auto;
+    width: auto;
+    height: 20vh;
     right: 0;
   }
 

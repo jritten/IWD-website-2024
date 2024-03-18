@@ -4,7 +4,7 @@ import globeGIF from "../../assets/hero/globe.gif";
 import heroGirl from "../../assets/hero/women-hero.png";
 import background from "../../assets/hero/hero-background.PNG";
 import date from "../../assets/hero/rocket-2.jpeg";
-
+import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
 
 function Hero() {
   return (
@@ -40,6 +40,7 @@ function Hero() {
         {/* <img id="date-animation" src={dateAnimation}></img> */}
         {/* <img id="date-img" src={date}></img> */}
       </div>
+      <img id="mobile-bg" src={mobilebg}></img>
     </div>
   );
 }
