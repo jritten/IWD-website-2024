@@ -190,10 +190,12 @@
     font-size: 3vw;
     margin-bottom: 10px;
     color: #946df0;
+    font-weight: 500;
   }
   .title-div p{
-    font-size: 2vw;
-    width: 60vw;
+    font-size: 2.6vw;
+    width: 68vw;
+    text-align: center;
   }
   #woman-hero{
     max-width: 85vw;
