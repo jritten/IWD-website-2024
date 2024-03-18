@@ -9,9 +9,6 @@ import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
 function Hero() {
   return (
     <div className="app-section hero-banner">
-      <div className="background-div">
-        <img id="background-img" src={background}></img>
-      </div>
       <div className="top-row">
         <div className="title-div">
           <div className="heading-div">
@@ -35,6 +32,9 @@ function Hero() {
           </div>
           <img id="date-img" src={date}></img>
         </div>
+      </div>
+      <div className="background-div">
+        <img id="background-img" src={background}></img>
       </div>
       <div className="date-img-div">
         {/* <img id="date-animation" src={dateAnimation}></img> */}
