@@ -7,9 +7,9 @@ import IdaByrdHill from "../../assets/speaker-imgs/IdaByrdHill.jpeg";
 import breakfast from "../../assets/sessions-icons/breakfast.png";
 import gifts from "../../assets/sessions-icons/gifts.png";
 import lunch from "../../assets/sessions-icons/lunch.png";
-import networkingfun from "../../assets/sessions-icons/networkingfun.png";
 import people from "../../assets/sessions-icons/people.png";
 import welcome from "../../assets/sessions-icons/welcome.png";
+import drinks from "../../assets/sessions-icons/drinks.png";
 
 const networkingCards = [
   {
@@ -140,7 +140,7 @@ const networkingCards = [
   },
   {
     title: "Networking Happy Hour",
-    imageUrl: networkingfun,
+    imageUrl: drinks,
     time: "4:00 PM",
     place: "Main Hall",
     description: "Wind down and network with fellow attendees over drinks",
