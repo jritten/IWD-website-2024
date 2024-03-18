@@ -29,7 +29,10 @@ function Hero() {
           </p>
           <button id="tickets-btn">Get Tickets</button>
         </div>
-        <img id="woman-hero" src={heroGirl}></img>
+        <div className="woman-date-colum">
+          <img id="woman-hero" src={heroGirl}></img>
+          <img id="date-img" src={date}></img>
+        </div>
       </div>
       <div className="date-img-div">
         {/* <img id="date-animation" src={dateAnimation}></img> */}
