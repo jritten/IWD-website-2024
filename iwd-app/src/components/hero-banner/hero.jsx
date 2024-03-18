@@ -16,7 +16,7 @@ function Hero() {
         <div className="title-div">
           <div className="heading-div">
             <h1>
-              Impact <br /> the Future
+              Impact <br /> The Future
             </h1>
             <img id="globe-gif" src={globeGIF}></img>
           </div>
