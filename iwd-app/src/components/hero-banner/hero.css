@@ -205,7 +205,8 @@
     position: absolute;
     bottom: 0;
     width: auto;
-    height: 15vh;
+    height: 18vh;
+    z-index: -1;
     right: 0;
   }
 
