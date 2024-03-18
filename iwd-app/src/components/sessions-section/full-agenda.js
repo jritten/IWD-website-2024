@@ -11,7 +11,7 @@ import people from "../../assets/sessions-icons/people.png";
 import welcome from "../../assets/sessions-icons/welcome.png";
 import drinks from "../../assets/sessions-icons/drinks.png";
 
-const networkingCards = [
+const agendaCards = [
   {
     title: "Breakfast & Ice Breaker",
     imageUrl: breakfast,
@@ -150,4 +150,4 @@ const networkingCards = [
   },
 ];
 
-export default networkingCards;
+export default agendaCards;
