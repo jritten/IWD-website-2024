@@ -26,7 +26,7 @@ const talkSeminarsCards = [
       "Immerse yourself in the soulful creativity of Detroit. Discover the heartbeat of a city known for its vibrant cultural tapestry and artistic flair.",
     type: "regular",
     speaker: "TBD",
-    showImageBorder: true,
+    showImageBorder: false,
   },
   {
     title:
