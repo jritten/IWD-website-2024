@@ -180,7 +180,8 @@
 }
 @media (max-width: 430px) {
   .heading-div h1 {
-    font-size: 12vw;
+    font-size: 11vw;
+    line-height: 1.2em;
     margin-bottom: 0;
     font-family: "Open Sans", sans-serif;
     font-weight:700;
