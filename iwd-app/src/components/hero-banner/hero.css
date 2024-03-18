@@ -62,13 +62,7 @@
   margin-left: -5px;
   margin-bottom: 7px;
 }
-.woman-date-column {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin-bottom: 0px;
-  z-index: -1;
-}
+
 #woman-hero {
   max-height: 450px;
   z-index: 100;
@@ -111,7 +105,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .hero-banner {
     width: 100%;
     height: 100vh;
@@ -147,9 +141,13 @@
     flex-direction: column;
     align-items: center;
   }
+  .woman-img-div{
+    display: flex;
+    justify-content: center;
+  }
 
   #woman-hero {
-    max-width: 100%;
+    max-width: 80%;
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -177,6 +175,35 @@
   margin-bottom: 7px;
   }
 }
+@media (max-width: 430px) {
+  .heading-div h1 {
+    font-size: 10vw;
+    margin-bottom: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight:700;
+  }
+  .title-div h2 {
+    font-size: 3vw;
+    margin-bottom: 10px;
+  }
+  .title-div p{
+    font-size: 2vw;
+    width: 60vw;
+  }
+  #woman-hero{
+    max-width: 95vw;
+  }
+  #background-img {
+    display:block;
+    position: absolute;
+    bottom: 0;
+    width: 30vh;
+    height: auto;
+    right: 0;
+  }
+
+}
+
 
 @media (min-width: 988px) and (max-width: 1312px) {
   #background-img {
@@ -230,5 +257,6 @@
   #date-img {
     max-width: 100%;
   }
+  
   
 }
