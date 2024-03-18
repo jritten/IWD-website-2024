@@ -46,6 +46,7 @@ function Sessions() {
                 type={session.type}
                 moderator={session.moderator}
                 panelists={session.panelists}
+                showImageBorder={session.showImageBorder}
               />
             </div>
           ))}
@@ -62,6 +63,7 @@ function Sessions() {
                 type={session.type}
                 moderator={session.moderator}
                 panelists={session.panelists}
+                showImageBorder={session.showImageBorder}
               />
             </div>
           ))}
