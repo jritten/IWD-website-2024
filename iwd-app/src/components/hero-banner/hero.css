@@ -7,13 +7,14 @@
   position: relative;
   overflow: hidden;
 }
-.top-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 70%;
-  margin-top: 2%;
-  height: 550px;
+.top-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 70%;
+    margin-top: 2%;
+    height: 550px;
+    margin-left: auto;
 }
 .background-div {
   height: 800px;
@@ -28,7 +29,6 @@
   width: 100%;
   margin-right: 45%;
   height: 550px;
-  margin-left: 500px;
 }
 
 .heading-div {
