@@ -56,7 +56,7 @@
 }
 
 #globe-gif {
-  max-width: 8vw;
+  max-width: 10vw;
   width: 3vw;
   height: 90%;
   margin-left: -5px;
@@ -172,7 +172,7 @@
     margin-top: 15px;
   }
   #globe-gif {
-  width: 700px;
+  width: 900px;
   height: 80%;
   margin-left: -5px;
   margin-bottom: 7px;
@@ -180,7 +180,7 @@
 }
 @media (max-width: 430px) {
   .heading-div h1 {
-    font-size: 10vw;
+    font-size: 12vw;
     margin-bottom: 0;
     font-family: "Open Sans", sans-serif;
     font-weight:700;
