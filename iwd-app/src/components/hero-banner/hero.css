@@ -7,14 +7,14 @@
   position: relative;
   overflow: hidden;
 }
-.top-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 70%;
-    margin-top: 2%;
-    height: 100vh;
-    margin-left: auto;
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70%;
+  margin-top: 2%;
+  height: 100vh;
+  margin-left: auto;
 }
 .background-div {
   height: 800px;
@@ -56,7 +56,8 @@
 }
 
 #globe-gif {
-  max-width: 3vw;
+  max-width: 8vw;
+  width: 3vw;
   height: 90%;
   margin-left: -5px;
   margin-bottom: 7px;
@@ -81,7 +82,6 @@
   height: 100%;
 }
 
-#date-animation,
 #date-img {
   position: static;
   width: 100%;
@@ -91,11 +91,6 @@
 #date-img {
   max-width: 80%;
   margin-bottom: 20px;
-}
-#date-animation {
-  max-width: 20%;
-  margin-right: 25%;
-  margin-bottom: -1px;
 }
 
 #tickets-btn {
@@ -115,121 +110,108 @@
 #tickets-btn:hover {
   cursor: pointer;
 }
-.date-img-div {
-  z-index: -1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-@media (max-width: 768px) {
-  .top-row {
+@media (max-width: 900px) {
+  .hero-banner {
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 40px;
-  }
-
-  #woman-hero {
-    max-height: 350px;
-    width: 10px;
-    margin: 0 auto;
-    order: -1;
-  }
-
-  .title-div {
     position: relative;
-    max-width: 90%;
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-    text-align: center;
+    overflow: hidden;
   }
 
   #background-img {
     display: none;
   }
 
-  .date-img-div {
-    position: relative;
-    width: 100%;
+  #date-img {
+    display: none;
+  }
+  .top-row {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    background-color: white;
+    width: 100vw;
+    margin-top: 2%;
+    margin-left: auto;
   }
 
-  #date-img,
-  #date-animation {
-    max-width: 90%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+  .title-div {
+    position: static;
+    max-width: 100%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  #date-animation {
-    max-width: 30%;
-    margin-right: 60%;
-    margin-bottom: 0px;
+  #woman-hero {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
   }
-
   .heading-div h1 {
-    margin-top: 0;
     font-size: 9vw;
+    margin-bottom: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight:700;
   }
-
-  .heading-div {
-    justify-content: center;
-  }
-
-  #globe-gif {
-    max-width: 7vw;
-    margin-left: -6px;
-  }
-
-  .title-div h2,
-  .title-div p {
+  .title-div h2 {
     font-size: 3vw;
-    width: auto;
+    margin-bottom: 10px;
   }
-
-  .title-div p {
+  .title-div p{
     font-size: 2vw;
+    width: 60vw;
   }
-
   #tickets-btn {
-    width: auto;
+    margin-top: 15px;
+  }
+  #globe-gif {
+  width: 700px;
+  height: 80%;
+  margin-left: -5px;
+  margin-bottom: 7px;
   }
 }
+
 @media (min-width: 988px) and (max-width: 1312px) {
   #background-img {
     width: 100%;
     height: 90%;
   }
   .title-div {
-  margin-right: 42%;
-}
- 
+    margin-right: 42%;
+  }
+
   .heading-div {
     margin-top: 10%;
-}
+    width: 100vw;
+  }
 
+  .heading-div h1 {
+    font-size: 5vw;
+  }
+  #globe-gif {
+  max-width: 3vw;
+  height: 90%;
+  margin-left: -5px;
+  margin-bottom: 7px;
+  }
 
-.heading-div h1 {
-  font-size: 5vw;
-}
-
-.title-div h2{
+  .title-div h2 {
     font-size: 2vw;
-
-}
-.title-div p {
-  font-size: 1.2vw;
-}
+  }
+  .title-div p {
+    font-size: 1.2vw;
+  }
 
 }
 @media (min-width: 1050px) and (max-width: 1078px) {
-     #background-img {
+  #background-img {
     width: 100%;
     height: 80%;
   }
@@ -237,17 +219,16 @@
     margin-top: 30%;
   }
   .heading-div h1 {
-  font-size: 5vw;
-}
-.title-div h2{
+    font-size: 5vw;
+  }
+  .title-div h2 {
     font-size: 2vw;
-
-}
-.title-div p {
-  font-size: 1.2vw;
-}
-#date-img {
-  max-width: 100%;
-}
-
+  }
+  .title-div p {
+    font-size: 1.2vw;
+  }
+  #date-img {
+    max-width: 100%;
+  }
+  
 }
