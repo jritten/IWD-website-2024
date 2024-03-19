@@ -7,6 +7,7 @@ import Sessions from "./components/sessions-section/sessions";
 import Location from "./components/location-section/location";
 import Partners from "./components/partners-section/partners";
 import Organizers from "./components/organizers-section/organizers";
+import Hosts from "./components/hosts-section/hosts";
 import Facilitators from "./components/facilitators-section/facilitators";
 import DevTeam from "./components/devTeam-section/devTeam";
 import WomenTechmakers from "./components/wtm-section/wtm";
@@ -22,6 +23,7 @@ function App() {
       <Location />
       <Partners />
       <Organizers />
+      <Hosts/>
       <Facilitators />
       <DevTeam />
     </div>
