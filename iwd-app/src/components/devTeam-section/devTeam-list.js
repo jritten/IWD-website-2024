@@ -3,6 +3,7 @@ import MoeChami from "../../assets/headshots/MoeChami.jpg"
 import JesusOrozco from "../../assets/headshots/JesusOrozco.jpg"
 import RazanShams from "../../assets/headshots/RazanShams.jpg"
 import AbdulKhan from "../../assets/headshots/AbdulKhan.jpg"
+import AnikaRaisa from "../../assets/headshots/AnikaRaisa.jpg"
 
 const devTeamData = [
     {
@@ -36,10 +37,10 @@ const devTeamData = [
         status: "",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
-        status: "",
+        imageurl: AnikaRaisa,
+        name: "Anika Raisa",
+        linkedIn: "https://www.linkedin.com/in/anikaraisa/",
+        status: "Graduate Student",
     },
     {
         imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
