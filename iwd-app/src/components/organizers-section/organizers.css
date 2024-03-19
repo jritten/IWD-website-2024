@@ -6,8 +6,22 @@
 }
 
 .organizers-cards-container{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+@media only screen and (max-width: 1100px){
+    .organizers-cards-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .organizers-cards-container{
+        grid-template-columns: 1fr;
+    }
 }
