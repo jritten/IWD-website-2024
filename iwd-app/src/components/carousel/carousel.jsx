@@ -13,6 +13,7 @@ import "./carousel.css";
 import slide_image_1 from "../../assets/carousel/img_1.jpg";
 import slide_image_2 from "../../assets/carousel/img_2.jpg";
 import slide_image_3 from "../../assets/carousel/img_3.jpg";
+import { Fade } from "@mui/material";
 
 // const data = [
 //   {
@@ -55,7 +56,7 @@ function Carousel() {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={"auto"}
+        slidesPerView={"auto"}        
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
