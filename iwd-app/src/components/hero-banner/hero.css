@@ -207,7 +207,7 @@
     position: absolute;
     bottom: 0;
     width: auto;
-    height: 18vh;
+    height: 15vh;
     z-index: -1;
     right: 0;
   }
@@ -217,7 +217,7 @@
 
 }
 
-
+/* in between transition */
 @media (min-width: 1162px) and (max-width: 1312px) {
   #background-img {
     width: 100%;
