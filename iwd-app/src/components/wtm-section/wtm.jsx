@@ -1,5 +1,6 @@
 import React from "react";
 import "./wtm.css";
+import Carousel from "../carousel/carousel.jsx";
 
 const WomenTechmakers = () => {
   return (
