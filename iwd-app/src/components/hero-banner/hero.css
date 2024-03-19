@@ -187,6 +187,10 @@
     font-family: "Open Sans", sans-serif;
     font-weight:700;
   }
+  .top-row{
+    padding-top: 20%;
+  } 
+
   .title-div h2 {
     font-size: 3vw;
     margin-bottom: 10px;
