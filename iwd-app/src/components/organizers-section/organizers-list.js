@@ -14,6 +14,5 @@ const organizersData = [
         name: "Jenna Ritten",
         position: "",
     },
-
 ]
 export default organizersData;
