@@ -29,8 +29,11 @@
   width: 100%;
   height: 100%;
   border-radius: 20%;
-  border: 4px solid #00DCAB;
   object-fit: cover;
+}
+
+.imageContainer img.with-border {
+  border: 4px solid #2480F0;
 }
 
 .infoContainer {
