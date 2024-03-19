@@ -16,5 +16,4 @@ const organizersData = [
     },
 
 ]
-
 export default organizersData;

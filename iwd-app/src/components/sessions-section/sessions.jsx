@@ -3,8 +3,8 @@ import "./sessions.css";
 import "../../globalStyles.css";
 
 import SessionCard from "../session-cards/session-card";
-import networkingCards from "./content-list";
-import talkSeminarsCards from "./content-list2";
+import talkSeminarsCards from "./lightning-talks";
+import agendaCards from "./full-agenda";
 
 function Sessions() {
   const [activeTab, setActiveTab] = useState("Networking");
@@ -23,7 +23,7 @@ function Sessions() {
           className={`tab ${activeTab === "Networking" ? "active" : ""}`}
           onClick={() => handleTabClick("Networking")}
         >
-          <span>Networking/Social Events</span>
+          <span>Agenda</span>
         </div>
         <div
           className={`tab ${activeTab === "Talks/Seminars" ? "active" : ""}`}
@@ -34,7 +34,7 @@ function Sessions() {
       </div>
       <div className="session-cards-container">
         {activeTab === "Networking" &&
-          networkingCards.map((session, index) => (
+          agendaCards.map((session, index) => (
             <div className="sessions-row" key={index}>
               <SessionCard
                 title={session.title}
@@ -46,6 +46,7 @@ function Sessions() {
                 type={session.type}
                 moderator={session.moderator}
                 panelists={session.panelists}
+                showImageBorder={session.showImageBorder}
               />
             </div>
           ))}
@@ -62,6 +63,7 @@ function Sessions() {
                 type={session.type}
                 moderator={session.moderator}
                 panelists={session.panelists}
+                showImageBorder={session.showImageBorder}
               />
             </div>
           ))}
