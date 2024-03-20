@@ -116,7 +116,7 @@ function NavBar() {
           </li>
           <li
             className={
-              activeItem === "app-section hosts-div" ? "active:" : ""
+              activeItem === "app-section hosts-div " ? "active ? bg-gray-300" : ""
             }
           >
             <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
