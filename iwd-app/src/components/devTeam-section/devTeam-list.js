@@ -24,19 +24,19 @@ const devTeamData = [
         imageurl: JesusOrozco,
         name: "Jesus Orozco",
         linkedIn: "https://www.linkedin.com/in/eisaa-orozco/",
-        status: "",
+        status: "Junior",
     },
     {
         imageurl: RazanShams,
         name: "Razan Shams",
         linkedIn: "https://www.linkedin.com/in/razan-shams-5a6b072ba/",
-        status: "",
+        status: "Freshman",
     },
     {
         imageurl: AbdulKhan,
         name: "Abdulmuiz Khan",
         linkedIn: "https://www.linkedin.com/in/abdulmuiz-khan/",
-        status: "",
+        status: "Junior",
     },
     {
         imageurl: AnikaRaisa,
