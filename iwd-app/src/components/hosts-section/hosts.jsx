@@ -1,27 +1,32 @@
 import React from "react";
+import "../../globalStyles.css";
 import FirstHost from "../../assets/host/COMPES-host.jpg";
 import SecondHost from "../../assets/host/DTE-host.jpg";
 
-
 function Hosts() {
-    return (
-    
-      <div className="app-section hosts-div mt-5 font-custom text-3xl text-center   font-session ">Hosts
-        <div className="flex  mt-1 ">
+  return (
+    <div className="app-section hosts-div ">
+      {/* Title */}
+      <div className=" section-title-2 ">
+        Hosts
+      </div>
+      {/* Logo container */}
+      <div class="flex flex-col mx-20 my-5 md:flex-row md:my-20 md:mx-5">
+        <div className="flex w-full h-42 flex-col items-center md:flex-row md:justify-between">
           <img
             src={FirstHost}
-            className="w-5/12 h-auto mr-auto ml-auto mb-auto" // Set width to half of the container and adjust margin as needed
+            className="w-3/4 md:w-1/2 h-auto"
             alt="first host logo image"
           />
           <img
             src={SecondHost}
-            className="w-4/12 h-40 mr-auto mt-20 " // Set width to half of the container
+            className="w-3/4 md:w-1/2 h-auto"
             alt="second host logo image"
           />
         </div>
       </div>
-      
-    );
-  }
-  
-  export default Hosts;
+    </div>
+  );
+}
+
+export default Hosts;
