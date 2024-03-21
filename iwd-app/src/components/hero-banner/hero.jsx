@@ -24,7 +24,7 @@ function Hero() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <button id="tickets-btn">Get Tickets</button>
+          <button className="btn tickets-btn">Get Tickets</button>
         </div>
         <div className="woman-date-colum">
           <div className="woman-img-div">
