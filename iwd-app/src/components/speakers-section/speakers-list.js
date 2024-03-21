@@ -19,7 +19,7 @@ const speakersData = [
         imageurl: SeungjuChoi,
         name: "Seungju Choi",
         position: "UX Researcher",
-        company: "Univeristy of Michigan, Human System Integration Lab",
+        company: "UofM, Human System Integration Lab",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ut lectus non sollicitudin.",
     },
     {
