@@ -8,7 +8,7 @@
 
     box-sizing: border-box;
     width: 310px;
-    height: 410px;
+    min-height: 410px;
     margin: 40px;
 
     background: #FFFFFF;
@@ -52,7 +52,7 @@
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    margin: 2px;
+    margin: 10px;
     margin-bottom: 3px;
 
     box-sizing: border-box;
@@ -79,14 +79,21 @@
 
 .speaker-description{
     width: 186.12px;
-    height: 45.6px;
-
+   
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     margin: 2px;
+    margin-bottom: 15px;
 
     color: #1C5294;
+}
+
+.speaker-name, .speaker-position, .speaker-company, .speaker-description {
+    width: 295px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 5px auto;
 }
