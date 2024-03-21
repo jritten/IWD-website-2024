@@ -11,7 +11,7 @@ const speakersData = [
     {
         imageurl: AlissaSevrioukova,
         name: "Alissa Sevrioukova",
-        position: "Chief of Staff | Manager, Public Affairs",
+        position: "Chief of Staff",
         company: "DTE Energy",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ut lectus non sollicitudin.",
     },
@@ -25,14 +25,14 @@ const speakersData = [
     {
         imageurl: KanikaMohan,
         name: "Kanika Mohan",
-        position: "Technical Product Manager Intern",
+        position: "Product Manager Intern",
         company: "Dell Technologies",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ut lectus non sollicitudin.",
     },
     {
         imageurl: EunkyungOh,
         name: "Eunkyung (Nana) Oh",
-        position: "Financial Services Professional Agent",
+        position: "Financial Services Agent",
         company: "New York Life Insurance Company",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ut lectus non sollicitudin.",
     },
