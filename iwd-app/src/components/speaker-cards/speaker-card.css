@@ -15,6 +15,7 @@
     border: 2px solid #000000;
     box-shadow: 0px 4px 75px 0px #00000040;
     border-radius: 12px; 
+    
 }
 
 .speaker-image{
@@ -63,6 +64,7 @@
     background: #2480F0;
     border-radius: 5px;
     padding: 2px 15px;
+    padding-bottom: 5px;
 
     color: #FFFFFF;
 }
