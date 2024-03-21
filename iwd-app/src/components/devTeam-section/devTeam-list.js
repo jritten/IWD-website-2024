@@ -6,6 +6,8 @@ import AbdulKhan from "../../assets/headshots/AbdulKhan.jpg"
 import AnikaRaisa from "../../assets/headshots/AnikaRaisa.jpg"
 import MouhamedSalma from "../../assets/headshots/MouhamedSalma.jpg"
 import GayathriChava from "../../assets/headshots/GayathriChava.jpg"
+import HebaSayed from "../../assets/headshots/HebaSayed.jpg"
+
 
 const devTeamData = [
     {
@@ -48,7 +50,7 @@ const devTeamData = [
         imageurl: MouhamedSalma,
         name: "Mouhamed Salma",
         linkedIn: "https://www.linkedin.com/in/mouhamed-salma/",
-        status: "Senior",
+        status: "Junior",
     },
     {
         imageurl: GayathriChava,
@@ -57,10 +59,10 @@ const devTeamData = [
         status: "Junior",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
-        status: "",
+        imageurl: HebaSayed,
+        name: "Heba Sayed",
+        linkedIn: "https://www.linkedin.com/in/heba-sayed6/",
+        status: "Junior",
     },
     {
         imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
