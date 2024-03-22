@@ -5,7 +5,7 @@ function OrganizerCard({imageurl, name, position}) {
     return (
         <div className='organizer-card'>
             <div className="organizer-image">
-                <img src={imageurl = "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"} alt="Organizer image"/>
+                <img src={imageurl} alt="Organizer image"/>
             </div>
             <div className='organizer-name'>
                 {name || "Rocket Homes"}
