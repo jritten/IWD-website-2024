@@ -1,21 +1,158 @@
 .wtm-section {
-    background-color: #f3f3f3;
-    padding: 20px;
-    height: 2000px;
+  background-color: #f3f3f3;
+  padding-top: 3rem;
+  height: 60rem;
+}
+
+.wtm-section h2 {
+  margin-left: 100px;
+  font-size: 40px;
+  margin-bottom: 1rem;
+  font-family: "Rock Salt", bold;
+}
+
+.wtm-section p {
+  margin-left: 100px;
+  margin-bottom: 1rem;
+  width: 53%;
+  font-size: 24px;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* god help me. */
+@media (max-width: 1074.4px) {
+  .wtm-section {
+    height: 62rem;
   }
-  
-  .wtm-section h2 {
-    margin-left: 100px;
-    font-size: 40px;
-    margin-bottom: 10px;
-    font-family: 'Rock Salt', bold;
+}
+@media (max-width: 942.4px) {
+  .wtm-section {
+    height: 64rem;
   }
-  
-  .wtm-section p {
-    margin-left: 100px;
-    width: 53%;
-    font-size: 24px;
-    color: #333333;
-    font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 875.2px) {
+  .wtm-section {
+    height: 64rem;
   }
-  
+}
+@media (max-width: 873.6px) {
+  .wtm-section {
+    height: 66rem;
+  }
+}
+@media (max-width: 805.6px) {
+  .wtm-section {
+    height: 69rem;
+  }
+}
+@media (max-width: 797.6px) {
+  .wtm-section {
+    height: 72rem;
+  }
+}
+@media (max-width: 712px) {
+  .wtm-section {
+    height: 74rem;
+  }
+}
+@media (max-width: 659.2px) {
+  .wtm-section {
+    height: 77rem;
+  }
+}
+@media (max-width: 623.2px) {
+  .wtm-section {
+    height: 79rem;
+  }
+}
+@media (max-width: 594.4px) {
+  .wtm-section {
+    height: 81rem;
+  }
+}
+@media (max-width: 573.6px) {
+  .wtm-section {
+    height: 84rem;
+  }
+}
+@media (max-width: 537.6px) {
+  .wtm-section {
+    height: 86rem;
+  }
+}
+@media (max-width: 509.6px) {
+  .wtm-section {
+    height: 89rem;
+  }
+}
+@media (max-width: 500px) {
+  .wtm-section {
+    height: 90rem;
+  }
+}
+@media (max-width: 475.2px) {
+  .wtm-section {
+    height: 96rem;
+  }
+}
+@media (max-width: 459.2px) {
+  .wtm-section {
+    height: 98rem;
+  }
+}
+@media (max-width: 446.6px) {
+  .wtm-section {
+    height: 100rem;
+  }
+}
+@media (max-width: 444px) {
+  .wtm-section {
+    height: 103rem;
+  }
+}
+@media (max-width: 435.2px) {
+  .wtm-section {
+    height: 105rem;
+  }
+}
+@media (max-width: 395.2px) {
+  .wtm-section {
+    height: 107rem;
+  }
+}
+@media (max-width: 363.2px) {
+  .wtm-section {
+    height: 109rem;
+  }
+}
+@media (max-width: 356px) {
+  .wtm-section {
+    height: 110rem;
+  }
+}
+@media (max-width: 354.6px) {
+  .wtm-section {
+    height: 115rem;
+  }
+}
+@media (max-width: 352px) {
+  .wtm-section {
+    height: 117rem;
+  }
+}
+@media (max-width: 351.2px) {
+  .wtm-section {
+    height: 120rem;
+  }
+}
+@media (max-width: 328px) {
+  .wtm-section {
+    height: 124rem;
+  }
+}
+@media (max-width: 321.6px) {
+  .wtm-section {
+    height: 128rem;
+  }
+}

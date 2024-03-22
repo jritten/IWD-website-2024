@@ -1,8 +1,8 @@
 import React from "react";
 import "./wtm.css";
-import Carousel from "../carousel/carousel"
+import Carousel from "../carousel/carousel";
 
-function WomenTechmakers(){
+function WomenTechmakers() {
   return (
     <div className="app-section wtm-section">
       <h2>Meet the Women Techmakers</h2>
@@ -13,9 +13,10 @@ function WomenTechmakers(){
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur.
       </p>
+
       <Carousel />
     </div>
   );
-};
+}
 
 export default WomenTechmakers;

@@ -56,7 +56,7 @@ function Carousel() {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={"auto"}        
+        slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
