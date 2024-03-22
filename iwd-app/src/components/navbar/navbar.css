@@ -75,13 +75,10 @@ body {
 }
 
 .hamburger-list {
-  height: 18rem;
   gap: 0.5rem;
   font-size: 0.8em;
   width: 100%;
-  margin: 0;
   padding-inline-start: 0px;
-
   list-style: none;
   background-color: #43a6f0;
   display: flex;
@@ -95,7 +92,6 @@ body {
   margin: 0.25rem;
 }
 .hamburger-list li:hover {
-  background-color: #238cbf;
   cursor: pointer;
 }
 
