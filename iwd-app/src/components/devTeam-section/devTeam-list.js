@@ -16,7 +16,7 @@ const devTeamData = [
         imageurl: MoeChami,
         name: "Mohammad El-Chami",
         linkedIn: "https://www.linkedin.com/in/moecham/",
-        status: "Sophmore"
+        status: "Sophomore"
     },
     {
         imageurl: JesusOrozco,

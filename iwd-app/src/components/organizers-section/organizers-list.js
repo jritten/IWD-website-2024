@@ -1,18 +1,23 @@
+import jr_headshot from "../../assets/organizer-imgs/jr_headshot.jpg";
+import MaridyMazaira from "../../assets/organizer-imgs/MaridyMazaira.jpeg";
+import JamalLongwood from "../../assets/organizer-imgs/JamalLongwood.jpeg";
+
+
 const organizersData = [
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
+        imageurl: jr_headshot,
         name: "Jenna Ritten",
-        position: "",
+        position: "Chief Architect & Chief Developer Advocate",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "Jenna Ritten",
-        position: "",
+        imageurl: MaridyMazaira,
+        name: "Maridy Mazaira",
+        position: "Staff Engineer",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
+        imageurl: JamalLongwood,
         name: "Jenna Ritten",
-        position: "",
+        position: "Thermal Development Engineer",
     },
 ]
 export default organizersData;
