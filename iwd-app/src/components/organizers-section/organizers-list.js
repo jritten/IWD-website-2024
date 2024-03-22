@@ -16,7 +16,7 @@ const organizersData = [
     },
     {
         imageurl: JamalLongwood,
-        name: "Jenna Ritten",
+        name: "Jamal Longwood",
         position: "Thermal Development Engineer",
     },
 ]
