@@ -114,6 +114,15 @@ function NavBar() {
           >
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
           </li>
+          <li
+            className={
+              activeItem === "app-section hosts-div "
+                ? "active ? bg-gray-300"
+                : ""
+            }
+          >
+            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
+          </li>
 
           <li
             className={
@@ -132,7 +141,7 @@ function NavBar() {
         </ul>
       </nav>
       {open && (
-        <ul className="hamburger-list">
+        <ul className="hamburger-list py-3">
           <li className={activeItem === "sessions-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("sessions-div")}>Sessions</a>
           </li>
@@ -147,6 +156,9 @@ function NavBar() {
           </li>
           <li className={activeItem === "organizers-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
+          </li>
+          <li className={activeItem === "hosts-div" ? "active" : ""}>
+            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
           </li>
           <li className={activeItem === "facilitators-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("facilitators-div")}>
