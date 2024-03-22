@@ -86,4 +86,5 @@ const devTeamData = [
   },
 ];
 
+
 export default devTeamData;
