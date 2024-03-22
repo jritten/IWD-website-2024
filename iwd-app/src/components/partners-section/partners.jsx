@@ -18,9 +18,8 @@ function Partners() {
           rel="stylesheet"
         />
       </div>
-      <div class="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-10 md:gap-x-10">
-        
-     
+      <div class="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-5 md:gap-x-10">
+       
         <a href="https://swe.org/" target="_blank" class="flex items-center justify-center md:flex-1">
           <img
             alt="SWE"
@@ -28,8 +27,6 @@ function Partners() {
             className="SWE w-1/2 md:w-3/4 md:h-auto"
           />
         </a>
-
-
 
         <a
           href="https://shpe.org/"
@@ -42,15 +39,10 @@ function Partners() {
             className="SHPE w-1/2 md:w-3/4 md:h-auto"
           />
         </a>
-
-        
-       
         
       </div>
       <div class="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-10 md:gap-x-10">
         
-     
-       
 
         <a href="https://www.nsbe.org/" target="_blank" class="flex items-center justify-center md:flex-1">
           <img
@@ -60,7 +52,7 @@ function Partners() {
           />
         </a>
 
-        <a href="https://littlecaesars.com/en-us/" target="_blank" class="flex items-center justify-center md:flex-1">
+        <a href="https://littlecaesars.com/en-us/careers/" target="_blank" class="flex items-center justify-center md:flex-1">
           <img
             alt="LittleCaesarLogo"
             src={CEASARLOGO}
@@ -70,7 +62,7 @@ function Partners() {
        
         
       </div>
-      <div class="section-title-2"></div>
+      
     </div>
   );
 }
