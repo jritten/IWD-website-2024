@@ -25,7 +25,7 @@
   justify-content: flex-start;
   align-items: center;
   overflow: hidden;
-  animation: horizontalScroll 10s linear infinite; 
+  animation: horizontalScroll 30s linear infinite; 
 }
 
 .attendee-image {
