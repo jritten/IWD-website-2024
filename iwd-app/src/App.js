@@ -24,7 +24,7 @@ function App() {
       <Partners />
       <Organizers />
       <Hosts/>
-      <Facilitators />
+      {/* <Facilitators /> */}
       <DevTeam />
     </div>
   );
