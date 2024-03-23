@@ -4,14 +4,14 @@
   width: 100%; 
 }
 
-/* This may look deletable but it is not */
-/* It is critical to highlight current */
+/* Global Section style */
+/* Is critical to highlight current */
 /* app-section in Nav */
 .app-section{
   display: flex;
   flex-direction: column;
-  /* border-color: black;
-  border-width: 2px; */
+  border-color: black;
+  border-width: 2px;
   width: 100%;
   overflow-x: hidden;
 }

@@ -5,64 +5,27 @@ import heroGirl from "../../assets/hero/women-hero.png";
 import background from "../../assets/hero/hero-background.PNG";
 import date from "../../assets/hero/rocket-2.jpeg";
 import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
+import dateAnimation from "../../assets/hero/date-animation.gif";
 
 function Hero() {
   return (
-    // <div className="app-section hero-banner">
-    //   <div
-    //     style={{ marginTop: "55px", display: "flex", flexDirection: "column" }}
-    //   >
-    //     <div className="top-row">
-    //       <div className="title-div">
-    //         <div className="heading-div">
-    //           <h1>
-    //             Impact <br /> The Future
-    //           </h1>
-    //           <img id="globe-gif" src={globeGIF}></img>
-    //         </div>
-    //         <h2>Detroit International Women's Day Summit 2024</h2>
-    //         <p>
-    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    //           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    //           enim ad minim veniam, quis nostrud exercitation ullamco laboris
-    //           nisi ut aliquip ex ea commodo consequat.
-    //         </p>
-    //         <button className="btn tickets-btn">Get Tickets</button>
-    //       </div>
-    //       <div className="woman-date-colum">
-    //         <div className="woman-img-div">
-    //           <img id="woman-hero" src={heroGirl}></img>
-    //         </div>
-    //         <img id="date-img" src={date}></img>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   <div className="background-div">
-    //     <img id="background-img" src={background}></img>
-    //   </div>
-    //   <div className="date-img-div">
-    //     {/* <img id="date-animation" src={dateAnimation}></img> */}
-    //     {/* <img id="date-img" src={date}></img> */}
-    //   </div>
-    //   <img id="mobile-bg" src={mobilebg}></img>
-    // </div>
-
     <div class="app-section hero-banner" style={{ marginTop: "55px" }}>
       {" "}
-      {/* Offsets by exactly the height of Nav */}
-      {/* The responsive container */}
-      <div class="flex flex-col my-5 md:flex-row md:justify-center md:my-0 lg:relative">
+      {/* marginTop offsets by exactly the height of Nav */}
+      {/* The main responsive container */}
+      <div class="flex flex-col my-5 md:flex-row md:my-0 lg:relative">
         {/* background */}
-        <div class="w-0 lg:w-3/6">
+        <div class="w-0 lg:w-2/3 lg:h-auto lg:self-start">
           <img id="background-img" src={background}></img>
         </div>
-
-        <div class="flex flex-col md:flex-row md:px-5 lg:absolute">
-          <div className="woman-img-div">
-            <img id="woman-hero" src={heroGirl}></img>
+        {/* foreground */}
+        <div class="flex flex-col items-center md:flex-row md:p-2 lg:pl-20 lg:pr-5 md:justify-center lg:absolute">
+          {/* woman */}
+          <div class="w-4/5 md:1/2 lg:w-2/6">
+            <img class="w-full h-full" src={heroGirl}></img>
           </div>
-
-          <div className="title-div">
+          {/* text & button */}
+          <div class="w-4/5 md:1/2 lg:w-2/6 lg:py-2">
             <div className="heading-div">
               <h1>
                 Impact <br /> The Future
@@ -71,13 +34,20 @@ function Hero() {
             </div>
             <h2>Detroit International Women's Day Summit 2024</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Tailwind CSS is a highly customizable, low-level CSS framework
+              that provides utility classes to build designs directly in your
+              markup. It emphasizes rapid UI development, and its approach to
+              styling through composition promotes a tighter integration between
+              design and development, leading to more maintainable and scalable
+              codebases.
             </p>
             <button className="btn tickets-btn">Get Tickets</button>
           </div>
+        </div>
+        {/* also background */}
+        <div class="flex flex-col justify-end w-0 lg:w-1/4 pb-12">
+          {/* <img className="h-36 w-full" src={dateAnimation}></img> */}
+          <img className="h-auto w-full" src={date}></img>
         </div>
       </div>
     </div>
