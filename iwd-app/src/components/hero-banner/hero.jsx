@@ -46,18 +46,22 @@ function Hero() {
     //   </div>
     //   <img id="mobile-bg" src={mobilebg}></img>
     // </div>
+
     <div class="app-section hero-banner" style={{ marginTop: "55px" }}>
+      {" "}
+      {/* Offsets by exactly the height of Nav */}
       {/* The responsive container */}
-      <div class="flex flex-col my-5 md:flex-row md:justify-center md:my-20 md:relative">
-        <div class="w-3/6">
+      <div class="flex flex-col my-5 md:flex-row md:justify-center md:my-0 lg:relative">
+        {/* background */}
+        <div class="w-0 lg:w-3/6">
           <img id="background-img" src={background}></img>
         </div>
-        {/* foreground */}
-        <div class="flex flex-col md:flex-row md:absolute">
+
+        <div class="flex flex-col md:flex-row md:px-5 lg:absolute">
           <div className="woman-img-div">
             <img id="woman-hero" src={heroGirl}></img>
           </div>
-          {/* All the text stuff + button */}
+
           <div className="title-div">
             <div className="heading-div">
               <h1>
