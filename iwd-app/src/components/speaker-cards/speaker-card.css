@@ -15,7 +15,6 @@
     border: 2px solid #000000;
     box-shadow: 0px 4px 75px 0px #00000040;
     border-radius: 12px; 
-
     padding: 12px;
 }
 
@@ -73,14 +72,3 @@
     color: #7E7E7E;
 }
 
-.speaker-description{
-    width: 186.12px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    margin: 2px;
-    margin-bottom: 15px;
-    color: #1C5294;
-}
