@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import SpeakerPopupCard from "../pop-up-card/pop-up-card";
 import "./speaker-card.css";
 
-function SpeakerCard({ imageurl, name, position, company, description }) {
+function SpeakerCard({
+  imageurl,
+  name,
+  position,
+  company,
+  description,
+  flower,
+}) {
   // state to manage the visibility of the modal
   const [showModal, setShowModal] = useState(false);
 
@@ -40,6 +47,7 @@ function SpeakerCard({ imageurl, name, position, company, description }) {
           imageurl={imageurl}
           name={name}
           description={description}
+          flower={flower}
           onClose={closeModal}
         />
       )}

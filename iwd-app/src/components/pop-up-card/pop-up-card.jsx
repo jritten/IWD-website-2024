@@ -1,8 +1,7 @@
 import React from "react";
 import "./pop-up-card.css";
-import HYDRAPATH from "../../assets/Hydrangea.png";
 
-function SpeakerPopupCard({ imageurl, name, description, onClose }) {
+function SpeakerPopupCard({ imageurl, name, description, onClose, flower }) {
   const handleOverlayClick = (event) => {
     // only close the modal if the close button is clicked
     if (event.target.classList.contains("close-button")) {
@@ -28,7 +27,7 @@ function SpeakerPopupCard({ imageurl, name, description, onClose }) {
           </div>
         </div>
         <div className="bottom-right-image">
-          <img src={HYDRAPATH} width={100} alt="Bottom right image" />
+          <img src={flower} width={100} alt="Bottom right image" />
         </div>
       </div>
     </div>
