@@ -85,6 +85,8 @@
     bottom: 0;
     right: 0;
     padding: 20px;
+    width: 100px;
+    height: auto;
   }
 
   @media (max-width: 660px) {
@@ -99,7 +101,7 @@
       }
 
       .bottom-right-image {
-        display: none;
+        
       }
 
       .speaker-description {
