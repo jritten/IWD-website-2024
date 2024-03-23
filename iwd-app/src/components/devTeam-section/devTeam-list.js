@@ -7,7 +7,8 @@ import AnikaRaisa from "../../assets/headshots/AnikaRaisa.jpg"
 import MouhamedSalma from "../../assets/headshots/MouhamedSalma.jpg"
 import GayathriChava from "../../assets/headshots/GayathriChava.jpg"
 import HebaSayed from "../../assets/headshots/HebaSayed.jpg"
-
+import Namaa from "../../assets/headshots/Namaa.jpg"
+import WhitneyTran from "../../assets/headshots/WhitneyTran.jpg"
 
 const devTeamData = [
     {
@@ -65,16 +66,16 @@ const devTeamData = [
         status: "Junior",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
-        status: "",
+        imageurl: Namaa,
+        name: "Namaa",
+        linkedIn: "https://www.linkedin.com/in/namaa05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        status: "Sophomore",
     },
     {
-        imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
-        name: "",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
-        status: "",
+        imageurl: WhitneyTran,
+        name: "Whitney Tran",
+        linkedIn: "https://www.linkedin.com/in/whitneyttran/",
+        status: "Junior",
     },
     {
         imageurl: "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
