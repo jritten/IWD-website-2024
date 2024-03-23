@@ -10,7 +10,7 @@
     width: 310px;
     min-height: 410px;
     margin: 40px;
-
+    cursor: pointer;
     background: #FFFFFF;
     border: 2px solid #000000;
     box-shadow: 0px 4px 75px 0px #00000040;
@@ -71,4 +71,5 @@
     margin: 2px;
     color: #7E7E7E;
 }
+
 
