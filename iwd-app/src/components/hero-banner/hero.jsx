@@ -7,6 +7,7 @@ import date from "../../assets/hero/rocket-2.jpeg";
 import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
 
 function Hero() {
+  
   return (
     <div className="app-section hero-banner">
       <div className="top-row">
@@ -24,7 +25,12 @@ function Hero() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <button id="tickets-btn">Get Tickets</button>
+          <button id="tickets-btn">
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform">
+                Get Tickets
+            </a>
+          </button>
+          
         </div>
         <div className="woman-date-colum">
           <div className="woman-img-div">
