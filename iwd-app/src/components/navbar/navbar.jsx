@@ -123,16 +123,6 @@ function NavBar() {
           >
             <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
           </li>
-
-          <li
-            className={
-              activeItem === "app-section facilitators-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("facilitators-div")}>
-              Facilitators
-            </a>
-          </li>
           <li
             className={activeItem === "app-section devTeam-div" ? "active" : ""}
           >
