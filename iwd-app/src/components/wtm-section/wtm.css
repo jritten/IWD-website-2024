@@ -4,20 +4,29 @@
   height: 60rem;
 }
 
-.wtm-section h2 {
-  margin-left: 100px;
-  font-size: 40px;
-  margin-bottom: 1rem;
-  font-family: "Rock Salt", bold;
-}
 
+.wtm-section h2 {
+  text-align: center;
+  width: 100%;
+  height: 152px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 95.43px;
+}
+.wtm-word{
+  color: #2480F0;
+}
 .wtm-section p {
-  margin-left: 100px;
+  width: 100%;
   margin-bottom: 1rem;
-  width: 53%;
   font-size: 24px;
   color: #333333;
   font-family: "Open Sans", sans-serif;
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom: 3%;
+
 }
 
 /* god help me. */
@@ -29,6 +38,13 @@
 @media (max-width: 942.4px) {
   .wtm-section {
     height: 62rem;
+  }
+  .wtm-section p{
+    padding:10%;
+    text-align: center;
+  }
+  .wtm-section h2{
+    line-height: 1.5;
   }
 }
 @media (max-width: 924px) {
