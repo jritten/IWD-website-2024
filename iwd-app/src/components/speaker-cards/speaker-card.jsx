@@ -34,7 +34,11 @@ function SpeakerCard({
   };
 
   return (
-    <div className="speaker-card" onClick={handleCardClick}>
+    <div
+      className="speaker-card"
+      onClick={handleCardClick}
+      style={{ cursor: showModal ? "default" : "pointer" }}
+    >
       <div className="speaker-image">
         <img src={imageurl} alt="Speaker image" />
       </div>
