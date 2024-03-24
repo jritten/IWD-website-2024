@@ -5,7 +5,7 @@ import SecondHost from "../../assets/host/DTE-host.jpg";
 
 function Hosts() {
   return (
-    <div className="app-section hosts-div ">
+    <div id="hosts-div" className="app-section hosts-div ">
       {/* Title */}
       <div className=" section-title-2 ">Hosts</div>
       {/* Logo container */}
