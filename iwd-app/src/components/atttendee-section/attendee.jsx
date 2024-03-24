@@ -6,7 +6,7 @@ function Attendees() {
 
   useEffect(() => {
     const importImages = async () => {
-      const totalImages = 20; // Total number of logos in folder
+      const totalImages = 20; // no of logos in folder
       const importedImages = [];
 
       for (let i = 1; i <= totalImages; i++) {
@@ -14,7 +14,8 @@ function Attendees() {
         importedImages.push(image.default); 
       }
 
-      setImagePaths(importedImages);
+      
+      setImagePaths([...importedImages, ...importedImages]);
     };
 
     importImages();
