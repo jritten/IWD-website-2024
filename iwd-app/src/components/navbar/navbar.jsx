@@ -6,7 +6,6 @@ import "./navbar.css";
 function NavBar() {
   const [activeItem, setActiveItem] = useState(null);
   const [open, setOpen] = useState(false);
-  const [navbarStyle, setNavbarStyle] = useState(false);
 
   const scrollHandler = (className) => {
     const element = document.querySelector(`.${className}`);
@@ -26,24 +25,15 @@ function NavBar() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          const dynamicThreshold =
-            entry.target.clientHeight > window.innerHeight ? 0.1 : 0.5;
-          const isIntersecting = entry.intersectionRatio >= dynamicThreshold;
-
-          if (isIntersecting) {
+          if (entry.isIntersecting) {
             setActiveItem(entry.target.className);
-            const isAfterWtmSection =
-              entry.target.className.includes("wtm-section") ||
-              document.querySelector(".wtm-section").getBoundingClientRect()
-                .top < entry.target.getBoundingClientRect().top;
-            setNavbarStyle(isAfterWtmSection);
           }
         });
       },
       {
         root: document.querySelector(".App"),
         rootMargin: "0px",
-        threshold: [0, 0.1, 0.5, 1.0],
+        threshold: 0.5,
       }
     );
 
@@ -61,7 +51,7 @@ function NavBar() {
   }
 
   return (
-    <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
+    <div className="navbar">
       <nav className="Nav">
         <div className="hamburger">
           <Button onClick={toggleDrawer}>
@@ -69,11 +59,6 @@ function NavBar() {
           </Button>
         </div>
         <ul>
-          <li
-            className={activeItem === "app-section wtm-section" ? "active" : ""}
-          >
-            <a onClick={() => scrollHandler("wtm-section")}>Techmakers</a>
-          </li>
           <li
             className={
               activeItem === "sessions-div" ? "active" : ""
@@ -106,10 +91,10 @@ function NavBar() {
 
           <li
             className={
-              activeItem === "app-section partners-div" ? "active" : ""
+              activeItem === "sponsors-div" ? "active" : ""
             }
           >
-            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
+            <a onClick={() => scrollHandler("sponsors-div")}>Sponsors</a>
           </li>
 
           <li
@@ -119,14 +104,15 @@ function NavBar() {
           >
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
           </li>
+
           <li
             className={
-              activeItem === "app-section hosts-div "
-                ? "active ? bg-gray-300"
-                : ""
+              activeItem === "facilitators-div" ? "active" : ""
             }
           >
-            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
+            <a onClick={() => scrollHandler("facilitators-div")}>
+              Facilitators
+            </a>
           </li>
           <li
             className={activeItem === "devTeam-div" ? "active" : ""}
@@ -136,7 +122,7 @@ function NavBar() {
         </ul>
       </nav>
       {open && (
-        <ul className="hamburger-list py-3">
+        <ul className="hamburger-list">
           <li className={activeItem === "sessions-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("sessions-div")}>Sessions</a>
           </li>
@@ -149,14 +135,11 @@ function NavBar() {
           <li className={activeItem === "location-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("location-div")}>Location</a>
           </li>
-          <li className={activeItem === "partners-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
+          <li className={activeItem === "sponsors-div" ? "active" : ""}>
+            <a onClick={() => scrollHandler("sponsors-div")}>Sponsors</a>
           </li>
           <li className={activeItem === "organizers-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
-          </li>
-          <li className={activeItem === "hosts-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
           </li>
           <li className={activeItem === "facilitators-div" ? "active" : ""}>
             <a onClick={() => scrollHandler("facilitators-div")}>

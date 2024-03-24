@@ -1,0 +1,40 @@
+/* attendee.css */
+
+.app-section {
+  width: 100%;
+}
+
+.attendee-div {
+  height: 500px;
+  background-color: #c5b2e1;
+  overflow-x: hidden;
+}
+.attendee-title {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.attendee-images {
+  display: flex;
+  overflow-x: auto; 
+  scroll-behavior: smooth;
+  animation: horizontalScroll 20s linear infinite; 
+}
+
+.attendee-image {
+  margin: 50px;
+  width: auto;
+  height: 242px;
+  margin-top: -20px;
+}
+
+@keyframes horizontalScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

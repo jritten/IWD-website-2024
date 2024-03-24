@@ -4,7 +4,7 @@ import globeGIF from "../../assets/hero/globe.gif";
 import heroGirl from "../../assets/hero/women-hero.png";
 import background from "../../assets/hero/hero-background.PNG";
 import date from "../../assets/hero/rocket-2.jpeg";
-import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
+import dateAnimation from "../../assets/hero/date-animation.gif";
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
         <div className="title-div">
           <div className="heading-div">
             <h1>
-              Impact <br /> The Future
+              Impact <br /> the Future
             </h1>
             <img id="globe-gif" src={globeGIF}></img>
           </div>
@@ -24,23 +24,15 @@ function Hero() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <button className="btn tickets-btn">Get Tickets</button>
+          <btn id="tickets-btn">Namaa's button</btn>
         </div>
-        <div className="woman-date-colum">
-          <div className="woman-img-div">
-            <img id="woman-hero" src={heroGirl}></img>
-          </div>
-          <img id="date-img" src={date}></img>
-        </div>
+        <img id="woman-hero" src={heroGirl}></img>
       </div>
-      <div className="background-div">
-        <img id="background-img" src={background}></img>
-      </div>
+      <img id="background-img" src={background}></img>
       <div className="date-img-div">
-        {/* <img id="date-animation" src={dateAnimation}></img> */}
-        {/* <img id="date-img" src={date}></img> */}
+        <img id="date-animation" src={dateAnimation}></img>
+        <img id="date-img" src={date}></img>
       </div>
-      <img id="mobile-bg" src={mobilebg}></img>
     </div>
   );
 }

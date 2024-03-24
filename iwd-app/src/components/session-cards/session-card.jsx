@@ -10,24 +10,15 @@ function SessionCard({
   time,
   place,
   description,
-  type,
-  showImageBorder, // New prop to determine whether to show border around image
+  type, //for special panel card
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div
-      className={`session-card ${isExpanded ? "expanded" : ""} ${
-        type === "social" ? "social-card" : ""
-      }`}
-    >
+    <div className={`session-card ${isExpanded ? "expanded" : ""}`}>
       <div className="main-content">
         <div className="imageContainer">
-          <img
-            src={imageUrl}
-            alt="Person"
-            className={`${showImageBorder ? "with-border" : ""}`}
-          />
+          <img src={imageUrl} alt="Person" />
         </div>
         <div className="infoContainer">
           <div className="title">{title}</div>
@@ -43,10 +34,10 @@ function SessionCard({
               </div>
             </div>
           ) : (
-            type !== "social" && <div className="speaker">By {speaker}</div>
+            <div className="speaker">By {speaker}</div>
           )}
           <div className="time">
-            At <span>{time}</span> in {place}
+            From <span>{time}</span> in {place}
           </div>
         </div>
         <div
@@ -75,7 +66,9 @@ function SessionCard({
           overflow: "hidden",
         }}
       >
-        {isExpanded && <div className="description">{description}</div>}
+        {isExpanded && ( // Render description content only when expanded
+          <div className="description">{description}</div>
+        )}
       </div>
     </div>
   );

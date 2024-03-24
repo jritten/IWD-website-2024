@@ -1,30 +1,28 @@
 import React from "react";
-import NavBar from "./components/navbar/navbar";
-import Hero from "./components/hero-banner/hero";
-import Speakers from "./components/speakers-section/speakers";
-import Sessions from "./components/sessions-section/sessions";
-import Location from "./components/location-section/location";
-import Partners from "./components/partners-section/partners";
-import Organizers from "./components/organizers-section/organizers";
-import Hosts from "./components/hosts-section/hosts";
-import Facilitators from "./components/facilitators-section/facilitators";
+import "./App.css";
 import DevTeam from "./components/devTeam-section/devTeam";
-import WomenTechmakers from "./components/wtm-section/wtm";
+import Facilitators from "./components/facilitators-section/facilitators";
+import Hero from "./components/hero-banner/hero";
+import Location from "./components/location-section/location";
+import NavBar from "./components/navbar/navbar";
+import Organizers from "./components/organizers-section/organizers";
+import Sessions from "./components/sessions-section/sessions";
+import Speakers from "./components/speakers-section/speakers";
+import Sponsors from "./components/sponsors-section/sponsors";
+import Attendees from "./components/atttendee-section/attendee.jsx";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Hero />
-      <WomenTechmakers />
       <Sessions />
       <Speakers />
       <Attendees /> 
       <Location />
-      <Partners />
+      <Sponsors />
       <Organizers />
-      <Hosts/>
-      {/* <Facilitators /> */}
+      <Facilitators />
       <DevTeam />
     </div>
   );
