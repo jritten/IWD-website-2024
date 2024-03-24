@@ -9,7 +9,6 @@ function NavBar() {
   const [navbarStyle, setNavbarStyle] = useState(false);
 
   const sections = [
-    { id: "hero-section", text: "Hero" },
     { id: "location-div", text: "Location" },
     { id: "wtm-section", text: "Techmakers" },
     { id: "sessions-div", text: "Sessions" },
@@ -26,11 +25,13 @@ function NavBar() {
     const heroObserver = new IntersectionObserver(
       ([entry]) => {
         // Directly toggle navbar style based on hero section's visibility
-        setNavbarStyle(!entry.isIntersecting);
+        setNavbarStyle(
+          entry.boundingClientRect.top < entry.rootBounds.height / 2
+        );
       },
       {
         threshold: 0,
-        rootMargin: "-100px 0px 0px 0px", // Adjust rootMargin to control when the change occurs
+        rootMargin: "-50% 0px -50% 0px", // Adjust rootMargin to control when the change occurs
       }
     );
 
