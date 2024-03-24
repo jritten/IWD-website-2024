@@ -8,58 +8,61 @@ function NavBar() {
   const [open, setOpen] = useState(false);
   const [navbarStyle, setNavbarStyle] = useState(false);
 
-  const scrollHandler = (className) => {
-    const element = document.querySelector(`.${className}`);
+  // Define your sections
+  const sections = [
+    { id: "location-div", text: "Location" },
+    { id: "wtm-section", text: "Techmakers" },
+    { id: "sessions-div", text: "Sessions" },
+    { id: "speakers-div", text: "Speakers" },
+    { id: "hosts-div", text: "Hosts" },
+    { id: "partners-div", text: "Partners" },
+    { id: "attendee-div", text: "Attendees" },
+    { id: "organizers-div", text: "Organizers" },
+    { id: "devTeam-div", text: "Dev Team" },
+  ];
 
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-        inline: "start",
-      });
-      setActiveItem(className);
-    }
-  };
-
-  // Also set active item style based on
-  // user scroll
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const dynamicThreshold =
-            entry.target.clientHeight > window.innerHeight ? 0.1 : 0.5;
-          const isIntersecting = entry.intersectionRatio >= dynamicThreshold;
+    const handleScroll = () => {
+      let activeIoU = 0;
+      let activeSection = null;
 
-          if (isIntersecting) {
-            setActiveItem(entry.target.className);
-            const isAfterWtmSection =
-              entry.target.className.includes("wtm-section") ||
-              document.querySelector(".wtm-section").getBoundingClientRect()
-                .top < entry.target.getBoundingClientRect().top;
-            setNavbarStyle(isAfterWtmSection);
+      sections.forEach((section) => {
+        const target = document.querySelector(`#${section.id}`);
+        if (target) {
+          const rect = target.getBoundingClientRect();
+          const intersectionHeight = Math.max(
+            0,
+            Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)
+          );
+          const IoU =
+            intersectionHeight /
+            (rect.height + window.innerHeight - intersectionHeight);
+
+          if (IoU > activeIoU) {
+            activeSection = section.id;
+            activeIoU = IoU;
           }
-        });
-      },
-      {
-        root: document.querySelector(".App"),
-        rootMargin: "0px",
-        threshold: [0, 0.1, 0.5, 1.0],
-      }
-    );
+        }
+      });
 
-    document.querySelectorAll(".app-section").forEach((section) => {
-      observer.observe(section);
-    });
-
-    return () => {
-      observer.disconnect();
+      setActiveItem(activeSection);
     };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  function toggleDrawer() {
-    setOpen(!open);
-  }
+  const toggleDrawer = () => setOpen(!open);
+
+  // Navigation click event handler
+  const handleNavigation = (event, sectionId) => {
+    event.preventDefault();
+    const target = document.querySelector(`#${sectionId}`);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
@@ -70,99 +73,36 @@ function NavBar() {
           </Button>
         </div>
         <ul>
-          <li
-            className={
-              activeItem === "app-section location-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("location-div")}>Location</a>
-          </li>
-          <li
-            className={activeItem === "app-section wtm-section" ? "active" : ""}
-          >
-            <a onClick={() => scrollHandler("wtm-section")}>Techmakers</a>
-          </li>
-          <li
-            className={
-              activeItem === "app-section sessions-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("sessions-div")}>Sessions</a>
-          </li>
-
-          <li
-            className={
-              activeItem === "app-section speakers-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
-          </li>
-          <li
-            className={
-              activeItem === "app-section hosts-div "
-                ? "active ? bg-gray-300"
-                : ""
-            }
-          >
-            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
-          </li>
-          <li
-            className={
-              activeItem === "app-section partners-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
-          </li>
-          <li
-            className={
-              activeItem === "app-section attendee-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("attendee-div")}>Attendees</a>
-          </li>
-
-          <li
-            className={
-              activeItem === "app-section organizers-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
-          </li>
-          <li
-            className={activeItem === "app-section devTeam-div" ? "active" : ""}
-          >
-            <a onClick={() => scrollHandler("devTeam-div")}>Dev Team</a>
-          </li>
+          {sections.map((section) => (
+            <li
+              key={section.id}
+              className={activeItem === section.id ? "active" : ""}
+            >
+              <a
+                href={`#${section.id}`}
+                onClick={(e) => handleNavigation(e, section.id)}
+              >
+                {section.text}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
       {open && (
         <ul className="hamburger-list py-3">
-          <li className={activeItem === "sessions-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("sessions-div")}>Sessions</a>
-          </li>
-          <li className={activeItem === "speakers-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
-          </li>
-          <li className={activeItem === "location-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("location-div")}>Location</a>
-          </li>
-          <li className={activeItem === "partners-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
-          </li>
-          <li className={activeItem === "organizers-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
-          </li>
-          <li className={activeItem === "hosts-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
-          </li>
-          <li className={activeItem === "facilitators-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("facilitators-div")}>
-              Facilitators
-            </a>
-          </li>
-          <li className={activeItem === "devTeam-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("devTeam-div")}>Dev Team</a>
-          </li>
+          {sections.map((section) => (
+            <li
+              key={section.id}
+              className={activeItem === section.id ? "active" : ""}
+            >
+              <a
+                href={`#${section.id}`}
+                onClick={(e) => handleNavigation(e, section.id)}
+              >
+                {section.text}
+              </a>
+            </li>
+          ))}
         </ul>
       )}
     </div>

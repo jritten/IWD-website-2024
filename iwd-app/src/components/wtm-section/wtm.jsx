@@ -4,7 +4,7 @@ import Carousel from "../carousel/carousel";
 
 function WomenTechmakers() {
   return (
-    <div className="app-section wtm-section">
+    <div id="wtm-section" className="app-section wtm-section">
       <h2>
         Meet the <span className="wtm-word">Women Techmakers</span>
       </h2>

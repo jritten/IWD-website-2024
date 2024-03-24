@@ -5,8 +5,7 @@ import WHENPATH from "../../assets/when.png";
 
 function Location() {
   return (
-    /* app-section style is necessary, please do not delete */
-    <div className="app-section location-div">
+    <div id="location-div" className="app-section location-div">
       <div class="flex flex-col mx-20 my-5 md:flex-row md:my-20 md:mx-5">
         <div class="flex flex-row items-center justify-start m-2 md:flex-1">
           <img
