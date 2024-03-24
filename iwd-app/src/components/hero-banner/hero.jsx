@@ -11,10 +11,10 @@ function Hero() {
   const [active, setActive] = useState(false);
   const handleClick = () => {
     setActive(!active);
-    setTimeout(() => {
-      setActive(false); // revert the button to normal state after 1 second
-      //window.open("https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform", '_blank')
-    }, 1000);
+    setTimeout(() => {// this will delay opening the link for a little , so button click effect can show
+      window.open("https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform", '_blank');
+    
+    }, 500);
   };
   
   return (
@@ -34,11 +34,11 @@ function Hero() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea  commodo consequat.
           </p>
-          <button id={active ? "tickets-bt-nactive" : "tickets-btn"} onClick={handleClick}>
-      <a target="-blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform">
-        Get Tickets
-      </a>
-    </button>
+          <button  
+          target="-blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform"
+          onClick={handleClick} className={active ? "active ? tickets-btn-active" : "tickets-btn"}>
+                Get Tickets
+          </button>
           
         </div>
         <div className="woman-date-colum">

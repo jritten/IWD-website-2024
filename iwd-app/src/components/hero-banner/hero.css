@@ -87,7 +87,7 @@
   margin-bottom: 20px;
 }
 
-#tickets-btn {
+.tickets-btn {
   width: 70%;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@
 #tickets-btn:hover {
   cursor: pointer;
 }
-#tickets-btn-active{
+.tickets-btn-active{
   width: 70%;
   display: flex;
   align-items: center;
