@@ -67,7 +67,6 @@ body {
   margin: 0;
 }
 
-/* THE FOLLOWING CORRESPONDS TO THE HAMBURGER LIST */
 .hamburger {
   display: none;
 }
@@ -77,13 +76,10 @@ body {
 }
 
 .hamburger-list {
-  height: 15rem;
   gap: 0.5rem;
   font-size: 0.8em;
   width: 100%;
-  margin: 0;
   padding-inline-start: 0px;
-
   list-style: none;
   background-color: #43a6f0;
   display: flex;
@@ -95,16 +91,36 @@ body {
   width: 100%;
   padding-left: 1rem;
   margin: 0.25rem;
-  border-radius: 7px;
 }
 .hamburger-list li:hover {
-  background-color: #238cbf;
   cursor: pointer;
 }
 
 .hamburger-list .hamburger {
   display: block;
 }
+
+.navbar-alternate .Nav{
+  background-color: white;
+}
+
+.navbar-alternate a{
+  color: #3779ac; 
+}
+
+.navbar-alternate li.active{
+  background-color: #dfdfdf; 
+}
+.navbar-alternate li:hover{
+  background-color: #dfdfdf; 
+}
+.navbar-alternate .hamburger-list{
+  background-color: white;
+}
+.navbar-alternate .hamburger-list li{
+  background-color: white;
+}
+
 
 /* 855 px */
 @media screen and (max-width: 855px) {
@@ -117,6 +133,7 @@ body {
   .Nav ul {
     display: none;
   }
+
 }
 
 @media screen and (min-width: 855px) {
