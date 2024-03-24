@@ -31,7 +31,7 @@ function NavBar() {
       },
       {
         threshold: 0,
-        rootMargin: "-50% 0px -50% 0px", // Adjust rootMargin to control when the change occurs
+        rootMargin: "-90% 0px -90% 0px", // Adjust rootMargin to control when the change occurs
       }
     );
 
