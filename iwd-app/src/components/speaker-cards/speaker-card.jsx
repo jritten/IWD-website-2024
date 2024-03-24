@@ -28,8 +28,10 @@ function SpeakerCard({
       // Prevent the event from bubbling to the parent div
       event.stopPropagation();
     } else {
-      // Open the modal if the close button is not clicked
-      openModal();
+      // Open the modal if the close button is not clicked and description is available
+      if (description) {
+        openModal();
+      }
     }
   };
 
@@ -37,7 +39,9 @@ function SpeakerCard({
     <div
       className="speaker-card"
       onClick={handleCardClick}
-      style={{ cursor: showModal ? "default" : "pointer" }}
+      style={{
+        cursor: description ? (showModal ? "default" : "pointer") : "default",
+      }}
     >
       <div className="speaker-image">
         <img src={imageurl} alt="Speaker image" />
@@ -45,8 +49,8 @@ function SpeakerCard({
       <div className="speaker-name">{name || "No Name"}</div>
       <div className="speaker-position my-3">{position || "No Position"}</div>
       <div className="speaker-company">{company || "No Company"}</div>
-      {/* render the pop-up card if showModal state is true */}
-      {showModal && (
+      {/* render the pop-up card if showModal state is true and description is available */}
+      {showModal && description && (
         <SpeakerPopupCard
           imageurl={imageurl}
           name={name}
