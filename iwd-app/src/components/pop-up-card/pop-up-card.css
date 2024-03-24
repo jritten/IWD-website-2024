@@ -46,13 +46,14 @@
     margin-bottom: 10px;
     font-size: 36px;
     font-weight: 800;
+    padding-left: 7px;
   }
 
   .modal-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   
   .modal-header h2 {
@@ -85,7 +86,7 @@
     bottom: 0;
     right: 0;
     padding: 20px;
-    width: 100px;
+    width: 125px;
     height: auto;
   }
 
@@ -100,8 +101,12 @@
         width: 350px;
       }
 
+  .modal-header {
+    padding-left: none;
+  }
+
       .bottom-right-image {
-        
+        display: none;
       }
 
       .speaker-description {
