@@ -71,6 +71,13 @@ function NavBar() {
         </div>
         <ul>
           <li
+            className={
+              activeItem === "app-section location-div" ? "active" : ""
+            }
+          >
+            <a onClick={() => scrollHandler("location-div")}>Location</a>
+          </li>
+          <li
             className={activeItem === "app-section wtm-section" ? "active" : ""}
           >
             <a onClick={() => scrollHandler("wtm-section")}>Techmakers</a>
@@ -90,7 +97,22 @@ function NavBar() {
           >
             <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
           </li>
-
+          <li
+            className={
+              activeItem === "app-section hosts-div "
+                ? "active ? bg-gray-300"
+                : ""
+            }
+          >
+            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
+          </li>
+          <li
+            className={
+              activeItem === "app-section partners-div" ? "active" : ""
+            }
+          >
+            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
+          </li>
           <li
             className={
               activeItem === "app-section attendee-div" ? "active" : ""
@@ -101,35 +123,10 @@ function NavBar() {
 
           <li
             className={
-              activeItem === "app-section location-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("location-div")}>Location</a>
-          </li>
-
-          <li
-            className={
-              activeItem === "app-section partners-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
-          </li>
-
-          <li
-            className={
               activeItem === "app-section organizers-div" ? "active" : ""
             }
           >
             <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
-          </li>
-          <li
-            className={
-              activeItem === "app-section hosts-div "
-                ? "active ? bg-gray-300"
-                : ""
-            }
-          >
-            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
           </li>
           <li
             className={activeItem === "app-section devTeam-div" ? "active" : ""}

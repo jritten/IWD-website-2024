@@ -18,14 +18,14 @@ function App() {
     <div className="App">
       <NavBar />
       <Hero />
+      <Location />
       <WomenTechmakers />
       <Sessions />
       <Speakers />
-      <Attendees />
-      <Location />
-      <Partners />
-      <Organizers />
       <Hosts />
+      <Partners />
+      <Attendees />
+      <Organizers />
       {/* <Facilitators /> */}
       <DevTeam />
     </div>
