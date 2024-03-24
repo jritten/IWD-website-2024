@@ -18,8 +18,6 @@ const speakersData = [
     name: "Alissa Sevrioukova",
     position: "Chief of Staff",
     company: "DTE Energy",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ut lectus non sollicitudin.",
     flower: Bell,
   },
   {
