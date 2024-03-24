@@ -8,8 +8,8 @@ function NavBar() {
   const [open, setOpen] = useState(false);
   const [navbarStyle, setNavbarStyle] = useState(false);
 
-  // Define your sections
   const sections = [
+    { id: "hero-section", text: "Hero" },
     { id: "location-div", text: "Location" },
     { id: "wtm-section", text: "Techmakers" },
     { id: "sessions-div", text: "Sessions" },
@@ -22,32 +22,58 @@ function NavBar() {
   ];
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
+    // Set up an observer for the hero section to toggle navbar style
+    const heroObserver = new IntersectionObserver(
+      ([entry]) => {
+        // Directly toggle navbar style based on hero section's visibility
+        setNavbarStyle(!entry.isIntersecting);
+      },
+      {
+        threshold: 0,
+        rootMargin: "-100px 0px 0px 0px", // Adjust rootMargin to control when the change occurs
+      }
+    );
+
+    const heroSection = document.querySelector("#hero-section");
+    if (heroSection) {
+      heroObserver.observe(heroSection);
+    }
+
+    // Clean up observer on component unmount
+    return () => {
+      if (heroSection) {
+        heroObserver.unobserve(heroSection);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    const sectionObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          const isIntersecting = entry.isIntersecting;
-          if (isIntersecting) {
-            const isAfterWtmSection =
-              entry.target.id === "location-div" ||
-              document.querySelector("#wtm-section").getBoundingClientRect()
-                .bottom < 0;
-            setNavbarStyle(isAfterWtmSection);
+          if (entry.isIntersecting) {
+            setActiveItem(entry.target.id);
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.1 }
     );
 
-    // Observing the 'location-div' to change the navbar style
-    const target = document.querySelector("#location-div");
-    if (target) {
-      observer.observe(target);
-    }
+    // Observe all sections for setting active state
+    sections.forEach((section) => {
+      const sectionEl = document.querySelector(`#${section.id}`);
+      if (sectionEl) {
+        sectionObserver.observe(sectionEl);
+      }
+    });
 
     return () => {
-      if (target) {
-        observer.unobserve(target);
-      }
+      sections.forEach((section) => {
+        const sectionEl = document.querySelector(`#${section.id}`);
+        if (sectionEl) {
+          sectionObserver.unobserve(sectionEl);
+        }
+      });
     };
   }, []);
 
@@ -55,6 +81,7 @@ function NavBar() {
 
   const handleNavigation = (event, sectionId) => {
     event.preventDefault();
+    setActiveItem(sectionId);
     const target = document.querySelector(`#${sectionId}`);
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
