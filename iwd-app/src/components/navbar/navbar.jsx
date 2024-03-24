@@ -22,40 +22,37 @@ function NavBar() {
   ];
 
   useEffect(() => {
-    const handleScroll = () => {
-      let activeIoU = 0;
-      let activeSection = null;
-
-      sections.forEach((section) => {
-        const target = document.querySelector(`#${section.id}`);
-        if (target) {
-          const rect = target.getBoundingClientRect();
-          const intersectionHeight = Math.max(
-            0,
-            Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)
-          );
-          const IoU =
-            intersectionHeight /
-            (rect.height + window.innerHeight - intersectionHeight);
-
-          if (IoU > activeIoU) {
-            activeSection = section.id;
-            activeIoU = IoU;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const isIntersecting = entry.isIntersecting;
+          if (isIntersecting) {
+            const isAfterWtmSection =
+              entry.target.id === "location-div" ||
+              document.querySelector("#wtm-section").getBoundingClientRect()
+                .bottom < 0;
+            setNavbarStyle(isAfterWtmSection);
           }
-        }
-      });
+        });
+      },
+      { threshold: 0.5 }
+    );
 
-      setActiveItem(activeSection);
+    // Observing the 'location-div' to change the navbar style
+    const target = document.querySelector("#location-div");
+    if (target) {
+      observer.observe(target);
+    }
+
+    return () => {
+      if (target) {
+        observer.unobserve(target);
+      }
     };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const toggleDrawer = () => setOpen(!open);
 
-  // Navigation click event handler
   const handleNavigation = (event, sectionId) => {
     event.preventDefault();
     const target = document.querySelector(`#${sectionId}`);
