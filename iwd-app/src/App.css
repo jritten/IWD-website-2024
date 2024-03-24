@@ -10,8 +10,6 @@
 .app-section{
   display: flex;
   flex-direction: column;
-  border-color: black;
-  border-width: 2px;
   width: 100%;
   overflow-x: hidden;
 }
