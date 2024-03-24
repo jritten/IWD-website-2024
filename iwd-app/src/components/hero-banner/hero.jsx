@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./hero.css";
 import globeGIF from "../../assets/hero/globe.gif";
 import heroGirl from "../../assets/hero/women-hero.png";
@@ -7,6 +7,15 @@ import date from "../../assets/hero/rocket-2.jpeg";
 import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
 
 function Hero() {
+  
+  const [active, setActive] = useState(false);
+  const handleClick = () => {
+    setActive(!active);
+    setTimeout(() => {
+      setActive(false); // revert the button to normal state after 1 second
+      //window.open("https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform", '_blank')
+    }, 1000);
+  };
   
   return (
     <div className="app-section hero-banner">
@@ -23,13 +32,13 @@ function Hero() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            aliquip ex ea  commodo consequat.
           </p>
-          <button id="tickets-btn">
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform">
-                Get Tickets
-            </a>
-          </button>
+          <button id={active ? "tickets-bt-nactive" : "tickets-btn"} onClick={handleClick}>
+      <a target="-blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform">
+        Get Tickets
+      </a>
+    </button>
           
         </div>
         <div className="woman-date-colum">
