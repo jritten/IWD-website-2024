@@ -11,7 +11,7 @@
 .attendee-div {
   overflow: hidden;
   padding: 0;
-  background: rgb(210, 188, 230); 
+  background: rgb(255, 255, 255);
   white-space: nowrap;
   position: relative;
   max-height: 50%;
@@ -32,12 +32,12 @@
 
 .attendee-div:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(225, 209, 234));
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(241,245,249))
 }
 
 .attendee-div:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(225, 209, 234));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(241,245,249))
 }
 
 .attendee-images {
