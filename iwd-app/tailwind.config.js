@@ -5,6 +5,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      lineHeight:{
+        customh1: '1.3em',
+      }, 
       padding: {
         woman: "12vw",
       },

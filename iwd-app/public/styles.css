@@ -704,6 +704,10 @@ video {
   line-height: 2rem;
 }
 
+.leading-customh1 {
+  line-height: 1.3em;
+}
+
 .text-custom-purple {
   --tw-text-opacity: 1;
   color: rgb(148 109 240 / var(--tw-text-opacity));

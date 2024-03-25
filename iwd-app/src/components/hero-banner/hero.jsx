@@ -27,7 +27,7 @@ function Hero() {
           {/* text & button */}
           <div class="w-4/5 md:1/2 lg:w-2/6 lg:py-2">
             <div className="heading-div">
-              <h1>
+              <h1 className="leading-customh1">
                 Impact <br /> The Future
               </h1>
               <img id="globe-gif" src={globeGIF}></img>
