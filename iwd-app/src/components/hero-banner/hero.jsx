@@ -13,7 +13,7 @@ function Hero() {
       {" "}
       {/* marginTop offsets by exactly the height of Nav */}
       {/* The main responsive container */}
-      <div class="flex flex-col my-5 md:flex-row md:my-0 lg:relative">
+      <div class="flex flex-col my-5 md:flex-row md:my-0 lg:relative md: py-5 lg:py-0 xl:py-0">
         {/* background */}
         <div class="w-0 lg:w-2/3 lg:h-auto lg:self-start">
           <img id="background-img" src={background}></img>

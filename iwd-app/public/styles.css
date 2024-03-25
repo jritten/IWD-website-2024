@@ -727,6 +727,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -842,6 +847,11 @@ code {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -878,11 +888,23 @@ code {
     padding-bottom: 0.5rem;
   }
 
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:pl-woman {
     padding-left: 12vw;
   }
 
   .lg\:pr-5 {
     padding-right: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
