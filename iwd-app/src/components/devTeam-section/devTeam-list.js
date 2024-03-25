@@ -92,7 +92,4 @@ const devTeamData = [
         status: "Junior",
     },
 
-
-]
-
 export default devTeamData;

@@ -8,21 +8,22 @@
 
     box-sizing: border-box;
     width: 310px;
-    height: 410px;
+    min-height: 410px;
     margin: 40px;
-
+    cursor: pointer;
     background: #FFFFFF;
     border: 2px solid #000000;
-    box-shadow: 0px 4px 75px 0px #00000040;
+    box-shadow: 10px 6px 5px 0px #00000040;
+
     border-radius: 12px; 
+    padding: 12px;
 }
 
 .speaker-image{
     box-sizing: border-box;
     width: 172px;
     height: 172px;
-    margin: 2px;
-
+    margin: 5px;
 }
 
 .speaker-image img{
@@ -36,33 +37,29 @@
 }
 
 .speaker-name{
+    overflow-wrap: break-word;
+    width: 80%;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 44px;
     text-align: center;
     margin: 2px;
-
     color: #252525;
 }
 
 .speaker-position{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: inline-block;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    margin: 2px;
-    margin-bottom: 3px;
-
-    box-sizing: border-box;
     background: #2480F0;
     border-radius: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 15px;
-    padding-right: 15px;
-
+    padding: 8px;
     color: #FFFFFF;
 }
 
@@ -73,20 +70,7 @@
     line-height: 21px;
     text-align: center;
     margin: 2px;
-
     color: #7E7E7E;
 }
 
-.speaker-description{
-    width: 186.12px;
-    height: 45.6px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    margin: 2px;
-
-    color: #1C5294;
-}

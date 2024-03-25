@@ -11,20 +11,22 @@ import Hosts from "./components/hosts-section/hosts";
 import Facilitators from "./components/facilitators-section/facilitators";
 import DevTeam from "./components/devTeam-section/devTeam";
 import WomenTechmakers from "./components/wtm-section/wtm";
+import Attendees from "./components/attendee_section/attendee.jsx";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Hero />
+      <Location />
       <WomenTechmakers />
       <Sessions />
       <Speakers />
-      <Location />
+      <Attendees />
+      <Hosts />
       <Partners />
       <Organizers />
-      <Hosts/>
-      <Facilitators />
+      {/* <Facilitators /> */}
       <DevTeam />
     </div>
   );

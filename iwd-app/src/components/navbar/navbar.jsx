@@ -8,58 +8,86 @@ function NavBar() {
   const [open, setOpen] = useState(false);
   const [navbarStyle, setNavbarStyle] = useState(false);
 
-  const scrollHandler = (className) => {
-    const element = document.querySelector(`.${className}`);
+  const sections = [
+    { id: "location-div", text: "Location" },
+    { id: "wtm-section", text: "Techmakers" },
+    { id: "sessions-div", text: "Sessions" },
+    { id: "speakers-div", text: "Speakers" },
+    { id: "attendee-div", text: "Attendees" },
+    { id: "hosts-div", text: "Hosts" },
+    { id: "partners-div", text: "Partners" },
+    { id: "organizers-div", text: "Organizers" },
+    { id: "devTeam-div", text: "Dev Team" },
+  ];
 
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-        inline: "start",
-      });
-      setActiveItem(className);
-    }
-  };
-
-  // Also set active item style based on
-  // user scroll
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const dynamicThreshold =
-            entry.target.clientHeight > window.innerHeight ? 0.1 : 0.5;
-          const isIntersecting = entry.intersectionRatio >= dynamicThreshold;
-
-          if (isIntersecting) {
-            setActiveItem(entry.target.className);
-            const isAfterWtmSection =
-              entry.target.className.includes("wtm-section") ||
-              document.querySelector(".wtm-section").getBoundingClientRect()
-                .top < entry.target.getBoundingClientRect().top;
-            setNavbarStyle(isAfterWtmSection);
-          }
-        });
+    // Set up an observer for the hero section to toggle navbar style
+    const heroObserver = new IntersectionObserver(
+      ([entry]) => {
+        // Directly toggle navbar style based on hero section's visibility
+        setNavbarStyle(
+          entry.boundingClientRect.top < entry.rootBounds.height / 2
+        );
       },
       {
-        root: document.querySelector(".App"),
-        rootMargin: "0px",
-        threshold: [0, 0.1, 0.5, 1.0],
+        threshold: 0,
+        rootMargin: "-90% 0px -90% 0px", // Adjust rootMargin to control when the change occurs
       }
     );
 
-    document.querySelectorAll(".app-section").forEach((section) => {
-      observer.observe(section);
-    });
+    const heroSection = document.querySelector("#hero-section");
+    if (heroSection) {
+      heroObserver.observe(heroSection);
+    }
 
+    // Clean up observer on component unmount
     return () => {
-      observer.disconnect();
+      if (heroSection) {
+        heroObserver.unobserve(heroSection);
+      }
     };
   }, []);
 
-  function toggleDrawer() {
-    setOpen(!open);
-  }
+  useEffect(() => {
+    const sectionObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveItem(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    // Observe all sections for setting active state
+    sections.forEach((section) => {
+      const sectionEl = document.querySelector(`#${section.id}`);
+      if (sectionEl) {
+        sectionObserver.observe(sectionEl);
+      }
+    });
+
+    return () => {
+      sections.forEach((section) => {
+        const sectionEl = document.querySelector(`#${section.id}`);
+        if (sectionEl) {
+          sectionObserver.unobserve(sectionEl);
+        }
+      });
+    };
+  }, []);
+
+  const toggleDrawer = () => setOpen(!open);
+
+  const handleNavigation = (event, sectionId) => {
+    event.preventDefault();
+    setActiveItem(sectionId);
+    const target = document.querySelector(`#${sectionId}`);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
@@ -70,104 +98,36 @@ function NavBar() {
           </Button>
         </div>
         <ul>
-          <li
-            className={activeItem === "app-section wtm-section" ? "active" : ""}
-          >
-            <a onClick={() => scrollHandler("wtm-section")}>Techmakers</a>
-          </li>
-          <li
-            className={
-              activeItem === "app-section sessions-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("sessions-div")}>Sessions</a>
-          </li>
-
-          <li
-            className={
-              activeItem === "app-section speakers-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
-          </li>
-
-          <li
-            className={
-              activeItem === "app-section location-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("location-div")}>Location</a>
-          </li>
-
-          <li
-            className={
-              activeItem === "app-section partners-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
-          </li>
-
-          <li
-            className={
-              activeItem === "app-section organizers-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
-          </li>
-          <li
-            className={
-              activeItem === "app-section hosts-div " ? "active ? bg-gray-300" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
-          </li>
-          
-
-
-          <li
-            className={
-              activeItem === "app-section facilitators-div" ? "active" : ""
-            }
-          >
-            <a onClick={() => scrollHandler("facilitators-div")}>
-              Facilitators
-            </a>
-          </li>
-          <li
-            className={activeItem === "app-section devTeam-div" ? "active" : ""}
-          >
-            <a onClick={() => scrollHandler("devTeam-div")}>Dev Team</a>
-          </li>
+          {sections.map((section) => (
+            <li
+              key={section.id}
+              className={activeItem === section.id ? "active" : ""}
+            >
+              <a
+                href={`#${section.id}`}
+                onClick={(e) => handleNavigation(e, section.id)}
+              >
+                {section.text}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
       {open && (
-        <ul className="hamburger-list">
-          <li className={activeItem === "sessions-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("sessions-div")}>Sessions</a>
-          </li>
-          <li className={activeItem === "speakers-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("speakers-div")}>Speakers</a>
-          </li>
-          <li className={activeItem === "location-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("location-div")}>Location</a>
-          </li>
-          <li className={activeItem === "partners-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("partners-div")}>Partners</a>
-          </li>
-          <li className={activeItem === "organizers-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("organizers-div")}>Organizers</a>
-          </li>
-          <li className={activeItem === "hosts-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("hosts-div")}>Hosts</a>
-          </li>
-          <li className={activeItem === "facilitators-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("facilitators-div")}>
-              Facilitators
-            </a>
-          </li>
-          <li className={activeItem === "devTeam-div" ? "active" : ""}>
-            <a onClick={() => scrollHandler("devTeam-div")}>Dev Team</a>
-          </li>
+        <ul className="hamburger-list py-3">
+          {sections.map((section) => (
+            <li
+              key={section.id}
+              className={activeItem === section.id ? "active" : ""}
+            >
+              <a
+                href={`#${section.id}`}
+                onClick={(e) => handleNavigation(e, section.id)}
+              >
+                {section.text}
+              </a>
+            </li>
+          ))}
         </ul>
       )}
     </div>
