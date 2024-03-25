@@ -10,13 +10,32 @@ import HebaSayed from "../../assets/headshots/HebaSayed.jpg"
 import Namaa from "../../assets/headshots/Namaa.jpg"
 import WhitneyTran from "../../assets/headshots/WhitneyTran.jpg"
 import MusaShoeb from "../../assets/headshots/MusaShoeb.jpg"
+import MaryamTello from "../../assets/headshots/MaryamTello.jpg"
 
 const devTeamData = [
+    {
+        imageurl: MaryamTello,
+        name: "Maryam Tello",
+        linkedIn: "https://www.linkedin.com/in/maryamtello?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        status: "Senior",
+    },
+    {
+        imageurl: AbdulKhan,
+        name: "Abdul Khan",
+        linkedIn: "https://www.linkedin.com/in/abdulmuiz-khan/",
+        status: "Junior",
+    },
     {
         imageurl: MoeAbboud,
         name: "Mohamad Abboud",
         linkedIn: "https://www.linkedin.com/in/moeabboud/",
         status: "Junior"
+    },
+    {
+        imageurl: HebaSayed,
+        name: "Heba Sayed",
+        linkedIn: "https://www.linkedin.com/in/heba-sayed6/",
+        status: "Junior",
     },
     {
         imageurl: MoeChami,
@@ -37,12 +56,6 @@ const devTeamData = [
         status: "Freshman",
     },
     {
-        imageurl: AbdulKhan,
-        name: "Abdul Khan",
-        linkedIn: "https://www.linkedin.com/in/abdulmuiz-khan/",
-        status: "Junior",
-    },
-    {
         imageurl: AnikaRaisa,
         name: "Anika Raisa",
         linkedIn: "https://www.linkedin.com/in/anikaraisa/",
@@ -58,12 +71,6 @@ const devTeamData = [
         imageurl: GayathriChava,
         name: "Gayathri Chava",
         linkedIn: "https://www.linkedin.com/in/cgayathri21f?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        status: "Junior",
-    },
-    {
-        imageurl: HebaSayed,
-        name: "Heba Sayed",
-        linkedIn: "https://www.linkedin.com/in/heba-sayed6/",
         status: "Junior",
     },
     {
