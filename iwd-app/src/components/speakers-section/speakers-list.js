@@ -4,13 +4,17 @@ import KrissieKnight from "../../assets/speaker-imgs/KrissieKnight.jpeg";
 import AlissaSevrioukova from "../../assets/speaker-imgs/AlissaSevrioukova.jpeg";
 import EunkyungOh from "../../assets/speaker-imgs/EunkyungOh.jpg";
 import IdaByrdHill from "../../assets/speaker-imgs/IdaByrdHill.jpeg";
+import MelindaRushing from "../../assets/speaker-imgs/melinda.JPG";
+import AyaHasan from "../../assets/speaker-imgs/aya.JPG";
 
 import Bell from "../../assets/flowers/Bell.png";
+import BellBlue from "../../assets/flowers/bellBlue.png";
 import Hydrangea from "../../assets/Hydrangea.png";
 import blueHydrangea from "../../assets/flowers/blueHydra.png";
 import Dandelion from "../../assets/flowers/Dandelion.png";
 import osteoPink from "../../assets/flowers/osteoPink.png";
 import rose from "../../assets/flowers/Soft red flower.png";
+import purpleHydra from "../../assets/flowers/purpleHydra.png";
 
 const speakersData = [
   {
@@ -28,6 +32,24 @@ const speakersData = [
     description:
       "3+ Years UXer with a Strong Entrepreneurial, Design, Research Experiences. Previous Edutech Startup Founder, Conducted Mixed Method Research on HCI, Automotive, Human-AI teaming, Voice UX, etc.",
     flower: Hydrangea,
+  },
+  {
+    imageurl: MelindaRushing,
+    name: "Melinda Rushing",
+    position: "Data Scientist",
+    company: "University of Michigan",
+    description:
+      "Melinda Ruth Rushing is a visual artist who primarily creates graphite drawings and linoleum block prints that comment on the black experience. Rushing completed a minor in Studio Art at the University of Houston during her undergraduate studies in 2010. In 2020, Rushing began her art career in her native state, Texas, as she completed a PhD of Public Health from the University of Texas Health Science Center. In August 2021, Rushing relocated to Detroit Michigan after being recruited for a Health Services Research Postdoctoral position at the University of Michigan. Her research focuses on health disparities and inequities among marginalized populations who are living sickle cell disease and other chronic illnesses. Rushing believes art can heal, encourage, and expose. With each piece, she aims to evoke emotion, so the viewer can connect with the imagery. In 2020, Rushing was 1 of the 3 finalists in the Chicago based Gallery 19 Meed4: Power of Identity competition. Following the competition, Rushing’s piece, Ankara Body: Uncovering, was selected to be in the Gallery 19’s Best of the Year Group Exhibition curated by Tony Reyes in 2021. Since then, Ankara Body: Uncovering was added to Detroit’s Irwin Gallery owner Misha Omisha Gowan’s collection in 2022. Over the last year, Rushing has displayed in prominent exhibitions: the Gilda Snowden Scarab Club Group Exhibition juried by printmaker Rashaun Rucker, the Hatch 17 Group Exhibition juried by painter and educator Nancy Mitchnick, and she was selected to participate in the Museum of Contemporary Art Detroit (MOCAD) Monster Drawing Rally where she created two pieces to be sold by the museum. Rushing was also commissioned to create a piece for the California Nurses’ Association Art Show and recently was accepted into the Atlanta Printmakers Biennial Exhibition juried by Miranda K. Metcalf.",
+    flower: purpleHydra,
+  },
+  {
+    imageurl: AyaHasan,
+    name: "Aya Hasan",
+    position: "Medical Device Consultant",
+    company: "Plagens",
+    description:
+      "Aya Hasan is a multifaceted artist whose work can be succinctly described as social studies. Hasan’s art delves into how the world processes and intertwines with their cultural and personal identity. Hasan paints ideas inspired by their global travels, research assistance, and study abroad advising experiences during college. Aya Hasan feels a responsibility to educate and ignite hope, combating the perils of ignorance through art. Beyond being a successful artist, she is also the founder of the Dearborn Fine Arts Club, taking place weekly at the Arab American National Museum. Through her organization, she provides local artists with the platform, connection, and education they need in order to be successful in their art careers. Hasan believes in the power of community and the bridges that connect them. She believes in the power of rising as a whole rather than one.",
+    flower: BellBlue,
   },
   {
     imageurl: KanikaMohan,
