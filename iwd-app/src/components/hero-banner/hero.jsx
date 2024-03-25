@@ -44,7 +44,7 @@ function Hero() {
           </div>
         </div>
         {/* also background */}
-        <div class="flex flex-col justify-end w-0 lg:w-1/4 pb-12">
+        <div class="flex flex-col justify-end w-0 lg:w-1/3 pb-12">
           {/* <img className="h-36 w-full" src={dateAnimation}></img> */}
           <img className="h-auto w-full" src={date}></img>
         </div>
