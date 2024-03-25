@@ -27,7 +27,7 @@ function SpeakerPopupCard({ imageurl, name, description, onClose, flower }) {
           </div>
         </div>
         <div className="bottom-right-image">
-          <img src={flower} width={100} alt="Bottom right image" />
+          <img src={flower} width={100} alt="flower" />
         </div>
       </div>
     </div>
