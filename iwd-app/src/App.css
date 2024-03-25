@@ -1,11 +1,15 @@
 .App {
   height: 100vh; 
-  overflow-y: auto; 
+  overflow-y: auto;
+  width: 100%; 
 }
 
-/* This may look deletable but it is not */
-/* It is critical to highlight current */
+/* Global Section style */
+/* Is critical to highlight current */
 /* app-section in Nav */
 .app-section{
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
 }
