@@ -1,10 +1,15 @@
+const { hexToRgb } = require('@mui/material');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      lineHeight:{
+        customh1: '1.3em',
+      }, 
       padding: {
-        woman: "12vw",
+        woman: "13vw",
       },
     },
     screens: {
@@ -17,6 +22,9 @@ module.exports = {
     fontFamily: {
       custom: ["Rock Salt"],
     },
+    colors: {
+      "custom-purple": "#946df0"
+    }
   },
   plugins: [],
 };
