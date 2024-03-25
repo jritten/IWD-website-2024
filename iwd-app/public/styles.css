@@ -814,6 +814,10 @@ code {
     width: 33.333333%;
   }
 
+  .lg\:w-1\/6 {
+    width: 16.666667%;
+  }
+
   .lg\:self-start {
     align-self: flex-start;
   }

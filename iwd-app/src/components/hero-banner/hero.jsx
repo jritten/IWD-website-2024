@@ -34,12 +34,8 @@ function Hero() {
             </div>
             <h2>Detroit International Women's Day Summit 2024</h2>
             <p>
-              Tailwind CSS is a highly customizable, low-level CSS framework
-              that provides utility classes to build designs directly in your
-              markup. It emphasizes rapid UI development, and its approach to
-              styling through composition promotes a tighter integration between
-              design and development, leading to more maintainable and scalable
-              codebases.
+              Celebrate International Women's Day with us at a vibrant summit on
+              March 30th in Detroit, hosted at the DTE Headquarters. Inspire, empower, and connect with women in tech. 
             </p>
             <button className="btn tickets-btn">Get Tickets</button>
           </div>
