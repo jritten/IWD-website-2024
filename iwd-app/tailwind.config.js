@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      padding: {
+        woman: "12vw",
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",
@@ -11,7 +15,7 @@ module.exports = {
       "2xl": "1536px",
     },
     fontFamily: {
-      'custom':['Rock Salt']
+      custom: ["Rock Salt"],
     },
   },
   plugins: [],

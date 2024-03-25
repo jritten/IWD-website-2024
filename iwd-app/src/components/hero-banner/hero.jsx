@@ -19,7 +19,7 @@ function Hero() {
           <img id="background-img" src={background}></img>
         </div>
         {/* foreground */}
-        <div class="flex flex-col items-center md:flex-row md:p-2 lg:pl-20 lg:pr-5 md:justify-center lg:absolute">
+        <div class="flex flex-col items-center md:flex-row md:p-2 lg:pl-woman lg:pr-5 md:justify-center lg:absolute">
           {/* woman */}
           <div class="w-4/5 md:1/2 lg:w-2/6">
             <img class="w-full h-full" src={heroGirl}></img>
