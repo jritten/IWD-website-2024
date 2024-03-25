@@ -22,9 +22,9 @@ function App() {
       <WomenTechmakers />
       <Sessions />
       <Speakers />
+      <Attendees />
       <Hosts />
       <Partners />
-      <Attendees />
       <Organizers />
       {/* <Facilitators /> */}
       <DevTeam />
