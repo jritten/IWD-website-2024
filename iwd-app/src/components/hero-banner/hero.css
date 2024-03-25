@@ -72,7 +72,6 @@
     font-size: 9vw;
     margin-bottom: 0;
     font-family: "Open Sans", sans-serif;
-    font-weight: 700;
   }
 
   #globe-gif {
@@ -87,26 +86,16 @@
     line-height: 1.2em;
     margin-bottom: 0;
     font-family: "Open Sans", sans-serif;
-    font-weight: 700;
 } 
-}
+} 
 
- @media (max-width: 480px) {
-  .heading-div h1 {
-    font-size: 8vw;
-    line-height: 1.2em;
-    margin-bottom: 0;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-} 
- }
 @media (max-width: 430px) {
   .heading-div h1 {
     font-size: 14vw;
     line-height: 1.2em;
     margin-bottom: 0;
     font-family: "Open Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }  
 }
 
