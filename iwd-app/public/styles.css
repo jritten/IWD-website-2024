@@ -682,9 +682,9 @@ video {
   border-width: 1px;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-3 {
@@ -697,83 +697,48 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .pb-3 {
   padding-bottom: 0.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[13vw\] {
-  font-size: 13vw;
-}
-
-.text-\[10vw\] {
-  font-size: 10vw;
-}
-
-.text-\[12vw\] {
-  font-size: 12vw;
-}
-
-.text-\[1vw\] {
-  font-size: 1vw;
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .text-\[11vw\] {
   font-size: 11vw;
 }
 
-.text-\[2vw\] {
-  font-size: 2vw;
-}
-
-.text-\[3vw\] {
-  font-size: 3vw;
-}
-
-.text-\[3\.5vw\] {
-  font-size: 3.5vw;
-}
-
-.text-\[4vw\] {
-  font-size: 4vw;
-}
-
-.text-\[3\.8vw\] {
-  font-size: 3.8vw;
-}
-
 .text-\[3\.4vw\] {
   font-size: 3.4vw;
 }
 
+.text-\[10vw\] {
+  font-size: 10vw;
+}
+
+.text-\[24vw\] {
+  font-size: 24vw;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .leading-customh1 {
@@ -783,14 +748,6 @@ video {
 .text-custom-purple {
   --tw-text-opacity: 1;
   color: rgb(148 109 240 / var(--tw-text-opacity));
-}
-
-.text-\[1w\] {
-  color: 1w;
-}
-
-.text-\[3\.vw\] {
-  color: 3.vw;
 }
 
 .transition {
@@ -824,28 +781,28 @@ code {
     flex-direction: row;
   }
 
-  .sm\:text-\[10vw\] {
-    font-size: 10vw;
+  .sm\:pb-3 {
+    padding-bottom: 0.75rem;
   }
 
-  .sm\:text-\[8vw\] {
-    font-size: 8vw;
+  .sm\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .sm\:text-\[5vw\] {
     font-size: 5vw;
   }
 
-  .sm\:text-\[6vw\] {
-    font-size: 6vw;
+  .sm\:font-semibold {
+    font-weight: 600;
   }
 
-  .sm\:text-\[1vw\] {
-    font-size: 1vw;
+  .sm\:font-normal {
+    font-weight: 400;
   }
 
-  .sm\:text-\[vw\] {
-    color: vw;
+  .sm\:font-medium {
+    font-weight: 500;
   }
 }
 
@@ -910,16 +867,12 @@ code {
     padding-right: 0px;
   }
 
-  .md\:text-\[6vw\] {
-    font-size: 6vw;
-  }
-
-  .md\:text-\[2vw\] {
-    font-size: 2vw;
-  }
-
   .md\:text-\[2\.5vw\] {
     font-size: 2.5vw;
+  }
+
+  .md\:text-\[6vw\] {
+    font-size: 6vw;
   }
 }
 
@@ -970,16 +923,24 @@ code {
     padding-right: 1.25rem;
   }
 
-  .lg\:text-\[4\.5vw\] {
-    font-size: 4.5vw;
-  }
-
   .lg\:text-\[2vw\] {
     font-size: 2vw;
   }
 
-  .lg\:text-\[1vw\] {
-    font-size: 1vw;
+  .lg\:text-\[4\.5vw\] {
+    font-size: 4.5vw;
+  }
+
+  .lg\:text-\[4vw\] {
+    font-size: 4vw;
+  }
+
+  .lg\:text-\[1\.5vw\] {
+    font-size: 1.5vw;
+  }
+
+  .lg\:text-\[1\.8vw\] {
+    font-size: 1.8vw;
   }
 }
 
@@ -989,15 +950,15 @@ code {
     padding-bottom: 0px;
   }
 
-  .xl\:text-\[4\.5vw\] {
-    font-size: 4.5vw;
-  }
-
   .xl\:text-\[2vw\] {
     font-size: 2vw;
   }
 
-  .xl\:text-\[1vw\] {
-    font-size: 1vw;
+  .xl\:text-\[4\.5vw\] {
+    font-size: 4.5vw;
+  }
+
+  .xl\:text-\[1\.5vw\] {
+    font-size: 1.5vw;
   }
 }

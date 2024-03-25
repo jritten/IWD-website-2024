@@ -37,12 +37,12 @@ function Hero() {
           {/* text & button */}
           <div class=" md:1/2 lg:w-2/6 lg:py-2 sm:py-3/4 sm:w-auto px-10 md:px-0 ">
             <div className="heading-div w-full">
-              <h1 className="text-[11vw] sm:text-[5vw] md:text-[6vw] xl:text-[4.5vw] lg:text-[4.5vw] leading-customh1">
+              <h1 className="text-[10vw] sm:text-[5vw] md:text-[6vw] xl:text-[4.5vw] lg:text-[4.5vw] leading-customh1">
                 Impact <br /> The Future
               </h1>
               <img id="globe-gif" src={globeGIF}></img>
             </div>
-            <h2 className="text-custom-purple text-[3.4vw]  sm:text-[5vw] font-semibold pb-3	 md:text-[2.5vw] xl:text-[2vw] lg:text-[2vw] ">
+            <h2 className="font-medium pb-3 text-custom-purple text-[3.4vw] sm:text-[5vw] sm:font-medium sm:pb-0	 md:text-[2.5vw] lg:text-[2vw] ">
               Detroit International Women's Day Summit 2024
             </h2>
             <p>
