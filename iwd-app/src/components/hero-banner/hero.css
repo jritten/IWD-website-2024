@@ -10,7 +10,6 @@
   margin: 0;
 }
 .heading-div h1 {
-  font-size: 4.5vw;
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
 }
@@ -67,38 +66,14 @@
 } 
 
 
-@media (max-width: 912px) {
-  .heading-div h1 {
-    font-size: 8vw;
-  }
-
+@media (max-width: 1024px) {
   #globe-gif {
     width: 3rem;
     height: 10%;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
   }
 }
 
-@media (max-width: 560px) {
-  .heading-div h1 {
-    font-size: 11vw;
-    line-height: 1.2em;
-    margin-bottom: 0;
-} 
-  #globe-gif {
-    margin-bottom: -2px;
-  }
-} 
-
-@media (max-width: 430px) {
-  .heading-div h1 {
-    font-size: 14vw;
-    line-height: 1.2em;
-    margin-bottom: 0;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-}  
-}
 
 /* in between transition, dont remove this media query because its essential for them not to overlap*/
 @media (min-width: 1024px) and (max-width: 1312px) {
