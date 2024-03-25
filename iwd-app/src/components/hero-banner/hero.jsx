@@ -35,14 +35,14 @@ function Hero() {
             <img class="w-full h-full" src={heroGirl}></img>
           </div>
           {/* text & button */}
-          <div class=" md:1/2 lg:w-2/6 lg:py-2 sm:py-3/4 sm:w-auto px-6 md:px-0 ">
+          <div class=" md:1/2 lg:w-2/6 lg:py-2 sm:py-3/4 sm:w-auto px-10 md:px-0 ">
             <div className="heading-div w-full">
-              <h1 className="text-[13vw] sm:text-[10vw] md:text-[6vw] xl:text-[4.5vw] lg:text-[4.5vw] leading-customh1">
+              <h1 className="text-[11vw] sm:text-[5vw] md:text-[6vw] xl:text-[4.5vw] lg:text-[4.5vw] leading-customh1">
                 Impact <br /> The Future
               </h1>
               <img id="globe-gif" src={globeGIF}></img>
             </div>
-            <h2 className="text-custom-purple text-2xl">
+            <h2 className="text-custom-purple text-2xl sm:text-[5vw]">
               Detroit International Women's Day Summit 2024
             </h2>
             <p>

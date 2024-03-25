@@ -608,14 +608,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.block {
-  display: block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -705,12 +697,14 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
-.pb-11 {
-  padding-bottom: 2.75rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pb-10 {
@@ -724,6 +718,22 @@ video {
 
 .text-\[13vw\] {
   font-size: 13vw;
+}
+
+.text-\[10vw\] {
+  font-size: 10vw;
+}
+
+.text-\[12vw\] {
+  font-size: 12vw;
+}
+
+.text-\[1vw\] {
+  font-size: 1vw;
+}
+
+.text-\[11vw\] {
+  font-size: 11vw;
 }
 
 .leading-customh1 {
@@ -768,6 +778,26 @@ code {
 
   .sm\:text-\[10vw\] {
     font-size: 10vw;
+  }
+
+  .sm\:text-\[8vw\] {
+    font-size: 8vw;
+  }
+
+  .sm\:text-\[5vw\] {
+    font-size: 5vw;
+  }
+
+  .sm\:text-\[6vw\] {
+    font-size: 6vw;
+  }
+
+  .sm\:text-\[1vw\] {
+    font-size: 1vw;
+  }
+
+  .sm\:text-\[vw\] {
+    color: vw;
   }
 }
 
