@@ -9,7 +9,7 @@ module.exports = {
         customh1: '1.3em',
       }, 
       padding: {
-        woman: "12vw",
+        woman: "13vw",
       },
     },
     screens: {
