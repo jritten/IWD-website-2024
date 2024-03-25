@@ -91,5 +91,5 @@ const devTeamData = [
         linkedIn: "https://www.linkedin.com/in/musashoeb/",
         status: "Junior",
     },
-
+]
 export default devTeamData;
