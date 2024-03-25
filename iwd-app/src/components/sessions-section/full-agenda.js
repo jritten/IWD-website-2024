@@ -46,14 +46,14 @@ const agendaCards = [
     showImageBorder: true,
   },
   {
-    title: "Lightning Talk #2 - Detroit Artistry",
+    title: "Lightning Talk #2 - Detroit Artistry: Women Artists Making Waves",
     imageUrl: people,
     time: "10:00 AM",
     place: "Conference Room B",
     description:
       "Immerse yourself in the soulful creativity of Detroit. Discover the heartbeat of a city known for its vibrant cultural tapestry and artistic flair.",
     type: "regular",
-    speaker: "TBD",
+    speaker: "Aya Husan @ Plagens and Melinda Rushing @ University of Michigan",
     showImageBorder: false,
   },
   {
