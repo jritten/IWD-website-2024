@@ -68,7 +68,7 @@
 
 
 /* ipad view and base for mobile view */
-@media (max-width: 912px) {
+/* @media (max-width: 912px) {
 
   #background-img {
     display: none;
@@ -129,9 +129,10 @@
     margin-left: -5px;
     margin-bottom: 7px;
   }
-}
+} */
 /* mobile view */
-@media (max-width: 560px) {
+
+/* @media (max-width: 560px) {
   .heading-div h1 {
     font-size: 11vw;
     line-height: 1.2em;
@@ -153,11 +154,8 @@
   #woman-hero {
     max-width: 85vw;
   }
-  /* .hero-banner {
-    height: 108vh;
-  } */
+
   #mobile-bg {
-    /* display: block; */
     display: none;
 
     position: absolute;
@@ -170,9 +168,9 @@
   .top-row {
     padding-top: 20%;
   }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .heading-div h1 {
     font-size: 8vw;
     line-height: 1.2em;
@@ -196,8 +194,7 @@
     width: 68vw;
     text-align: center;
   }
-}
-
+} 
 @media (max-width: 430px) {
   .heading-div h1 {
     font-size: 14vw;
@@ -221,37 +218,12 @@
     width: 68vw;
     text-align: center;
   }
-}
+}  */
 
 /* in between transition */
 @media (min-width: 1024px) and (max-width: 1312px) {
   #background-img {
     width: 100%;
     height: 90%;
-  }
-  .title-div {
-    margin-right: 42%;
-  }
-
-  .heading-div {
-    margin-top: 10%;
-    width: 100vw;
-  }
-
-  .heading-div h1 {
-    font-size: 5vw;
-  }
-  #globe-gif {
-    max-width: 3vw;
-    height: 90%;
-    margin-left: -5px;
-    margin-bottom: 7px;
-  }
-
-  .title-div h2 {
-    font-size: 2vw;
-  }
-  .title-div p {
-    font-size: 1.2vw;
   }
 }
