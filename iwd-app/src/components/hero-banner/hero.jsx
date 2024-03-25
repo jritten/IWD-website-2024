@@ -18,7 +18,7 @@ function Hero() {
   };
   
   return (
-    <div className="app-section hero-banner">
+    <div id="hero-section" className="app-section hero-banner">
       <div className="top-row">
         <div className="title-div">
           <div className="heading-div">
@@ -39,7 +39,6 @@ function Hero() {
           onClick={handleClick} className={active ? "active ? tickets-btn-active" : "tickets-btn"}>
                 Get Tickets
           </button>
-          
         </div>
         <div className="woman-date-colum">
           <div className="woman-img-div">

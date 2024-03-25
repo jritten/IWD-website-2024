@@ -8,7 +8,7 @@ import speakersData from "./speakers-list.js";
 function Speakers() {
   return (
     /* app-section style is necessary, please do not delete */
-    <div className="app-section speakers-div">
+    <div id="speakers-div" className="app-section speakers-div">
       <div className="section-title">Speakers</div>
       <div className="speaker-cards-container">
         {speakersData.map((speaker, index) => (
