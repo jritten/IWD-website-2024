@@ -736,6 +736,34 @@ video {
   font-size: 11vw;
 }
 
+.text-\[2vw\] {
+  font-size: 2vw;
+}
+
+.text-\[3vw\] {
+  font-size: 3vw;
+}
+
+.text-\[3\.5vw\] {
+  font-size: 3.5vw;
+}
+
+.text-\[4vw\] {
+  font-size: 4vw;
+}
+
+.text-\[3\.8vw\] {
+  font-size: 3.8vw;
+}
+
+.text-\[3\.4vw\] {
+  font-size: 3.4vw;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-customh1 {
   line-height: 1.3em;
 }
@@ -743,6 +771,14 @@ video {
 .text-custom-purple {
   --tw-text-opacity: 1;
   color: rgb(148 109 240 / var(--tw-text-opacity));
+}
+
+.text-\[1w\] {
+  color: 1w;
+}
+
+.text-\[3\.vw\] {
+  color: 3.vw;
 }
 
 .transition {
@@ -865,6 +901,14 @@ code {
   .md\:text-\[6vw\] {
     font-size: 6vw;
   }
+
+  .md\:text-\[2vw\] {
+    font-size: 2vw;
+  }
+
+  .md\:text-\[2\.5vw\] {
+    font-size: 2.5vw;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -917,6 +961,14 @@ code {
   .lg\:text-\[4\.5vw\] {
     font-size: 4.5vw;
   }
+
+  .lg\:text-\[2vw\] {
+    font-size: 2vw;
+  }
+
+  .lg\:text-\[1vw\] {
+    font-size: 1vw;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -927,5 +979,13 @@ code {
 
   .xl\:text-\[4\.5vw\] {
     font-size: 4.5vw;
+  }
+
+  .xl\:text-\[2vw\] {
+    font-size: 2vw;
+  }
+
+  .xl\:text-\[1vw\] {
+    font-size: 1vw;
   }
 }

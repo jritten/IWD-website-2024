@@ -42,7 +42,7 @@ function Hero() {
               </h1>
               <img id="globe-gif" src={globeGIF}></img>
             </div>
-            <h2 className="text-custom-purple text-2xl sm:text-[5vw]">
+            <h2 className="text-custom-purple text-[3.4vw] sm:text-[5vw] font-semibold	 md:text-[2.5vw] xl:text-[2vw] lg:text-[2vw] ">
               Detroit International Women's Day Summit 2024
             </h2>
             <p>
