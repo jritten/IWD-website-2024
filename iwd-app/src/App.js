@@ -19,7 +19,7 @@ function App() {
       <NavBar />
       <Hero />
       <Location />
-      <WomenTechmakers />
+      {/* <WomenTechmakers /> */}
       <Sessions />
       <Speakers />
       <Attendees />
