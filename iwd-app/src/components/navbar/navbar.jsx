@@ -13,9 +13,9 @@ function NavBar() {
     { id: "wtm-section", text: "Techmakers" },
     { id: "sessions-div", text: "Sessions" },
     { id: "speakers-div", text: "Speakers" },
+    { id: "attendee-div", text: "Attendees" },
     { id: "hosts-div", text: "Hosts" },
     { id: "partners-div", text: "Partners" },
-    { id: "attendee-div", text: "Attendees" },
     { id: "organizers-div", text: "Organizers" },
     { id: "devTeam-div", text: "Dev Team" },
   ];

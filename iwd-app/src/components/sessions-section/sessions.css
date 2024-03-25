@@ -1,6 +1,6 @@
 .sessions-div {
   width: 100%;
-  background-color: #ffffff;
+  background-color: rgb(241 245 249);
   display: flex;
   flex-direction: column;
   align-items: stretch;
