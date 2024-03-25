@@ -10,7 +10,7 @@ function NavBar() {
 
   const sections = [
     { id: "location-div", text: "Location" },
-    { id: "wtm-section", text: "Techmakers" },
+    // { id: "wtm-section", text: "Techmakers" },
     { id: "sessions-div", text: "Sessions" },
     { id: "speakers-div", text: "Speakers" },
     { id: "attendee-div", text: "Attendees" },
