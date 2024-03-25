@@ -220,7 +220,7 @@
   }
 }  */
 
-/* in between transition */
+/* in between transition, dont remove this media query because its essential for them not to overlap*/
 @media (min-width: 1024px) and (max-width: 1312px) {
   #background-img {
     width: 100%;
