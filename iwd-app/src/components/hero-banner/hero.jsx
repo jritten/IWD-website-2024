@@ -25,7 +25,7 @@ function Hero() {
             <img class="w-full h-full" src={heroGirl}></img>
           </div>
           {/* text & button */}
-          <div class="w-4/5 md:1/2 lg:w-2/6 lg:py-2">
+          <div class=" md:1/2 lg:w-2/6 lg:py-2 sm:py-3/4 sm:w-auto px-6 md:px-0 ">
             <div className="heading-div">
               <h1 className="leading-customh1">
                 Impact <br /> The Future

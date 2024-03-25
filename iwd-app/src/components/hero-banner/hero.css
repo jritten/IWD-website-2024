@@ -75,10 +75,10 @@
     font-weight: 700;
   }
 
-  /* #globe-gif {
+  #globe-gif {
     width: auto;
     height: 30%;
-  } */
+  }
 }
 
 @media (max-width: 560px) {
