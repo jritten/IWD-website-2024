@@ -53,7 +53,7 @@ const agendaCards = [
     description:
       "Immerse yourself in the soulful creativity of Detroit. Discover the heartbeat of a city known for its vibrant cultural tapestry and artistic flair.",
     type: "regular",
-    speaker: "Aya Husan @ Plagens and Melinda Rushing @ University of Michigan",
+    speaker: "Aya Hasan @ Plagens and Melinda Rushing @ University of Michigan",
     showImageBorder: false,
   },
   {
