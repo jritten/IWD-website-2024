@@ -33,7 +33,6 @@
   margin-left: -5px;
   margin-bottom: 3px;
 }
-
 .btn{
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -41,6 +40,7 @@
 .btn:hover .btn-slide-show-text1 {
   margin-left: 65px;
 } 
+
 .tickets-btn {
   width: 20rem;
   display: flex;
@@ -58,6 +58,21 @@
   border: none;
   background-size: 300% 100%;
   border-radius: 50px;
+}
+.tickets-btn-active{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #7e5bd6, #cf639c, #d29c59);
+  height: 10%;
+  box-shadow: 5px 7px 4px 0px #00000026;
+  border-radius: 30px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+
 }
 
 .tickets-btn:hover {

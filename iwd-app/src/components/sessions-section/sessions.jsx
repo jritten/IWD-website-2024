@@ -14,7 +14,7 @@ function Sessions() {
   };
 
   return (
-    <div className="app-section sessions-div">
+    <div id="sessions-div" className="app-section sessions-div">
       <div className="header-container">
         <div className="section-title">Sessions</div>
       </div>
@@ -23,13 +23,13 @@ function Sessions() {
           className={`tab ${activeTab === "Networking" ? "active" : ""}`}
           onClick={() => handleTabClick("Networking")}
         >
-          <span>Agenda</span>
+          <span>Schedule</span>
         </div>
         <div
           className={`tab ${activeTab === "Talks/Seminars" ? "active" : ""}`}
           onClick={() => handleTabClick("Talks/Seminars")}
         >
-          <span>Talks/Seminars</span>
+          <span>Lightning Talks</span>
         </div>
       </div>
       <div className="session-cards-container">

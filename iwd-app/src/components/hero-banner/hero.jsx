@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./hero.css";
 import globeGIF from "../../assets/hero/globe.gif";
 import heroGirl from "../../assets/hero/women-hero.png";
@@ -8,6 +8,16 @@ import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
 import dateAnimation from "../../assets/hero/date-animation.gif";
 
 function Hero() {
+  
+  const [active, setActive] = useState(false);
+  const handleClick = () => {
+    setActive(!active);
+    setTimeout(() => {// this will delay opening the link for a little , so button click effect can show
+      window.open("https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform", '_blank');
+    
+    }, 500);
+  };
+  
   return (
     <div class="app-section hero-banner" style={{ marginTop: "55px" }}>
       {" "}

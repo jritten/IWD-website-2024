@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-section {
+  width: 100%;
+}
+
+.attendee-div {
+  overflow: hidden;
+  padding: 0;
+  background: rgb(255, 255, 255);
+  white-space: nowrap;
+  position: relative;
+  max-height: 50%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.attendee-div:before,
+.attendee-div:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.attendee-div:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(241,245,249))
+}
+
+.attendee-div:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(241,245,249))
+}
+
+.attendee-images {
+  display: flex;
+  margin-top: 20px;
+  animation: slide var(--animation-duration, 25s) linear infinite;
+}
+
+
+.attendee-image {
+  height: 100px; 
+  margin: 0 40px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

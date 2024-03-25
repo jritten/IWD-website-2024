@@ -2,10 +2,11 @@ import React from "react";
 import "../../globalStyles.css";
 import FirstHost from "../../assets/host/COMPES-host.jpg";
 import SecondHost from "../../assets/host/DTE-host.jpg";
+import "./hosts.css";
 
 function Hosts() {
   return (
-    <div className="app-section hosts-div ">
+    <div id="hosts-div" className="app-section hosts-div ">
       {/* Title */}
       <div className=" section-title-2 ">Hosts</div>
       {/* Logo container */}
