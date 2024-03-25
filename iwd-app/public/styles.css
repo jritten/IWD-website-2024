@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -690,11 +690,6 @@ video {
   border-width: 1px;
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -702,6 +697,16 @@ video {
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-custom-purple {
+  --tw-text-opacity: 1;
+  color: rgb(148 109 240 / var(--tw-text-opacity));
 }
 
 .transition {
@@ -812,10 +817,6 @@ code {
 
   .lg\:w-2\/6 {
     width: 33.333333%;
-  }
-
-  .lg\:w-1\/6 {
-    width: 16.666667%;
   }
 
   .lg\:self-start {
