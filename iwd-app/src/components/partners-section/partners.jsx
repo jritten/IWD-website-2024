@@ -10,7 +10,7 @@ import SHPELOGO from "../../assets/partner-imgs/SHPE.PNG";
 function Partners() {
   return (
     /* app-section style is necessary, please do not delete */
-    <div className="app-section partners-div">
+    <div id="partners-div" className="app-section partners-div">
       <div class="header-container">
         <div class="section-title-2">Partners</div>
         <link
@@ -19,8 +19,11 @@ function Partners() {
         />
       </div>
       <div class="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-5 md:gap-x-10">
-       
-        <a href="https://swe.org/" target="_blank" class="flex items-center justify-center md:flex-1">
+        <a
+          href="https://swe.org/"
+          target="_blank"
+          class="flex items-center justify-center md:flex-1"
+        >
           <img
             alt="SWE"
             src={SWELOGO}
@@ -39,12 +42,13 @@ function Partners() {
             className="SHPE w-1/2 md:w-3/4 md:h-auto"
           />
         </a>
-        
       </div>
       <div class="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-10 md:gap-x-10">
-        
-
-        <a href="https://www.nsbe.org/" target="_blank" class="flex items-center justify-center md:flex-1">
+        <a
+          href="https://www.nsbe.org/"
+          target="_blank"
+          class="flex items-center justify-center md:flex-1"
+        >
           <img
             alt="NSBE"
             src={NSBELOGO}
@@ -52,17 +56,18 @@ function Partners() {
           />
         </a>
 
-        <a href="https://littlecaesars.com/en-us/careers/" target="_blank" class="flex items-center justify-center md:flex-1">
+        <a
+          href="https://littlecaesars.com/en-us/careers/"
+          target="_blank"
+          class="flex items-center justify-center md:flex-1"
+        >
           <img
             alt="LittleCaesarLogo"
             src={CEASARLOGO}
             className="LittleCaesars w-1/2 md:w-3/4 md:h-auto"
           />
         </a>
-       
-        
       </div>
-      
     </div>
   );
 }

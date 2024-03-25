@@ -14,7 +14,7 @@ function Sessions() {
   };
 
   return (
-    <div className="app-section sessions-div">
+    <div id="sessions-div" className="app-section sessions-div">
       <div className="header-container">
         <div className="section-title">Sessions</div>
       </div>

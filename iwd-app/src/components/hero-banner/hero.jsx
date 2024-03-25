@@ -8,7 +8,7 @@ import mobilebg from "../../assets/hero/mobile-hero-asset.PNG";
 
 function Hero() {
   return (
-    <div className="app-section hero-banner">
+    <div id="hero-section" className="app-section hero-banner">
       <div className="top-row">
         <div className="title-div">
           <div className="heading-div">

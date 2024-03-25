@@ -23,7 +23,7 @@ function Attendees() {
   }, []);
 
   return (
-    <div className="app-section attendee-div">
+    <div id="attendee-div" className="app-section attendee-div">
       <div className="attendees-column">
         <div className="section-title-2">Attendees</div>
         <div className="attendee-images">
