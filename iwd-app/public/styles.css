@@ -608,6 +608,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -941,6 +945,10 @@ code {
 
   .lg\:text-\[1\.8vw\] {
     font-size: 1.8vw;
+  }
+
+  .lg\:leading-customh1 {
+    line-height: 1.3em;
   }
 }
 
