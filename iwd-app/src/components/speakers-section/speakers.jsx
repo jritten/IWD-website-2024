@@ -1,7 +1,6 @@
 import React from "react";
 import "./speakers.css";
 import "../../globalStyles.css";
-
 import SpeakerCard from "../speaker-cards/speaker-card";
 import speakersData from "./speakers-list.js";
 

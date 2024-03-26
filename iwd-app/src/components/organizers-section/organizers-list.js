@@ -12,7 +12,7 @@ const organizersData = [
     {
         imageurl: MaridyMazaira,
         name: "Maridy Mazaira",
-        position: "Staff Engineer",
+        position: "Staff Engineer - DTE Energy",
     },
     {
         imageurl: JamalLongwood,
