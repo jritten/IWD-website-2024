@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import "./navbar.css";
-import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
+import Button from "@mui/material/Button";
+import React, { useEffect, useState } from "react";
+import "./navbar.css";
 
 function NavBar() {
   const [activeItem, setActiveItem] = useState(null);

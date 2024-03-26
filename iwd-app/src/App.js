@@ -1,17 +1,12 @@
-import "./App.css";
 import React from "react";
-import NavBar from "./components/navbar/navbar";
-import Hero from "./components/hero-banner/hero";
-import Speakers from "./components/speakers-section/speakers";
-import Sessions from "./components/sessions-section/sessions";
-import Location from "./components/location-section/location";
-import Partners from "./components/partners-section/partners";
-import Organizers from "./components/organizers-section/organizers";
-import Hosts from "./components/hosts-section/hosts";
-import Facilitators from "./components/facilitators-section/facilitators";
-import DevTeam from "./components/devTeam-section/devTeam";
-import WomenTechmakers from "./components/wtm-section/wtm";
+import "./App.css";
 import Attendees from "./components/attendee_section/attendee.jsx";
+import DevTeam from "./components/devTeam-section/devTeam";
+import Hero from "./components/hero-banner/hero";
+import Hosts from "./components/hosts-section/hosts";
+import Location from "./components/location-section/location";
+import NavBar from "./components/navbar/navbar";
+import Organizers from "./components/organizers-section/organizers";
 
 function App() {
   return (
