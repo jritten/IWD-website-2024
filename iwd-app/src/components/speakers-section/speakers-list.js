@@ -4,8 +4,8 @@ import KrissieKnight from "../../assets/speaker-imgs/KrissieKnight.jpeg";
 import AlissaSevrioukova from "../../assets/speaker-imgs/AlissaSevrioukova.jpeg";
 import EunkyungOh from "../../assets/speaker-imgs/EunkyungOh.jpg";
 import IdaByrdHill from "../../assets/speaker-imgs/IdaByrdHill.jpeg";
-import MelindaRushing from "../../assets/speaker-imgs/melinda.JPG";
-import AyaHasan from "../../assets/speaker-imgs/aya.JPG";
+import MelindaRushing from "../../assets/speaker-imgs/melinda.jpg";
+import AyaHasan from "../../assets/speaker-imgs/aya.jpg";
 
 import Bell from "../../assets/flowers/Bell.png";
 import BellBlue from "../../assets/flowers/bellBlue.png";

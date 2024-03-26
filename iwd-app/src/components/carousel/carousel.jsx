@@ -1,19 +1,19 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // import "swiper/css";
 // import "swiper/css/effect-coverflow";
 // import "swiper/css/pagination";
 // import "swiper/css/navigation";
-import "swiper/swiper.min.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
-import "./carousel.css";
+// import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 import slide_image_1 from "../../assets/carousel/img_1.jpg";
 import slide_image_2 from "../../assets/carousel/img_2.jpg";
 import slide_image_3 from "../../assets/carousel/img_3.jpg";
 import { Fade } from "@mui/material";
+import "./carousel.css";
 
 // const data = [
 //   {
@@ -69,7 +69,7 @@ function Carousel() {
           prevEl: ".swiper-button-prev",
           clickable: true,
         }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        // modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
         <SwiperSlide>

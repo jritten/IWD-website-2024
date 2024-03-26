@@ -1,10 +1,10 @@
 import React from "react";
 import "./partners.css";
 import "../../globalStyles.css";
-import SWELOGO from "../../assets/partner-imgs/SWE.PNG";
-import CEASARLOGO from "../../assets/partner-imgs/LittleCaesars.PNG";
-import NSBELOGO from "../../assets/partner-imgs/NSBE.PNG";
-import SHPELOGO from "../../assets/partner-imgs/SHPE.PNG";
+import SWELOGO from "../../assets/partner-imgs/SWE.png";
+import CEASARLOGO from "../../assets/partner-imgs/LittleCaesars.png";
+import NSBELOGO from "../../assets/partner-imgs/NSBE.png";
+import SHPELOGO from "../../assets/partner-imgs/SHPE.png";
 
 
 function Partners() {
