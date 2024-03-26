@@ -46,18 +46,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right, #946df0, #e87db3, #f3b178, #e87db3,#946df0);
+  /* background-image: linear-gradient(to right, #2480f0, #00dba2, #54a7ed, #54a7ed,#2480f0); */
+  background-color: #54a7ed;
   height: 2.8rem;
-  box-shadow: 5px 7px 4px 0px #00000026;
+  box-shadow: 0px 7px 4px 0px #00000029;
   margin-top: 30px;
   color: white;
   font-weight: 600;
   font-size: large;
   margin-top: 30px;
   cursor: pointer;
-  border: none;
   background-size: 300% 100%;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .tickets-btn-active{
   width: 70%;
@@ -76,6 +76,7 @@
 }
 
 .tickets-btn:hover {
+  background-image: linear-gradient(to right, #2480f0, #00dba2, #54a7ed, #54a7ed); 
   transition: all 0.5s ease-in-out 0s;
   background-position: 100% 0px;
 } 
