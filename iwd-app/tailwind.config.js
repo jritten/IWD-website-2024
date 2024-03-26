@@ -23,7 +23,7 @@ module.exports = {
       custom: ["Rock Salt"],
     },
     colors: {
-      "custom-purple": "#2480f0",
+      "custom-purple": "#165185",
     },
   },
   plugins: [],

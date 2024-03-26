@@ -753,7 +753,7 @@ video {
 
 .text-custom-purple {
   --tw-text-opacity: 1;
-  color: rgb(36 128 240 / var(--tw-text-opacity));
+  color: rgb(22 81 133 / var(--tw-text-opacity));
 }
 
 .transition {
