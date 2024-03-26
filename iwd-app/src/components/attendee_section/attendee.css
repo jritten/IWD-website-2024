@@ -32,7 +32,7 @@
 
 .attendee-div:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(241,245,249))
+  background: linear-gradient(to left, rgba(25, 37, 255, 0), rgb(241,245,249))
 }
 
 .attendee-div:after {
@@ -43,7 +43,7 @@
 .attendee-images {
   display: flex;
   margin-top: 20px;
-  animation: slide var(--animation-duration, 25s) linear infinite;
+  animation: slide var(--animation-duration, 30s) linear infinite;
 }
 
 

@@ -23,9 +23,9 @@ function App() {
       <Sessions />
       <Speakers />
       <Attendees />
+      <Organizers />
       <Hosts />
       <Partners />
-      <Organizers />
       {/* <Facilitators /> */}
       <DevTeam />
     </div>
