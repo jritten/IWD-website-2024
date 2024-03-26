@@ -5,9 +5,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      lineHeight:{
-        customh1: '1.3em',
-      }, 
+      lineHeight: {
+        customh1: "1.3em",
+      },
       padding: {
         woman: "13vw",
       },
@@ -23,8 +23,8 @@ module.exports = {
       custom: ["Rock Salt"],
     },
     colors: {
-      "custom-purple": "#946df0"
-    }
+      "custom-purple": "#2480f0",
+    },
   },
   plugins: [],
 };
