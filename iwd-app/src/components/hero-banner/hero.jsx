@@ -54,7 +54,7 @@ function Hero() {
               March 30th in Detroit, hosted at the DTE Headquarters. Inspire,
               empower, and connect with women in tech.
             </p>
-            <button className="btn tickets-btn">Get Tickets</button>
+            <button className="btn tickets-btn">rsvp now</button>
           </div>
         </div>
         {/* also background */}
