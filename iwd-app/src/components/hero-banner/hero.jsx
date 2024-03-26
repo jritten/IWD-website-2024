@@ -19,7 +19,11 @@ function Hero() {
   };
   
   return (
-    <div class="app-section hero-banner" style={{ marginTop: "55px" }}>
+    <div
+      id="hero-section"
+      class="app-section hero-banner"
+      style={{ marginTop: "55px" }}
+    >
       {" "}
       {/* marginTop offsets by exactly the height of Nav */}
       {/* The main responsive container */}
