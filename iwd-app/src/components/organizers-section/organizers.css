@@ -2,7 +2,9 @@
 
 .organizers-div {
     width: 100%;
-    background-color: #ffe7e1;
+    background-color: #c6e3ff;
+    padding: 20px;
+    padding-top: 30px;
 }
 
 .organizers-cards-container{

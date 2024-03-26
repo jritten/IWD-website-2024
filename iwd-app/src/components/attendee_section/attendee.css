@@ -10,13 +10,14 @@
 
 .attendee-div {
   overflow: hidden;
-  padding: 0;
+  padding: 20px;
   background: rgb(255, 255, 255);
   white-space: nowrap;
   position: relative;
   max-height: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-bottom: 30px;
 }
 
