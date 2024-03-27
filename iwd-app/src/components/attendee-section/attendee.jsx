@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from "react";
-import "./attendee.css";
+import React, { useEffect, useState } from 'react';
+import Marquee from 'react-fast-marquee';
+import './attendee.css';
 
 function Attendees() {
   const [imagePaths, setImagePaths] = useState([]);
 
   useEffect(() => {
     const importImages = async () => {
-      const totalImages = 20; // no of logos in folder
+      const totalImages = 20; // no. of logos 
       const importedImages = [];
 
       for (let i = 1; i <= totalImages; i++) {
@@ -14,8 +15,7 @@ function Attendees() {
         importedImages.push(image.default); 
       }
 
-      
-      setImagePaths([...importedImages, ...importedImages]);
+      setImagePaths(importedImages);
     };
 
     importImages();
@@ -24,12 +24,13 @@ function Attendees() {
   return (
     <div className="app-section attendee-div">
       <div className="attendee-title">Attendees</div>
-      <div className="attendee-images">
-        {/* Render the attendee images */}
+      <Marquee direction="left" speed={100}>
         {imagePaths.map((path, index) => (
-          <img src={path} alt={`Attendee ${index + 1}`} className="attendee-image" key={index} />
+          <div key={index} className="attendee-image-wrapper">
+            <img src={path} alt={`Attendee ${index + 1}`} className="attendee-image" />
+          </div>
         ))}
-      </div>
+      </Marquee>
     </div>
   );
 }

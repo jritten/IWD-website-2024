@@ -1,0 +1,28 @@
+.attendee-image-wrapper {
+  margin: 0 12px; 
+}
+
+.attendee-image {
+  max-height: 100px; 
+  width: auto; 
+}
+
+.attendee-div:before,
+.attendee-div:after {
+  position: absolute;
+  top: 0;
+  width: 80px; 
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.attendee-div:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(225, 209, 234));
+}
+
+.attendee-div:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(225, 209, 234));
+}

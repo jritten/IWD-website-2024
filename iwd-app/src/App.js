@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
-import Attendees from "./components/attendee_section/attendee.jsx";
+import Attendees from "./components/attendee-section/attendee";
 import DevTeam from "./components/devTeam-section/devTeam";
 import Hero from "./components/hero-banner/hero";
 import Hosts from "./components/hosts-section/hosts";
 import Location from "./components/location-section/location";
 import NavBar from "./components/navbar/navbar";
 import Organizers from "./components/organizers-section/organizers";
+import Partners from "./components/partners-section/partners";
+import Sessions from "./components/sessions-section/sessions";
+import Speakers from "./components/speakers-section/speakers";
 
 function App() {
   return (
