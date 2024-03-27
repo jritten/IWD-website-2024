@@ -43,7 +43,7 @@ function Attendees() {
 
       <Marquee 
         direction="left" 
-        speed={300} 
+        speed={350} 
         className="marquee-container" 
         pauseOnHover={!isHovered} 
         pauseOnClick={true} 
