@@ -1,17 +1,22 @@
-.attendee-image-wrapper {
-  margin: 0 12px; 
+.app-section {
+  width: 100%;
 }
 
-.attendee-image {
-  max-height: 100px; 
-  width: auto; 
+.attendee-div {
+  overflow: hidden;
+  padding: 0;
+  background-color: rgb(220, 212, 201);
+  position: relative;
+  height: 400px; 
+  border-radius: 10px;
 }
+
 
 .attendee-div:before,
 .attendee-div:after {
   position: absolute;
   top: 0;
-  width: 80px; 
+  width: 250px;
   height: 100%;
   content: "";
   z-index: 2;
@@ -19,10 +24,32 @@
 
 .attendee-div:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(225, 209, 234));
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), blanchedalmond); 
 }
 
 .attendee-div:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(225, 209, 234));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), blanchedalmond); 
+}
+
+.marquee-container {
+  display: flex;
+  align-items: center;
+  gap: 30px; 
+  padding: 10px;
+}
+
+.attendee-image-wrapper {
+  margin-right: 30px; 
+}
+
+
+.attendee-image {
+  height: 100px; 
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.attendee-image:hover {
+  transform: translateY(-5px); 
 }
