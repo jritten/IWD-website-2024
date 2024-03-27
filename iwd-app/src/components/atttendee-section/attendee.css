@@ -14,7 +14,7 @@
   background: rgb(210, 188, 230); 
   white-space: nowrap;
   position: relative;
-  max-height: 30%;
+  max-height: 40%;
 }
 
 .attendee-div:before,
