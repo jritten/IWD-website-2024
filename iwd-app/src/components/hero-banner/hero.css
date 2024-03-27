@@ -46,8 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: linear-gradient(to right, #2480f0, #00dba2, #54a7ed, #54a7ed,#2480f0); */
-  background-color: #54a7ed;
+  background-image: linear-gradient(to right, #2480f0, #00dba2, #54a7ed, #54a7ed); 
   height: 2.8rem;
   box-shadow: 0px 7px 4px 0px #00000029;
   margin-top: 30px;

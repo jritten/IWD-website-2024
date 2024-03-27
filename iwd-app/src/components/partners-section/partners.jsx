@@ -11,18 +11,18 @@ function Partners() {
   return (
     /* app-section style is necessary, please do not delete */
     <div id="partners-div" className="app-section partners-div">
-      <div class="header-container">
-        <div class="section-title-2">Partners</div>
+      <div className="header-container">
+        <div className="section-title-2">Partners</div>
         <link
           href="https://fonts.googleapis.com/css?family=Rock+Salt:regular"
           rel="stylesheet"
         />
       </div>
-      <div class="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-5 md:gap-x-10">
+      <div className="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-5 md:gap-x-10">
         <a
           href="https://swe.org/"
           target="_blank"
-          class="flex items-center justify-center md:flex-1"
+          className="flex items-center justify-center md:flex-1"
         >
           <img
             alt="SWE"
@@ -34,7 +34,7 @@ function Partners() {
         <a
           href="https://shpe.org/"
           target="_blank"
-          class="flex items-center justify-center md:flex-1"
+          className="flex items-center justify-center md:flex-1"
         >
           <img
             alt="SHPE"
@@ -43,11 +43,11 @@ function Partners() {
           />
         </a>
       </div>
-      <div class="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-10 md:gap-x-10">
+      <div className="flex items-center flex-col mx-10 my-20 space-y-10 sm:flex-row sm: mx-0 sm: my-10 md:gap-x-10">
         <a
           href="https://www.nsbe.org/"
           target="_blank"
-          class="flex items-center justify-center md:flex-1"
+          className="flex items-center justify-center md:flex-1"
         >
           <img
             alt="NSBE"
@@ -59,7 +59,7 @@ function Partners() {
         <a
           href="https://littlecaesars.com/en-us/careers/"
           target="_blank"
-          class="flex items-center justify-center md:flex-1"
+          className="flex items-center justify-center md:flex-1"
         >
           <img
             alt="LittleCaesarLogo"

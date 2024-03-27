@@ -37,13 +37,13 @@ function SpeakerCard({
 
   return (
     <div
-      className="speaker-card"
+      className="speaker-card w-[210px] min-h-[3rem] lg:w-[310px] lg:min-h-[410px] "
       onClick={handleCardClick}
       style={{
         cursor: description ? (showModal ? "default" : "pointer") : "default",
       }}
     >
-      <div className="speaker-image">
+      <div className="speaker-image rounded-[0px] w-[100px] h-[100px] lg:w-[172px] lg:h-[172px]">
         <img src={imageurl} alt="Speaker image" />
       </div>
       <div className="speaker-name">{name || "No Name"}</div>
