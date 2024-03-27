@@ -7,9 +7,6 @@
     justify-self: center;
 
     box-sizing: border-box;
-    /* width: 310px; /* Default size for md and larger */
-    /* min-height: 410px; Default size for md and larger */ 
-    /* margin: 40px; */
     cursor: pointer;
     background: #FFFFFF;
     border: 2px solid #000000;
@@ -20,8 +17,6 @@
 
 .speaker-image{
     box-sizing: border-box;
-    /* width: 172px;
-    height: 172px; */
     margin: 5px;
 }
 
@@ -40,8 +35,6 @@
     width: 80%;
     font-style: normal;
     font-weight: 700;
-    /* font-size: 30px; */
-    /* line-height: 44px; */
     text-align: center;
     margin: 2px;
     color: #252525;
@@ -53,8 +46,6 @@
     display: inline-block;
     font-style: normal;
     font-weight: 700;
-    /* font-size: 18px; */
-    /* line-height: 21px; */
     text-align: center;
     background: #2480F0;
     border-radius: 5px;
@@ -65,8 +56,6 @@
 .speaker-company{
     font-style: normal;
     font-weight: 700;
-    /* font-size: 18px; */
-    /* line-height: 21px; */
     text-align: center;
     margin: 2px;
     color: #7E7E7E;
