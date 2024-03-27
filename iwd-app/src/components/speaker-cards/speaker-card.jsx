@@ -31,7 +31,7 @@ function SpeakerCard({
 
   return (
     <div
-      className="speaker-card min-h-[330px] sm:m-10 mx-4 my-6 sm:w-[310px] sm:min-h-[410px] w-5/6 lg:w-[310px] lg:min-h-[410px]"
+      className="speaker-card px-3 pb-2 min-h-[300px] sm:m-10 sm:p-3 mx-4 my-6 sm:w-[310px] sm:min-h-[410px] w-5/6 lg:w-[310px] lg:min-h-[410px]"
       onClick={handleCardClick}
       style={{
         cursor: description ? (showModal ? "default" : "pointer") : "default",
@@ -46,7 +46,7 @@ function SpeakerCard({
       <div className="speaker-position text-sm leading-4  my-3 sm:text-lg  sm:leading-10">
         {position || "No Position"}
       </div>
-      <div className="speaker-company text-xs leading-4  my-3 sm:text-lg  sm:leading-10">
+      <div className="speaker-company text-xs leading-4  my-3 sm:text-lg  sm:leading-5">
         {company || "No Company"}
       </div>
       {showModal && description && (
