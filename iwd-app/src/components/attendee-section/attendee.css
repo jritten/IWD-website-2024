@@ -35,12 +35,12 @@
 .marquee-container {
   display: flex;
   align-items: center;
-  gap: 50px; 
+  gap: 80px; 
   padding: 10px;
 }
 
 .attendee-image-wrapper {
-  margin-right: 50px; 
+  margin-right: 80px; 
 }
 
 
