@@ -10,7 +10,9 @@
     width: 234px; /* Adjusted from 293px */
     height: 328px; /* Adjusted from 410px */
     background-color: #FFFFFF;
-    margin: 32px; /* Adjusted from 40px */
+
+    /* Adjusted from 40px */
+    margin: 32px;
 
     border: 2px solid #000000;
     border-radius: 19px; /* Adjusted from 24px */
