@@ -4,8 +4,8 @@ import linkedInIcon from "../../assets/linkedin-icon.png";
 
 function DevTeamCard({ imageurl, name, linkedIn, status }) {
   return (
-    <div className="devTeam-card">
-      <div className="devTeam-image">
+    <div className="devTeam-card sm:w-[234px] h-[328px] m-8">
+      <div className="devTeam-image sm:w-[203px] h-[225px] m-4">
         <img src={imageurl} alt="DevTeam image" />
         <div className="popup">
           <p>
