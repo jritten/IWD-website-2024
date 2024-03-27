@@ -6,6 +6,7 @@ import './attendee.css';
 function Attendees() {
   const [imagePaths, setImagePaths] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
+  const [isPaused, setIsPaused] = useState(false); // pause/play contril
 
   useEffect(() => {
     const importImages = async () => {
@@ -27,16 +28,33 @@ function Attendees() {
     setIsHovered(!isHovered);
   };
 
+  const handleTogglePause = () => {
+    setIsPaused(!isPaused);
+  };
+
   return (
     <div 
-      className="app-section attendee-div" 
+      className="attendee-div" 
       id="attendee-section" 
       onMouseEnter={handleHover} 
       onMouseLeave={handleHover}
     >
       <div className="section-title">Attendees</div>
 
-      <Marquee direction="left" speed={100} className="marquee-container" pauseOnHover={!isHovered}>
+      <Marquee 
+        direction="left" 
+        speed={150} 
+        className="marquee-container" 
+        pauseOnHover={!isHovered} 
+        pauseOnClick={true} 
+        pauseOnTouch={true} 
+        pauseOnFocus={true} 
+        pauseOnResize={true} 
+        pauseOnScroll={true} 
+        pause={isPaused} 
+        onClick={handleTogglePause} 
+        onTouchStart={handleTogglePause} 
+      >
         {imagePaths.map((path, index) => (
           <div key={index} className="attendee-image-wrapper">
             <img src={path} alt={`Attendee ${index + 1}`} className="attendee-image" />

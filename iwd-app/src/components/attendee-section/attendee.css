@@ -7,7 +7,7 @@
   padding: 0;
   background-color: rgb(220, 212, 201);
   position: relative;
-  height: 400px; 
+  height: 450px; 
   border-radius: 10px;
 }
 
@@ -24,7 +24,7 @@
 
 .attendee-div:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), blanchedalmond); 
+  background: linear-gradient(to left, rgba(00, 255, 255, 0), blanchedalmond); 
 }
 
 .attendee-div:after {
@@ -35,17 +35,17 @@
 .marquee-container {
   display: flex;
   align-items: center;
-  gap: 30px; 
+  gap: 50px; 
   padding: 10px;
 }
 
 .attendee-image-wrapper {
-  margin-right: 30px; 
+  margin-right: 50px; 
 }
 
 
 .attendee-image {
-  height: 100px; 
+  height: 150px; 
   width: auto;
   transition: transform 0.3s ease;
 }
