@@ -6,7 +6,7 @@ import './attendee.css';
 function Attendees() {
   const [imagePaths, setImagePaths] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
-  const [isPaused, setIsPaused] = useState(false); // pause/play contril
+  const [isPaused, setIsPaused] = useState(false); // pause/play control
 
   useEffect(() => {
     const importImages = async () => {
@@ -36,14 +36,14 @@ function Attendees() {
     <div 
       className="attendee-div" 
       id="attendee-section" 
-      onMouseEnter={handleHover} 
-      onMouseLeave={handleHover}
+      onTouchStart={handleTogglePause} 
+      onTouchEnd={handleTogglePause}
     >
       <div className="section-title">Attendees</div>
 
       <Marquee 
         direction="left" 
-        speed={150} 
+        speed={300} 
         className="marquee-container" 
         pauseOnHover={!isHovered} 
         pauseOnClick={true} 
@@ -53,7 +53,6 @@ function Attendees() {
         pauseOnScroll={true} 
         pause={isPaused} 
         onClick={handleTogglePause} 
-        onTouchStart={handleTogglePause} 
       >
         {imagePaths.map((path, index) => (
           <div key={index} className="attendee-image-wrapper">
