@@ -6,6 +6,7 @@ import SessionCard from "../session-cards/session-card";
 import talkSeminarsCards from "./lightning-talks";
 import agendaCards from "./full-agenda";
 import phone1 from "../../assets/designs/phone-1.png";
+import tab from "../../assets/designs/tab.png";
 
 
 function Sessions() {
@@ -18,7 +19,10 @@ function Sessions() {
   return (
     <div id="sessions-div" className="app-section sessions-div">
       <div className="header-container">
-        <div className="section-title">Sessions</div>
+        <div className="section-title">
+          Sessions 
+          <img class="h-[40px] mx-4" src={tab}></img>
+        </div>
       </div>
       <div className="tabs-container">
         <div
@@ -70,7 +74,10 @@ function Sessions() {
             </div>
           ))}
       </div>
-      <img class="absolute right-0 bottom-0 w-[400px] lg:w-[360px]" src={phone1}></img>
+      <img
+        class="absolute right-0 bottom-0 w-[400px] lg:w-[360px]"
+        src={phone1}
+      ></img>
     </div>
   );
 }
