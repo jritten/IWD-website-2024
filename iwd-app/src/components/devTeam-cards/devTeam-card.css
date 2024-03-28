@@ -7,10 +7,10 @@
     justify-self: center;
 
     box-sizing: border-box;
-    width: 234px; /* Adjusted from 293px */
-    height: 328px; /* Adjusted from 410px */
+    /* width: 234px; Adjusted from 293px */
+    /* height: 328px; Adjusted from 410px */
     background-color: #FFFFFF;
-    margin: 32px; /* Adjusted from 40px */
+    /* margin: 32px; Adjusted from 40px */
 
     border: 2px solid #000000;
     border-radius: 19px; /* Adjusted from 24px */
@@ -25,9 +25,9 @@
 .devTeam-image{
     position: relative;
     box-sizing: border-box;
-    width: 203px; /* Adjusted from 254px */
-    height: 225px; /* Adjusted from 281px */
-    margin: 16px; /* Adjusted from 20px */
+    /* width: 203px; Adjusted from 254px */
+    /* height: 225px; Adjusted from 281px */
+    /* margin: 16px; Adjusted from 20px */
     overflow: hidden;
 }
 
@@ -55,7 +55,6 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 25%;
     background-color: rgb(0, 0, 0); 
     color: #ffffff; 
     padding: 10px;
@@ -66,8 +65,8 @@
 }
 
 .popup p{
-    font-size: 12px;
-    text-align: center;
+    /* font-size: 12px; */
+    /* text-align: center; */
 }
 
 .devTeam-card:hover .popup {

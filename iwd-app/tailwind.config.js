@@ -22,6 +22,10 @@ module.exports = {
     fontFamily: {
       custom: ["Rock Salt"],
     },
+    fontSize: {
+        '10px': '10px',
+        '12px':'12px',
+    },
     colors: {
       "custom-purple": "#165185",
     },
