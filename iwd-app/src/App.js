@@ -28,6 +28,9 @@ function App() {
       <Partners />
       {/* <Facilitators /> */}
       <DevTeam />
+      <div style={{height: 200}}>
+
+      </div>
     </div>
   );
 }
