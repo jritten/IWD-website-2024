@@ -4,6 +4,8 @@ import devTeamData from "./devTeam-list";
 import DevTeamCard from "../devTeam-cards/devTeam-card";
 import "../../globalStyles.css";
 import devicon from "../../assets/designs/devicon.png";
+import file from "../../assets/designs/file-icon.png";
+
 
 
 function DevTeam() {
@@ -18,6 +20,10 @@ function DevTeam() {
           <DevTeamCard key={index} {...devMember} />
         ))}
       </div>
+      <img
+              class="absolute invisible lg:visible right-0 top-1 h-[180px]"
+        src={file}
+      ></img>
     </div>
   );
 }
