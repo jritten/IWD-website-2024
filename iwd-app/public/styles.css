@@ -934,6 +934,10 @@ code {
     top: 0.25rem;
   }
 
+  .sm\:left-0 {
+    left: 0px;
+  }
+
   .sm\:m-8 {
     margin: 2rem;
   }
