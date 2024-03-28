@@ -1084,6 +1084,10 @@ code {
 }
 
 @media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
   .md\:mx-5 {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
@@ -1162,6 +1166,10 @@ code {
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:absolute {
     position: absolute;
   }

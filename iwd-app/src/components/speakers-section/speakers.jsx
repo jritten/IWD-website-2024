@@ -24,7 +24,7 @@ function Speakers() {
         ))}
       </div>
       <img class="absolute right-0 bottom-0 h-[2/3] w-1/3" src={blob2}></img>
-      <img class="absolute right-20 bottom-0 h-[400px]" src={box}></img>
+      <img class="absolute invisible lg:visible right-20 bottom-0 h-[400px]" src={box}></img>
     </div>
   );
 }
