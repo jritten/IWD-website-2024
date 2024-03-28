@@ -1,13 +1,14 @@
 import React from "react";
-import "./devTeam-card.css";
+import "./devTeam-card.css"; // Ensure this CSS file doesn't conflict with Tailwind styles.
 import linkedInIcon from "../../assets/linkedin-icon.png";
 
 function DevTeamCard({ imageurl, name, linkedIn, status }) {
   return (
-    <div className="devTeam-card sm:w-[234px] h-[328px] m-8">
-      <div className="devTeam-image sm:w-[203px] h-[225px] m-4">
+    // Adjust the card size and margin for smaller screens using Tailwind's responsive design utilities
+    <div className="devTeam-card  min-h-[253px] px-3 py-3 mx-4 my-6  w-5/6 sm:m-8 sm:w-[234px] sm:h-[328px]">
+      <div className="devTeam-image mb-[10px] w-[130px] h-[130px] sm:w-[203px] sm:h-[225px]">
         <img src={imageurl} alt="DevTeam image" />
-        <div className="popup">
+        <div className="popup text-center text-6px sm:text-12px">
           <p>
             University of Michigan-Dearborn <br />
             {status || "Junior"}

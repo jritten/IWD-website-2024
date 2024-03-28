@@ -66,8 +66,8 @@
 }
 
 .popup p{
-    font-size: 12px;
-    text-align: center;
+    /* font-size: 12px; */
+    /* text-align: center; */
 }
 
 .devTeam-card:hover .popup {
