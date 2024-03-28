@@ -1,8 +1,11 @@
+#partners-title{
+  color: rgb(28, 28, 28);
+}
 .partners-div {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgb(241 245 249);
+  background-color: rgb(255, 255, 255);
   padding: 30px;
 }
 

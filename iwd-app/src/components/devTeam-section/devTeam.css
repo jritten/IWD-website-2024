@@ -1,8 +1,13 @@
+#devteam-title{
+    color: white;
+}
 .devTeam-div {
     width: 100%;
     background-color: #cae6ff;
     padding: 20px;
     padding-top: 30px;
+    background: linear-gradient(315deg, #03e5b7 10%, #54a7ed 74%); 
+    position: relative;
 }
 
 .devTeam-text {
@@ -19,9 +24,10 @@
 .devTeam-cards-container{
     display: grid;
     width: 100%;
+    height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 @media only screen and (max-width:1400px){
@@ -38,6 +44,6 @@
 
 @media only screen and (max-width:750px){
     .devTeam-cards-container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }

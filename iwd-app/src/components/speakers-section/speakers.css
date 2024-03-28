@@ -1,8 +1,12 @@
+#speaker-title{
+    color: white;
+}
 .speakers-div {
     width:100%;
-    background-color: #cae6ff;
+    background: linear-gradient(315deg, #03e5b7 10%, #54a7ed 74%); 
     padding: 20px;
     padding-top: 30px;
+    position: relative;
 }
 
 
