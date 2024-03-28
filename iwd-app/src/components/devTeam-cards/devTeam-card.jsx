@@ -8,7 +8,7 @@ function DevTeamCard({ imageurl, name, linkedIn, status }) {
     <div className="devTeam-card  min-h-[253px] px-3 py-3 mx-4 my-6  w-5/6 sm:m-8 sm:w-[234px] sm:h-[328px]">
       <div className="devTeam-image mb-[10px] w-[130px] h-[130px] sm:w-[203px] sm:h-[225px]">
         <img src={imageurl} alt="DevTeam image" />
-        <div className="popup text-center text-6px sm:text-12px">
+        <div className="popup text-center text-10px h-2/4 sm:text-12px sm:h-1/4">
           <p>
             University of Michigan-Dearborn <br />
             {status || "Junior"}

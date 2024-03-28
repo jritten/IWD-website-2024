@@ -23,7 +23,7 @@ module.exports = {
       custom: ["Rock Salt"],
     },
     fontSize: {
-        '6px': '7px',
+        '10px': '10px',
         '12px':'12px',
     },
     colors: {

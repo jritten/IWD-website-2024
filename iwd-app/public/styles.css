@@ -634,6 +634,10 @@ video {
   display: none;
 }
 
+.h-2\/4 {
+  height: 50%;
+}
+
 .h-36 {
   height: 9rem;
 }
@@ -774,12 +778,8 @@ video {
   font-size: 3.4vw;
 }
 
-.text-12px {
-  font-size: 12px;
-}
-
-.text-6px {
-  font-size: 7px;
+.text-10px {
+  font-size: 10px;
 }
 
 .font-medium {
@@ -834,6 +834,10 @@ code {
     margin: 2rem;
   }
 
+  .sm\:h-1\/4 {
+    height: 25%;
+  }
+
   .sm\:h-\[172px\] {
     height: 172px;
   }
@@ -882,12 +886,12 @@ code {
     padding-bottom: 0px;
   }
 
-  .sm\:text-\[5vw\] {
-    font-size: 5vw;
-  }
-
   .sm\:text-12px {
     font-size: 12px;
+  }
+
+  .sm\:text-\[5vw\] {
+    font-size: 5vw;
   }
 
   .sm\:font-medium {
