@@ -23,7 +23,7 @@ function App() {
       <Sessions />
       <Speakers />
       <Attendees />
-      <Organizers />
+      <Organizers />`
       <Hosts />
       <Partners />
       {/* <Facilitators /> */}

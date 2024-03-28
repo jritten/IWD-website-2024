@@ -36,7 +36,11 @@ function Attendees() {
             <img
               src={path}
               alt={`Attendee ${index + 1}`}
-              className="attendee-image"
+              className="h-10 mx-2
+                sm:h-20 sm:mx-4
+                md:h-30 md:mx-6
+                lg:h-30 lg:mx-8
+                "
               key={index}
             />
           ))}
