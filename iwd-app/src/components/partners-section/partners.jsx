@@ -12,7 +12,7 @@ function Partners() {
     /* app-section style is necessary, please do not delete */
     <div id="partners-div" className="app-section partners-div">
       <div class="header-container">
-        <div class="section-title-2">Partners</div>
+        <div class="section-title">Partners</div>
         <link
           href="https://fonts.googleapis.com/css?family=Rock+Salt:regular"
           rel="stylesheet"

@@ -8,7 +8,7 @@ function Hosts() {
   return (
     <div id="hosts-div" className="app-section hosts-div md:h-65">
       {/* Title */}
-      <div className=" section-title-2 ">Hosts</div>
+      <div className=" section-title">Hosts</div>
       {/* Logo container */}
       <div class="flex flex-col mx-20 my-5 md:flex-row md:my-20 md:mx-5">
         <div className="flex w-fit h-42 flex-col items-center md:flex-row md:justify-around">

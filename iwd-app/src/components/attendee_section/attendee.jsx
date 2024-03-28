@@ -25,7 +25,7 @@ function Attendees() {
   return (
     <div id="attendee-div" className="app-section attendee-div">
       <div className="attendees-column">
-        <div className="section-title-2">Attendees</div>
+        <div className="section-title">Attendees</div>
         <div className="attendee-images">
           {/* Render the attendee images */}
           {imagePaths.map((path, index) => (

@@ -7,8 +7,7 @@ import blob1 from "../../assets/designs/blob1.png";
 import blob2 from "../../assets/designs/blob2.png";
 import quotes from "../../assets/designs/quotes.png";
 import box from "../../assets/designs/boxes-1.png";
-
-
+import bridge from "../../assets/designs/bridge.png";
 
 function Speakers() {
   return (
@@ -24,7 +23,7 @@ function Speakers() {
         ))}
       </div>
       <img class="absolute right-0 bottom-0 h-[2/3] w-1/3" src={blob2}></img>
-      <img class="absolute invisible lg:visible right-20 bottom-0 h-[400px]" src={box}></img>
+      <img class="absolute invisible lg:visible right-0 bottom-0 h-[400px]" src={bridge}></img>
     </div>
   );
 }
