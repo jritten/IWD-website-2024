@@ -25,7 +25,7 @@ function Organizers() {
         ))}
       </div>
       <img
-        class="absolute bottom-0 right-0 sm:top-0 sm:left-0 w-[400px] lg:w-[360px]"
+        class="absolute bottom-0 left-0 sm:top-0  w-[400px] lg:w-[360px]"
         src={branch1}
       ></img>
       <img
