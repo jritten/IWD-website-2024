@@ -1,7 +1,7 @@
 import React from "react";
 import "../../globalStyles.css";
 import FirstHost from "../../assets/host/COMPES-host.jpg";
-import SecondHost from "../../assets/host/DTE-host.jpg";
+import SecondHost from "../../assets/host/DTE-host.png";
 import "./hosts.css";
 
 function Hosts() {

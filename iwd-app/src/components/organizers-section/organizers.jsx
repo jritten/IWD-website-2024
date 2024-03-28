@@ -10,6 +10,7 @@ import bridge from "../../assets/designs/bridge.png";
 
 
 
+
 function Organizers() {
   return (
     /* app-section style is necessary, please do not delete */
@@ -24,7 +25,7 @@ function Organizers() {
         ))}
       </div>
       <img
-        class="absolute right-0 top-0 w-[400px] lg:w-[360px]"
+        class="absolute bottom-0 right-0 sm:top-0 w-[400px] lg:w-[360px]"
         src={branch1}
       ></img>
       <img
