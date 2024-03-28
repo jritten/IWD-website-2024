@@ -3,7 +3,7 @@
 }
 .speakers-div {
     width:100%;
-    background-image: linear-gradient(315deg, #03e5b7 0%, #037ade 74%);    padding: 20px;
+    background-image: linear-gradient(315deg,#ffffff, #03e5b7 10%, #037ade 74%);    padding: 20px;
     padding-top: 30px;
     position: relative;
 }

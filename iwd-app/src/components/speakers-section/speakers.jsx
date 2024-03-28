@@ -6,6 +6,8 @@ import speakersData from "./speakers-list.js";
 import blob1 from "../../assets/designs/blob1.png";
 import blob2 from "../../assets/designs/blob2.png";
 import quotes from "../../assets/designs/quotes.png";
+import box from "../../assets/designs/boxes-1.png";
+
 
 
 function Speakers() {
@@ -22,6 +24,7 @@ function Speakers() {
         ))}
       </div>
       <img class="absolute right-0 bottom-0 h-[2/3] w-1/3" src={blob2}></img>
+      <img class="absolute right-20 bottom-0 h-[400px]" src={box}></img>
     </div>
   );
 }
