@@ -29,7 +29,7 @@ function Organizers() {
         src={branch1}
       ></img>
       <img
-        class="absolute invisible lg:visible left-0 bottom-0 h-[380px]"
+        class="absolute invisible lg:visible left-0 bottom-0 h-[300px]"
         src={bridge}
       ></img>
     </div>

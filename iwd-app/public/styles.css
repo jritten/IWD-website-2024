@@ -734,6 +734,18 @@ video {
   height: 1/3;
 }
 
+.h-\[0px\] {
+  height: 0px;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
 .min-h-\[253px\] {
   min-height: 253px;
 }
@@ -940,6 +952,10 @@ code {
 
   .sm\:h-\[180px\] {
     height: 180px;
+  }
+
+  .sm\:h-\[150px\] {
+    height: 150px;
   }
 
   .sm\:w-\[203px\] {

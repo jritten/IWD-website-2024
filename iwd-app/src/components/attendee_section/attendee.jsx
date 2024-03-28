@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./attendee.css";
 import "../../globalStyles.css";
+import check from "../../assets/designs/check.png";
 
 function Attendees() {
   const [imagePaths, setImagePaths] = useState([]);
@@ -25,7 +26,10 @@ function Attendees() {
   return (
     <div id="attendee-div" className="app-section attendee-div">
       <div className="attendees-column">
-        <div className="section-title">Attendees</div>
+        <div className="section-title">
+          Attendees
+          <img class="h-[45px] mx-4" src={check}></img>
+        </div>
         <div className="attendee-images">
           {/* Render the attendee images */}
           {imagePaths.map((path, index) => (
