@@ -5,6 +5,7 @@ import SWELOGO from "../../assets/partner-imgs/SWE.PNG";
 import CEASARLOGO from "../../assets/partner-imgs/LittleCaesars.PNG";
 import NSBELOGO from "../../assets/partner-imgs/NSBE.PNG";
 import SHPELOGO from "../../assets/partner-imgs/SHPE.PNG";
+import triangles from "../../assets/designs/triangles.png";
 
 
 function Partners() {
@@ -12,7 +13,10 @@ function Partners() {
     /* app-section style is necessary, please do not delete */
     <div id="partners-div" className="app-section partners-div">
       <div class="header-container">
-        <div class="section-title-2">Partners</div>
+        <div class="section-title" id="partners-title">
+          Partners
+          <img class="h-[60px] mx-4" src={triangles}></img>
+        </div>
         <link
           href="https://fonts.googleapis.com/css?family=Rock+Salt:regular"
           rel="stylesheet"

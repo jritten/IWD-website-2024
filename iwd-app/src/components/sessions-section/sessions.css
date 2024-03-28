@@ -8,6 +8,7 @@
   padding: 20px;
   padding-bottom: 90px;
   align-items: center;
+  position: relative;
 }
 
 .tabs-container {

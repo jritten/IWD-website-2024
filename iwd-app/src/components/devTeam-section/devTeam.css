@@ -1,8 +1,13 @@
+#devteam-title{
+    color: white;
+}
 .devTeam-div {
     width: 100%;
     background-color: #cae6ff;
     padding: 20px;
     padding-top: 30px;
+    background: linear-gradient(315deg, #03e5b7 10%, #54a7ed 74%); 
+    position: relative;
 }
 
 .devTeam-text {
