@@ -25,11 +25,11 @@ function Organizers() {
         ))}
       </div>
       <img
-        class="absolute bottom-0 right-0 sm:top-0 w-[400px] lg:w-[360px]"
+        class="absolute bottom-0 left-0 w-2/3 sm:top-0 lg:w-[400px] lg:w-[360px]"
         src={branch1}
       ></img>
       <img
-        class="absolute invisible lg:visible left-0 bottom-0 h-[300px]"
+        class="absolute invisible lg:visible right-0 bottom-0 h-[300px]"
         src={bridge}
       ></img>
     </div>
