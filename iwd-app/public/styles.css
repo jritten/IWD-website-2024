@@ -632,6 +632,14 @@ video {
   height: 100%;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -759,6 +767,10 @@ code {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-\[100px\] {
+    height: 100px;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
