@@ -56,7 +56,7 @@ function Attendees() {
       >
         {imagePaths.map((path, index) => (
           <div key={index} className="attendee-image-wrapper">
-            <img src={path} alt={`Attendee ${index + 1}`} className="attendee-image" />
+            <img src={path} alt={`Attendee ${index + 1}`} className="attendee-image h-[80px] sm:h-[100px]" />
           </div>
         ))}
       </Marquee>

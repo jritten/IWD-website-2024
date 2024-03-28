@@ -44,7 +44,7 @@
 
 
 .attendee-image {
-  height: 100px; 
+  /* height: 100px;  */
   width: auto;
   transition: transform 0.30s ease;
 }
