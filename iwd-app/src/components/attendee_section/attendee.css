@@ -10,7 +10,7 @@
 
 .attendee-div {
   overflow: hidden;
-  padding: 20px;
+  /* padding: 20px; */
   background: rgb(241 245 249);
   white-space: nowrap;
   position: relative;
@@ -31,7 +31,7 @@
   z-index: 2;
 }
 
-.attendee-div:before {
+/* .attendee-div:before {
   left: 0;
   background: linear-gradient(to left, rgba(25, 37, 255, 0), rgb(241,245,249))
 }
@@ -39,17 +39,16 @@
 .attendee-div:after {
   right: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(241,245,249))
-}
+} */
 
 .attendee-images {
   display: flex;
-  margin-top: 20px;
-  animation: slide var(--animation-duration, 30s) linear infinite;
+  /* margin-top: 20px; */
+  animation: slide var(--animation-duration, 60s) linear infinite;
 }
 
 
 .attendee-image {
-  height: 100px; 
   margin: 0 40px;
 }
 
@@ -58,6 +57,6 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-200%);
   }
 }
