@@ -6,6 +6,8 @@ import EunkyungOh from "../../assets/speaker-imgs/EunkyungOh.jpg";
 import IdaByrdHill from "../../assets/speaker-imgs/IdaByrdHill.jpeg";
 import MelindaRushing from "../../assets/speaker-imgs/melinda.JPG";
 import AyaHasan from "../../assets/speaker-imgs/aya.JPG";
+import TraceyWilliams from "../../assets/speaker-imgs/tracey.png";
+
 
 import Bell from "../../assets/flowers/Bell.png";
 import BellBlue from "../../assets/flowers/bellBlue.png";
@@ -86,6 +88,15 @@ const speakersData = [
     description:
       "Ida Byrd-Hill is a futurist, an urban economist, and CEO of Automation Workz, which has been ranked in the Top 10 Cybersecurity Bootcamps in the US. graduate of University of Michigan - Ann Arbor with a BA in Economics and Jack Welch Management Institute at Strayer University with an MBA. Ida became a Cobol expert leading the automation of several banks and retail chains. She is the author of 8 books, including Invisible Talent Market-Solving the Talent Shortage Without Outsourcing and Visas. She serves as a Detroit Regional Chamber Director and member of, AIAG, ATD, Electric Vehicle Jobs Academy, German American Business Council, NABJ, NMSDC and SHRM. Contact: (313) 483-2126; ida@autoworkz.org; www.autoworkz.org",
     flower: rose,
+  },
+  {
+    imageurl: TraceyWilliams,
+    name: "Tracey Williams",
+    position: "Consultant",
+    company: "Oakland Thrive",
+    description:
+      "Community Outreach | Entrepreneur | Art Advocate Tracey F. Williams has years of experience in the corporate world yet is known for her unwavering commitment to community outreach, supporting entrepreneurship, and work with artists; all with a passion for creating positive change. Tracey obtained her BA from Michigan State University and earned her MS in Internet Marketing at Full Sail University. Yet, it was while working with the Charles H. Wright Museum of African American History, Tracey met the urgency to create opportunity for local Black businesses, artists, and artisans and focused efforts to showcase emerging local artists, which had not been done before. She also launched the museum’s ecommerce division, reaching audiences throughout the country, yearning for merchandise celebrating African American history and culture. Tracey is deeply committed to making a meaningful difference in economic development wherever possible, for the African American community. As a result, she launched Patér Place, LLC (Father’s Place) to highlight art from emerging, local artists to share African American stories and promote local artists. She is passionate about sharing the importance of collecting art, owning the narrative, and building wealth while doing it. To give back, a percentage of profits back is donated to non-profits that serve the community. As an advocate for economic change, she currently works for a non-profit, Oakland Thrive, an organization created to support economic development for small businesses. Her efforts are driven by her vision of a more equitable, sustainable future. Tracey seeks to change the art market for African Americans, challenge conventions, and inspire others to join her in creating a world where everyone can thrive.",
+    flower: Dandelion,
   },
 ];
 
