@@ -45,9 +45,11 @@ function SessionCard({
           ) : (
             type !== "social" && <div className="speaker">By {speaker}</div>
           )}
+          
           <div className="time">
-            At <span>{time}</span> in {place}
-          </div>
+            At <span>{time}</span> {place && <>in {place}</>}
+            </div>
+
         </div>
         <div
           className={`arrowContainer ${isExpanded ? "expanded" : ""}`}
