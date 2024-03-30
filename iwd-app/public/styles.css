@@ -910,42 +910,6 @@ code {
 }
 
 @media (min-width: 640px) {
-  .sm\:top-0 {
-    top: 0px;
-  }
-
-  .sm\:top-1 {
-    top: 0.25rem;
-  }
-
-  .sm\:m-8 {
-    margin: 2rem;
-  }
-
-  .sm\:h-1\/4 {
-    height: 25%;
-  }
-
-  .sm\:h-\[180px\] {
-    height: 180px;
-  }
-
-  .sm\:h-\[225px\] {
-    height: 225px;
-  }
-
-  .sm\:h-\[328px\] {
-    height: 328px;
-  }
-
-  .sm\:w-\[203px\] {
-    width: 203px;
-  }
-
-  .sm\:w-\[234px\] {
-    width: 234px;
-  }
-
   .sm\:w-auto {
     width: auto;
   }
