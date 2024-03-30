@@ -81,6 +81,15 @@ hr {
   /* 3 */
 }
 
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
@@ -910,6 +919,9 @@ code {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-\[100px\] {
+    height: 100px;
+  }
   .sm\:w-auto {
     width: auto;
   }
