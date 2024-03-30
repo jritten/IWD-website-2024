@@ -19,7 +19,7 @@ function DevTeam() {
         ))}
       </div>
       <img
-        class="absolute bottom-20 h-[150px] right-0 sm:top-1 sm:h-[180px]"
+        class="absolute invisible bottom-20 h-[150px] right-0 lg:visible lg:top-1 lg:h-[180px]"
         src={file}
       ></img>
     </div>
