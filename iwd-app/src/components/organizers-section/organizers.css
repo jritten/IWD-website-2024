@@ -5,7 +5,10 @@
     padding-bottom:150px;
     padding-top: 30px;
     position: relative;
+    z-index: 10;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.148);
 }
+
 
 .organizers-cards-container{
     display: grid;

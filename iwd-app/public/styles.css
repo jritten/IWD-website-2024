@@ -714,10 +714,6 @@ video {
   height: 100%;
 }
 
-.h-\[80px\] {
-  height: 80px;
-}
-
 .min-h-\[253px\] {
   min-height: 253px;
 }
@@ -906,16 +902,16 @@ code {
     height: 25%;
   }
 
+  .sm\:h-\[100px\] {
+    height: 100px;
+  }
+
   .sm\:h-\[225px\] {
     height: 225px;
   }
 
   .sm\:h-\[328px\] {
     height: 328px;
-  }
-
-  .sm\:h-\[100px\] {
-    height: 100px;
   }
 
   .sm\:w-\[203px\] {
