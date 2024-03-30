@@ -702,12 +702,20 @@ video {
   height: 60px;
 }
 
+.h-\[80px\] {
+  height: 80px;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
+}
+
+.h-\[80px\] {
+  height: 80px;
 }
 
 .min-h-\[253px\] {
@@ -904,6 +912,10 @@ code {
 
   .sm\:h-\[328px\] {
     height: 328px;
+  }
+
+  .sm\:h-\[100px\] {
+    height: 100px;
   }
 
   .sm\:w-\[203px\] {

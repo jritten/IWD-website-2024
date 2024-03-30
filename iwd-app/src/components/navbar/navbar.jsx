@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import "./navbar.css";
-import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
+import Button from "@mui/material/Button";
+import React, { useEffect, useState } from "react";
+import "./navbar.css";
 
 function NavBar() {
   const [activeItem, setActiveItem] = useState(null);
@@ -13,7 +13,7 @@ function NavBar() {
     // { id: "wtm-section", text: "Techmakers" },
     { id: "sessions-div", text: "Sessions" },
     { id: "speakers-div", text: "Speakers" },
-    { id: "attendee-div", text: "Attendees" },
+    { id: "attendee-section.attendee-div", text: "Attendees" },
     { id: "organizers-div", text: "Organizers" },
     { id: "hosts-div", text: "Hosts" },
     { id: "partners-div", text: "Partners" },
