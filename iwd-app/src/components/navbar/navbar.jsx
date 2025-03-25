@@ -15,7 +15,7 @@ function NavBar() {
     { id: "speakers-div", text: "Speakers" },
     { id: "attendee-section.attendee-div", text: "Attendees" },
     { id: "organizers-div", text: "Organizers" },
-    { id: "hosts-div", text: "Hosts" },
+    // { id: "hosts-div", text: "Hosts" },
     { id: "partners-div", text: "Partners" },
     { id: "devTeam-div", text: "Dev Team" },
   ];
