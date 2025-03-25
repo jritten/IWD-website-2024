@@ -13,7 +13,7 @@ function Hero() {
   const handleClick = () => {
     setActive(!active);
     setTimeout(() => {// this will delay opening the link for a little , so button click effect can show
-      window.open("https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform", '_blank');
+      window.open("https://bit.ly/det-iwd-summit-25", '_blank');
     
     }, 500);
   };
