@@ -23,17 +23,19 @@ function Hosts() {
           <img
             src={FirstHost}
             // className="w-full md:w-5/12 h-auto"
-            className="w-3/4 md:w-5/12 h-auto"
+            className="w-1/2 md:w-1/4 h-auto"
             alt="first host logo image"
           />
           <img
             src={SecondHost}
-            className="w-3/4 md:w-5/12 h-auto"
+            // className="w-3/4 md:w-5/12 h-auto"
+            className="w-1/2 md:w-1/4 h-auto"
             alt="second host logo image"
           />
           <img
             src={ThirdHost}
-            className="w-3/4 md:w-5/12 h-auto"
+            // className="w-3/4 md:w-5/12 h-auto"
+            className="w-1/2 md:w-1/4 h-auto"
             alt="third host logo image"
           />
         </div>

@@ -22,7 +22,7 @@ function App() {
       <Speakers />
       <Attendees />
       {/* Hosts section is modified to reflect Organizers for the IWD 2025 Summit */}
-      <Organizers />        
+      {/* <Organizers /> */}
       <Hosts />
       <Partners />
       {/* <Facilitators /> */}
