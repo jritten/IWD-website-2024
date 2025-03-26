@@ -21,8 +21,9 @@ function App() {
       <Sessions />
       <Speakers />
       <Attendees />
-      <Organizers />
-      {/* <Hosts /> */}
+      {/* Hosts section is modified to reflect Organizers for the IWD 2025 Summit */}
+      <Organizers />        
+      <Hosts />
       <Partners />
       {/* <Facilitators /> */}
       <DevTeam />
