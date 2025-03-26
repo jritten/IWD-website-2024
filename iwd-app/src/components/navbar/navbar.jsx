@@ -17,6 +17,7 @@ function NavBar() {
     { id: "organizers-div", text: "Organizers" },
     { id: "hosts-div", text: "Hosts" },
     { id: "partners-div", text: "Partners" },
+    { id: "jobBoard-div", text: "Job Board" },
     { id: "devTeam-div", text: "Dev Team" },
   ];
 

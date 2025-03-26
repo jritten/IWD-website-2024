@@ -10,6 +10,7 @@ import Organizers from "./components/organizers-section/organizers";
 import Partners from "./components/partners-section/partners";
 import Sessions from "./components/sessions-section/sessions";
 import Speakers from "./components/speakers-section/speakers";
+import JobBoard from "./components/Job_Board_section/JobBoard";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Hosts />
       <Partners />
       {/* <Facilitators /> */}
+      <JobBoard />
       <DevTeam />
     </div>
   );
