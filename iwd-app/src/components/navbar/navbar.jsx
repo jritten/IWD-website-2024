@@ -18,6 +18,7 @@ function NavBar() {
     { id: "hosts-div", text: "Hosts" },
     { id: "partners-div", text: "Partners" },
     { id: "devTeam-div", text: "Dev Team" },
+    { id: "contactus-div", text: "Contact Us" },
   ];
 
   useEffect(() => {
