@@ -62,7 +62,7 @@ function Partners() {
 
         {/* SCOPELOGO added here */}
         <a
-          href="https://scopefocus.com"
+          href="https://scopefocus.ai/"
           target="_blank"
           className="flex items-center justify-center md:flex-1"
         >
