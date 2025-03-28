@@ -5,6 +5,7 @@ import SWELOGO from "../../assets/partner-imgs/SWE.PNG";
 import CEASARLOGO from "../../assets/partner-imgs/LittleCaesars.PNG";
 import NSBELOGO from "../../assets/partner-imgs/NSBE.PNG";
 import SHPELOGO from "../../assets/partner-imgs/SHPE.PNG";
+import SCOPELOGO from "../../assets/partner-imgs/ScopeFocus.png" 
 import triangles from "../../assets/designs/triangles.png";
 
 
