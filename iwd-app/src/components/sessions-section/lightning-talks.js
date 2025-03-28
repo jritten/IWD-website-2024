@@ -16,7 +16,7 @@ import ShimaHoda from "../../assets/speaker-imgs/ShimaHoda.png";
 const talkSeminarsCards = [
   
   {
-    title: "Lightning Talk #1 - Unlock Your Future: How to Master Community Networks for Invisible Career Advantages",
+    title: "Unlock Your Future: How to Master Community Networks for Invisible Career Advantages",
     imageUrl: JCPrice,
     time: "9:45 AM",
     // place: "G.O. 9th floor auditorium",
@@ -28,7 +28,7 @@ const talkSeminarsCards = [
   },
   {
     title:
-      "Lightning Talk #2 - The AI Era and Your Digital Footprint: What You Need to Know",
+      "The AI Era and Your Digital Footprint: What You Need to Know",
     imageUrl:  KavithaBangalore,
     time: "10:00 AM",
     // place: "G.O. 9th floor auditorium",
@@ -40,7 +40,7 @@ const talkSeminarsCards = [
   },
 
   {
-    title: "Lightning Talk #3 - Inclusive Smart Mobility: Enhancing Social Inclusion through Technology",
+    title: "Inclusive Smart Mobility: Enhancing Social Inclusion through Technology",
     imageUrl: ShimaHoda,
     time: "10:30 AM",
     // place: "G.O. 9th floor auditorium",
@@ -52,7 +52,7 @@ const talkSeminarsCards = [
   },
   {
     title:
-      "Lightning Talk #4 - Your Natural Blueprint: Redefining Your Impact and Presence, Unlocking Leadership",
+      "Your Natural Blueprint: Redefining Your Impact and Presence, Unlocking Leadership",
     imageUrl: ShrutiAgarwal,
     time: "11:00 AM",
     // place: "G.O. 9th floor auditorium",
@@ -63,7 +63,7 @@ const talkSeminarsCards = [
     showImageBorder: true,
   },
   {
-    title: "Lightning Talk #5 - Building a Global Tech Career Through Experience",
+    title: "Building a Global Tech Career Through Experience",
     imageUrl: JessicaHoopfer,
     time: "11:30 AM",
     // place: "G.O. 9th floor auditorium",//"Main Hall"
@@ -76,7 +76,7 @@ const talkSeminarsCards = [
 
 
   {
-    title: "Lightning Talk #6 - Resilient Minds, Thriving Careers: Mental Health Strategies for Women in Tech",
+    title: "Resilient Minds, Thriving Careers: Mental Health Strategies for Women in Tech",
     imageUrl: ShantaleaJohns,
     time: "2:00 PM",
     // place: "Main Hall",
@@ -86,7 +86,7 @@ const talkSeminarsCards = [
     showImageBorder: true,
   },
   {
-    title: "Lightning Talk #7 - Breaking into Cybersecurity",
+    title: "Breaking into Cybersecurity",
     imageUrl: MattalynnDarden,
     time: "2:30 PM",
     // place: "Main Hall",
@@ -96,7 +96,7 @@ const talkSeminarsCards = [
     showImageBorder: true,
   },
   {
-    title: "Lightning Talk #8 - When the Imposter is Me: Overcoming Self-Doubt to Lead and Innovate",
+    title: "When the Imposter is Me: Overcoming Self-Doubt to Lead and Innovate",
     imageUrl: LorrenaBlack,
     time: "3:00 PM",
     // place: "Main Hall",
@@ -106,7 +106,7 @@ const talkSeminarsCards = [
     showImageBorder: true,
   },
   {
-    title: "Lightning Talk #9 - Tech Unfiltered: Changing The Game",
+    title: "Tech Unfiltered: Changing The Game",
     imageUrl: BrittanyMcGee,
     time: "3:30 PM",
     // place: "Main Hall",
