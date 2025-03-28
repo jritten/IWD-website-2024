@@ -1,17 +1,9 @@
-/*import CCS from '@/assets/images/sponsors/ccs.png'
-import IBM from '@/assets/images/sponsors/IBM.webp'
-import Google from '@/assets/images/sponsors/Google.webp'
-import GrandCircus from '@/assets/images/organizers/gc.png'
-import DTE from '@/assets/images/organizers/DTE.png'
-import COMPASSDetroit from '@/assets/images/sponsors/compass.png'
-*/
-
-import CCS from '../../assets/job-boards_images/CCS.jpg'
+import CCS from '../../assets/job-boards_images/ccs.png'
 import IBM from '../../assets/job-boards_images/IBM.svg'
 import Google from '../../assets/job-boards_images/Google.webp'
-import GrandCircus from '../../assets/job-boards_images/Grand Circus.png'
-import DTE from '../../assets/job-boards_images/DTE.jpg'
-import COMPASSDetroit from '../../assets/job-boards_images/compass.svg'
+import GrandCircus from '../../assets/job-boards_images/gc.png'
+import DTE from '../../assets/job-boards_images/DTE.png'
+import COMPASSDetroit from '../../assets/job-boards_images/compass.png'
 
 const JobBoardData = [
   {
@@ -48,7 +40,7 @@ const JobBoardData = [
     id: 6,
     name: 'Resume Drop',
     avatar: COMPASSDetroit,
-    url: 'https://bit.ly/bhm-resume-drop',
+    url: 'https://bit.ly/iwd-resume-drop',
   },
 
 

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-const GenericCard = ({ name, avatar, organization, onOpen }) => {
+const GenericCard = ({ name, avatar, onOpen }) => {
   return (
     <div
       className={`relative mx-auto mb-16 w-full max-w-xs ${
@@ -20,10 +20,10 @@ const GenericCard = ({ name, avatar, organization, onOpen }) => {
           </div>
         </div>
         <div className="mb-6 mt-28 h-16 px-2">
-          <h1 className="text-center text-lg font-semibold text-sky-900">
+          <h1 className="text-center text-lg font-bold text-sky-900">
             {name}
           </h1>
-          <h3 className="text-center text-base text-sky-900">{organization}</h3>
+          
         </div>
       </div>
     </div>
@@ -32,10 +32,7 @@ const GenericCard = ({ name, avatar, organization, onOpen }) => {
 
 GenericCard.propTypes = {
   name: PropTypes.string.isRequired,
-  twitter: PropTypes.string,
   avatar: PropTypes.string.isRequired,
-  organization: PropTypes.string.isRequired,
-  position: PropTypes.string.isRequired,
   onOpen: PropTypes.func,
 }
 
