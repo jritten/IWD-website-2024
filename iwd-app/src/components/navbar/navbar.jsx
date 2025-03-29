@@ -2,7 +2,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
-import compasslogo from "../../assets/navbar/compass.png"; 
+import compasslogo from "../../assets/compass_gray.png"; 
 
 
 function NavBar() {
