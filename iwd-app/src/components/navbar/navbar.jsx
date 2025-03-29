@@ -98,7 +98,7 @@ function NavBar() {
       <nav className="Nav">
         <div className="left-section">
           <div className="logo">
-            <img src={logo} alt="Compass Logo" />
+            <img src={compasslogo} alt="Compass Logo" />
           </div>
           <div className="hamburger">
             <Button onClick={toggleDrawer}>
