@@ -96,13 +96,15 @@ function NavBar() {
   return (
     <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
       <nav className="Nav">
-        <div className="logo">
-          <img src={compasslogo} alt="Compass Logo" />
-        </div>
-        <div className="hamburger">
-          <Button onClick={toggleDrawer}>
-            <MenuIcon />
-          </Button>
+        <div className="left-section">
+          <div className="logo">
+            <img src={logo} alt="Compass Logo" />
+          </div>
+          <div className="hamburger">
+            <Button onClick={toggleDrawer}>
+              <MenuIcon />
+            </Button>
+          </div>
         </div>
         <ul>
           {sections.map((section) => (
