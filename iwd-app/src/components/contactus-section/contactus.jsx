@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactus.css";
-import logo from "../../assets/wtm.png";
+import logo from "../../assets/WTM_logo.png";
 
 function ContactUs() {
   return (
