@@ -1,6 +1,7 @@
-#partners-title{
+#partners-title {
   color: rgb(28, 28, 28);
 }
+
 .partners-div {
   width: 100%;
   display: flex;
@@ -12,63 +13,68 @@
   box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.148);
 }
 
-.header-container{
-  display:flex;
+.header-container {
+  display: flex;
   text-align: center;
   flex-direction: column;
 }
 
-
-
-.SWE{
-margin: -1px;
-width: auto;
-height: 150px;
-transition: transform 0.3s ease;
-margin-top: -1px;
-
-}
-
-.SHPE{
-
-width: auto;
-height: 110px;
-transition: transform 0.3s ease;
-margin-top: -1px;
-}
-
-.LittleCaesars{
- 
+.SWE {
+  margin: -1px;
   width: auto;
   height: 150px;
   transition: transform 0.3s ease;
   margin-top: -1px;
-  }
+}
 
-.NSBE{
+.SHPE {
+  width: auto;
+  height: 110px;
+  transition: transform 0.3s ease;
+  margin-top: -1px;
+}
 
-width: auto;
-height: 180px;
-transition: transform 0.3s ease;
-margin-top: -1px;
+.LittleCaesars {
+  width: auto;
+  height: 150px;
+  transition: transform 0.3s ease;
+  margin-top: -1px;
+}
+
+.NSBE {
+  width: auto;
+  height: 180px;
+  transition: transform 0.3s ease;
+  margin-top: -1px;
+}
+
+.Scope {
+  width: auto;
+  height: 150px; /* You can adjust the height as needed */
+  transition: transform 0.3s ease;
+  margin-top: -1px;
 }
 
 .sponsor-image:hover {
   transform: translateY(-10px);
 }
 
-.SWE:hover{
+.SWE:hover {
   transform: translateY(-10px);
 }
 
-.SHPE:hover{
+.SHPE:hover {
   transform: translateY(-10px);
 }
 
-.NSBE:hover{
+.NSBE:hover {
   transform: translateY(-10px);
 }
 
-.LittleCaesars:hover{
+.LittleCaesars:hover {
   transform: translateY(-10px);
+}
+
+.Scope:hover {
+  transform: translateY(-10px); /* Hover effect for SCOPELOGO */
 }
