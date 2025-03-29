@@ -1,95 +1,71 @@
-import MoeAbboud from "../../assets/headshots/MoeAbboud.jpg"
-import MoeChami from "../../assets/headshots/MoeChami.jpg"
-import JesusOrozco from "../../assets/headshots/JesusOrozco.jpg"
-import RazanShams from "../../assets/headshots/RazanShams.jpg"
-import AbdulKhan from "../../assets/headshots/AbdulKhan.jpg"
+import AnkitaGuha from "../../assets/headshots/Ankita Guha.png"
+import HudaHussaini from "../../assets/headshots/Huda Hussaini.png"
+import JennaRitten from "../../assets/headshots/Jenna Ritten.png"
+import KanikaMohan from "../../assets/headshots/Kanika Mohan.png"
 import AnikaRaisa from "../../assets/headshots/AnikaRaisa.jpg"
-import MouhamedSalma from "../../assets/headshots/MouhamedSalma.jpg"
+import AnithaPalanivel from "../../assets/headshots/Anitha Palanivel.png"
+import MedhaMuppala from "../../assets/headshots/Medha Muppala.png"
 import GayathriChava from "../../assets/headshots/GayathriChava.jpg"
-import HebaSayed from "../../assets/headshots/HebaSayed.jpg"
+import DivyaLakshmi from "../../assets/headshots/Divya Lakshmi.png"
 import Namaa from "../../assets/headshots/Namaa.jpg"
 import WhitneyTran from "../../assets/headshots/WhitneyTran.jpg"
 import MusaShoeb from "../../assets/headshots/MusaShoeb.jpg"
-import MaryamTello from "../../assets/headshots/MaryamTello.jpg"
+import BandhanKaur from "../../assets/headshots/Bandhan Kaur.png"
 
 const devTeamData = [
     {
-        imageurl: MaryamTello,
-        name: "Maryam Tello",
-        linkedIn: "https://www.linkedin.com/in/maryamtello?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        status: "Senior",
+        imageurl: AnithaPalanivel,
+        name: "Anitha Palanivel",
+        linkedIn: "https://www.linkedin.com/in/anitha-palanivel-69225a15",
+        status: "Senior Database Administrator @ OneMagnify",
     },
     {
-        imageurl: AbdulKhan,
-        name: "Abdul Khan",
-        linkedIn: "https://www.linkedin.com/in/abdulmuiz-khan/",
-        status: "Junior",
+        imageurl: BandhanKaur,
+        name: "Bandhan Kaur",
+        linkedIn: "https://www.linkedin.com/in/bandhanpreet-kaur/",
+        status: "Software Engineer @ Excelerate America",
     },
     {
-        imageurl: MoeAbboud,
-        name: "Mohamad Abboud",
-        linkedIn: "https://www.linkedin.com/in/moeabboud/",
-        status: "Junior"
+        imageurl: AnkitaGuha,
+        name: "Ankita Guha",
+        linkedIn: "https://www.linkedin.com/in/ankita-guha-4dscience/",
+        status: "Data Analyst Programmer @ Freudenberg Group"
     },
     {
-        imageurl: HebaSayed,
-        name: "Heba Sayed",
-        linkedIn: "https://www.linkedin.com/in/heba-sayed6/",
-        status: "Junior",
+        imageurl: DivyaLakshmi,
+        name: "Divya Lakshmi",
+        linkedIn: "www.linkedin.com/in/divyalakshmi-vrps",
+        status: "Business Technology Testing Intern @ Nucor Corporation",
     },
     {
-        imageurl: MoeChami,
-        name: "Mohammad El-Chami",
-        linkedIn: "https://www.linkedin.com/in/moecham/",
-        status: "Sophomore"
+        imageurl: HudaHussaini,
+        name: "Huda Hussaini",
+        linkedIn: "https://www.linkedin.com/in/hussainihuda/",
+        status: "Cyber Security Software Engineer @ ETAS"
     },
     {
-        imageurl: JesusOrozco,
-        name: "Jesus Orozco",
-        linkedIn: "https://www.linkedin.com/in/eisaa-orozco/",
-        status: "Junior",
+        imageurl: JennaRitten,
+        name: "Jenna Ritten",
+        linkedIn: "https://www.linkedin.com/in/jritten/",
+        status: "Chief Developer Advocate & Architect @ iBM",
     },
     {
-        imageurl: RazanShams,
-        name: "Razan Shams",
-        linkedIn: "https://www.linkedin.com/in/razan-shams-5a6b072ba/",
-        status: "Freshman",
+        imageurl: KanikaMohan,
+        name: "Kanika Mohan",
+        linkedIn: "https://www.linkedin.com/in/kanikamohan7",
+        status: "Product Manager @ IBM",
     },
     {
         imageurl: AnikaRaisa,
         name: "Anika Raisa",
         linkedIn: "https://www.linkedin.com/in/anikaraisa/",
-        status: "Graduate Student",
+        status: "Data Scientist and Computer Engineer @ University of Michigan",
     },
     {
-        imageurl: MouhamedSalma,
-        name: "Mouhamed Salma",
-        linkedIn: "https://www.linkedin.com/in/mouhamed-salma/",
-        status: "Junior",
-    },
-    {
-        imageurl: GayathriChava,
-        name: "Gayathri Chava",
-        linkedIn: "https://www.linkedin.com/in/cgayathri21f?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        status: "Junior",
-    },
-    {
-        imageurl: Namaa,
-        name: "Namaa Mokhtar",
-        linkedIn: "https://www.linkedin.com/in/namaa05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        status: "Sophomore",
-    },
-    {
-        imageurl: WhitneyTran,
-        name: "Whitney Tran",
-        linkedIn: "https://www.linkedin.com/in/whitneyttran/",
-        status: "Junior",
-    },
-    {
-        imageurl: MusaShoeb,
-        name: "Musa Shoeb",
-        linkedIn: "https://www.linkedin.com/in/musashoeb/",
-        status: "Junior",
-    },
+        imageurl: MedhaMuppala,
+        name: "Medha Muppala",
+        linkedIn: "https://www.linkedin.com/in/medhamuppala/",
+        status: "Product Designer @ Jameo",
+    }
 ]
 export default devTeamData;

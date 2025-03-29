@@ -33,7 +33,7 @@ const talkSeminarsCards = [
     time: "10:00 AM",
     // place: "G.O. 9th floor auditorium",
     description:
-      "Learn about the essentials must knows in this era of Artificial Intelligence.",
+      "Learn the risks of AI-driven data collection and get practical tips to protect your privacy and control your digital identity in today's connected world.",
     type: "regular",
     speaker: "  Kavitha Bangalore @ Cleveland Clinic",
     showImageBorder: true,
@@ -45,7 +45,7 @@ const talkSeminarsCards = [
     time: "10:30 AM",
     // place: "G.O. 9th floor auditorium",
     description:
-      "This session will explore the design process, challenges, and innovations behind creating a truly inclusive parking solution",
+      "This session will explore the design process, challenges, and innovations behind creating a truly inclusive parking solution.",
     type: "regular",
     speaker: "Hoda Solati & Shima Solati @ BraunAbility",
     showImageBorder: true,
@@ -57,7 +57,7 @@ const talkSeminarsCards = [
     time: "11:00 AM",
     // place: "G.O. 9th floor auditorium",
     description:
-      "In a world full of challenges and competition, it's easy to overlook your potential. By reflecting on your journey and embracing AI, you’ll learn how to sharpen your abilities and create meaningful impact.",
+      "Discover how to align your unique strengths with the power of AI to create lasting impact. This session will help you move beyond personal success to build a legacy that inspires change in your organization, community, and future leaders.",
     type: "regular",
     speaker: "Shruti Agarwal @ Levelwing Media LLC",
     showImageBorder: true,
@@ -68,7 +68,7 @@ const talkSeminarsCards = [
     time: "11:30 AM",
     // place: "G.O. 9th floor auditorium",//"Main Hall"
     description:
-      "Enjoy a delicious lunchThe future of technology is not shaped by advanced degrees—it’s driven by experience, adaptability and the power of global networks. and network with other attendees! Use this time to connect, share ideas, and build relationships.",
+      "Learn how to build a global tech career without a traditional path. This session explores how experience, remote work, and inclusion—not location or degrees—are redefining success. Discover how women are leading in AI and how you can break in, level up, and lead from anywhere.",
     type: "social",
     speaker: "Jessica Hoopfer",
     showImageBorder: true,
@@ -110,7 +110,7 @@ const talkSeminarsCards = [
     imageUrl: BrittanyMcGee,
     time: "3:30 PM",
     // place: "Main Hall",
-    description: "Technology in the current days.",
+    description: "Technology in the current days. This session dives into the real stories behind breaking into tech—no gatekeeping, no fluff. We’ll explore how unconventional paths, diverse voices, and unapologetic authenticity are reshaping the industry and driving meaningful innovation.",
     type: "social",
     speaker: "Brittany McGee",
     showImageBorder: true,
