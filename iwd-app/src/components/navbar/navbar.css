@@ -15,6 +15,11 @@ body {
   margin: 0;
 }
 
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
 .Nav {
   height: 55px;
   width: 100%;
