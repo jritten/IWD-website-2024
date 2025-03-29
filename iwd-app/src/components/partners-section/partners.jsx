@@ -2,7 +2,7 @@ import React from "react";
 import "./partners.css";
 import "../../globalStyles.css";
 import SWELOGO from "../../assets/partner-imgs/SWE.PNG";
-import CEASARLOGO from "../../assets/partner-imgs/LittleCaesars.PNG";
+// import CEASARLOGO from "../../assets/partner-imgs/LittleCaesars.PNG";
 import NSBELOGO from "../../assets/partner-imgs/NSBE.PNG";
 import SHPELOGO from "../../assets/partner-imgs/SHPE.PNG";
 import SCOPELOGO from "../../assets/partner-imgs/ScopeFocus.png";
@@ -14,6 +14,7 @@ import GRANDCIRCUS from "../../assets/partner-imgs/GrandCircus_logo.png";
 import AUTOMATIONWORKZ from "../../assets/partner-imgs/AutomationWorks_logo.png"
 import CCSLOGO from "../../assets/partner-imgs/CCS_logo.png";
 import MCWT from "../../assets/partner-imgs/MCWT_logo.png";
+import GOOGLE from "../../assets/partner-imgs/Google_logo.png";
 
 import triangles from "../../assets/designs/triangles.png";
 
@@ -105,13 +106,13 @@ function Partners() {
         </a>
 
         <a
-          href="https://littlecaesars.com/en-us/careers/"
+          href="https://www.google.com/"
           target="_blank"
           className="flex items-center justify-center md:flex-1"
         >
           <img
-            alt="LittleCaesars"
-            src={CEASARLOGO}
+            alt="Google"
+            src={GOOGLE}
             className="LittleCaesars w-1/2 md:w-3/4 md:h-auto"
           />
         </a>
