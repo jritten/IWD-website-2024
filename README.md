@@ -2,6 +2,8 @@
 
 Welcome to the IWD Website 2024 GitHub repository! This document provides guidelines on how to contribute to the project using Visual Studio Code (VS Code). Follow these steps to clone the repository, create feature or bug-fix branches, commit your changes, and create a pull request.
 
+Website Link (2025) : https://iwd-website-2024-l6l9.vercel.app
+
 ## Cloning the Repository in VS Code
 
 1. Open VS Code.
