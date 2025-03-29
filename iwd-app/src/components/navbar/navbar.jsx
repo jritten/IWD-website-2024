@@ -98,7 +98,6 @@ import MenuIcon from "@mui/icons-material/Menu";
        <nav className="Nav">
          <div className="left-section">
            <div className="logo">
-             <img src={logo} alt="Compass Logo" />
              <img src={compasslogo} alt="Compass Logo" />
            </div>
            <div className="hamburger">
