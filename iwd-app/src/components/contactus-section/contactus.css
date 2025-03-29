@@ -1,10 +1,11 @@
 .contactus-div {
-    background-color: rgb(241 245 249);
+  width: 100%;
+  background-color: rgb(241 245 249);
   display: flex;
-  flex-direction: column;
-  align-items: stretch; /* updated from center */
   justify-content: center;
+  padding: 2rem 1rem;
 }
+
 .fa-linkedin {
     background: #007bb5;
     color: white;
@@ -30,15 +31,29 @@
 }
 
 .footer-inner {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 1rem 2rem;
   gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .footer-logo img {
-  height: 40px;
+  height: 60px;
+  width: auto;
   margin-left: 0.5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
