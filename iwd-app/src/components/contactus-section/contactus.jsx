@@ -7,7 +7,7 @@
       <footer id="contactus-div" className="app-section contactus-div md:h-30">
   <div className="footer-inner">
     <div className="footer-logo">
-      <img src={logo} alt="Compass Logo" />
+      <img src={wtmlogo} alt="WTM Logo" />
     </div>
 
     <div className="text-column">
