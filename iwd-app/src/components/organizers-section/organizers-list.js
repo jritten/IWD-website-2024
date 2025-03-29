@@ -1,23 +1,26 @@
-import jr_headshot from "../../assets/organizer-imgs/jr_headshot.jpg";
-import MaridyMazaira from "../../assets/organizer-imgs/MaridyMazaira.jpeg";
-import JamalLongwood from "../../assets/organizer-imgs/JamalLongwood.jpeg";
+// import GDGDetroit from "../../assets/organizer-imgs/GDGDetroit.png";
+import GDGDetroit from "../../assets/host/compass_locationLogo.svg";
+// import CompassDetroit from "../../assets/organizer-imgs/compass_locationLogo.svg";
+import CompassDetroit from "../../assets/host/GDGDetroit.png";
+//import WomenTechMakers from "../../assets/organizer-imgs/WTM.jpg";
+import WomenTechMakers from "../../assets/host/WTM.jpg";
 
 
 const organizersData = [
     {
-        imageurl: jr_headshot,
-        name: "Jenna Ritten",
-        position: "Chief Architect & Chief Developer Advocate",
+        imageurl: GDGDetroit,
+        name: "GDG Detroit",
+        //position: "Chief Architect & Chief Developer Advocate",
     },
     {
-        imageurl: MaridyMazaira,
-        name: "Maridy Mazaira",
-        position: "Staff Engineer - DTE Energy",
+        imageurl: CompassDetroit,
+        name: "COMPASS Detroit",
+        //position: "Staff Engineer - DTE Energy",
     },
     {
-        imageurl: JamalLongwood,
-        name: "Jamal Longwood",
-        position: "Thermal Development Engineer",
+        imageurl: WomenTechMakers,
+        name: "Women Tech Makers",
+        //position: "Thermal Development Engineer",
     },
 ]
 export default organizersData;
