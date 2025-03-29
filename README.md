@@ -7,7 +7,7 @@ Welcome to the IWD Website 2024 GitHub repository! This document provides guidel
 1. Open VS Code.
 2. Go to View -> Command Palette (or press `Ctrl+Shift+P` on Windows/Linux, `Cmd+Shift+P` on Mac).
 3. Type `Git: Clone` and select it.
-4. Enter the repository URL: `https://github.com/maryamtello1/IWD-website-2024.git`
+4. Enter the repository URL: `https://github.com/jritten/IWD-website-2024.git`
 5. Choose a local directory where you want to clone the repository and click `Select Repository Location`.
 6. Once cloned, a prompt will ask if you want to open the cloned repository. Click `Open`.
 
