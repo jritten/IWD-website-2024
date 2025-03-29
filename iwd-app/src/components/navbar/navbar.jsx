@@ -96,32 +96,33 @@ import MenuIcon from "@mui/icons-material/Menu";
    return (
      <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
        <nav className="Nav">
-         <div className="left-section">
-           <div className="logo">
-             <img src={compasslogo} alt="Compass Logo" />
-           </div>
-           <div className="hamburger">
-             <Button onClick={toggleDrawer}>
-               <MenuIcon />
-             </Button>
-           </div>
+       <div className="left-section">
+         <div className="logo">
+           <img src={compasslogo} alt="Compass Logo" />
          </div>
-         <ul>
-           {sections.map((section) => (
-             <li
-               key={section.id}
-               className={activeItem === section.id ? "active" : ""}
+         <div className="hamburger">
+           <Button onClick={toggleDrawer}>
+             <MenuIcon />
+           </Button>
+         </div>
+       </div>
+       <ul>
+         {sections.map((section) => (
+           <li
+             key={section.id}
+             className={activeItem === section.id ? "active" : ""}
+           >
+             <a
+               href={`#${section.id}`}
+               onClick={(e) => handleNavigation(e, section.id)}
              >
-               <a
-                 href={`#${section.id}`}
-                 onClick={(e) => handleNavigation(e, section.id)}
-               >
-                 {section.text}
-               </a>
-             </li>
-           ))}
-         </ul>
-       </nav>
+               {section.text}
+             </a>
+           </li>
+         ))}
+       </ul>
+     </nav>
+
        {open && (
          <ul className="hamburger-list py-3">
            {sections.map((section) => (
