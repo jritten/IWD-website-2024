@@ -15,9 +15,16 @@ body {
   margin: 0;
 }
 
-.logo img {
-  height: 40px;
-  width: auto;
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Push rest of nav to the right */
+}
+
+.logo {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
 }
 
 .Nav {
@@ -25,7 +32,7 @@ body {
   width: 100%;
   background-color: #43a6f0;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   justify-items: center;
   align-items: center;
 }
