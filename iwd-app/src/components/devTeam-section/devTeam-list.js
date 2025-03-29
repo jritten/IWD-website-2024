@@ -11,6 +11,7 @@ import Namaa from "../../assets/headshots/Namaa.jpg"
 import WhitneyTran from "../../assets/headshots/WhitneyTran.jpg"
 import MusaShoeb from "../../assets/headshots/MusaShoeb.jpg"
 import BandhanKaur from "../../assets/headshots/Bandhan Kaur.png"
+import Rehanashri from "../../assets/headshots/Rehanashri.jpg"
 
 const devTeamData = [
     {
@@ -66,6 +67,13 @@ const devTeamData = [
         name: "Medha Muppala",
         linkedIn: "https://www.linkedin.com/in/medhamuppala/",
         status: "Product Designer @ Jameo",
+    },
+    {
+        imageurl: Rehanashri,
+        name: "Rehanashri GR",
+        linkedIn: "https://www.linkedin.com/in/rehanashri?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        status: "Graduate Student @ University of Michigan-Dearborn ",
     }
+    
 ]
 export default devTeamData;
