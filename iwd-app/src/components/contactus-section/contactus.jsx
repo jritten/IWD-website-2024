@@ -1,13 +1,13 @@
 import React from "react";
 import "./contactus.css";
-import wtmlogo from "../../assets/wtm.png";
+import logo from "../../assets/wtm.png";
 
 function ContactUs() {
   return (
     <footer id="contactus-div" className="contactus-div">
       <div className="footer-content">
         <div className="footer-logo">
-          <img src={wtmlogo} alt="WTM Logo" />
+          <img src={logo} alt="WTM Logo" />
         </div>
 
         <div className="footer-text">
