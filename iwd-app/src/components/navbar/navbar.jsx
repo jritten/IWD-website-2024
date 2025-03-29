@@ -10,14 +10,14 @@ function NavBar() {
 
   const sections = [
     { id: "location-div", text: "Location" },
+    { id: "attendee-section.attendee-div", text: "Attendees" },
     // { id: "wtm-section", text: "Techmakers" },
     { id: "sessions-div", text: "Sessions" },
     { id: "speakers-div", text: "Speakers" },
-    { id: "attendee-section.attendee-div", text: "Attendees" },
-    { id: "organizers-div", text: "Organizers" },
-    // { id: "hosts-div", text: "Hosts" },
     { id: "partners-div", text: "Partners" },
     { id: "JobBoard-div", text: "Job Board" },
+    { id: "organizers-div", text: "Organizers" },
+    // { id: "hosts-div", text: "Hosts" },
     { id: "devTeam-div", text: "Dev Team" },
     { id: "contactus-div", text: "Contact Us" },
   ];
