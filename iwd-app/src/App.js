@@ -5,6 +5,7 @@ import DevTeam from "./components/devTeam-section/devTeam";
 import Hero from "./components/hero-banner/hero";
 import Hosts from "./components/hosts-section/hosts";
 import Location from "./components/location-section/location";
+import ContactUs from "./components/contactus-section/contactus";
 import NavBar from "./components/navbar/navbar";
 import Organizers from "./components/organizers-section/organizers";
 import Partners from "./components/partners-section/partners";
@@ -29,6 +30,7 @@ function App() {
       {/* <Facilitators /> */}
       <JobBoard />
       <DevTeam />
+      <ContactUs />
     </div>
   );
 }
