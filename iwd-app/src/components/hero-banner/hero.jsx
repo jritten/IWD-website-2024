@@ -13,7 +13,7 @@ function Hero() {
   const handleClick = () => {
     setActive(!active);
     setTimeout(() => {// this will delay opening the link for a little , so button click effect can show
-      window.open("https://docs.google.com/forms/d/e/1FAIpQLSeXEqlXIG1UCwjMS_mUEa6H_e3VxvqqDmpUmP-MJSTp4cJrtQ/viewform", '_blank');
+      window.open("https://bit.ly/det-iwd-summit-25", '_blank');
     
     }, 500);
   };
@@ -42,16 +42,16 @@ function Hero() {
           <div class=" md:1/2 lg:w-2/6 lg:py-2 sm:py-3/4 sm:w-auto px-10 md:px-0 ">
             <div className="heading-div w-full">
               <h1 className="text-[10vw] sm:text-[5vw] md:text-[6vw] xl:text-[4.5vw] lg:text-[4.5vw] leading-customh1">
-                Impact <br /> The Future
+                Redefine <br /> Possible
               </h1>
               <img id="globe-gif" src={globeGIF}></img>
             </div>
             <h2 className="font-medium pb-3 text-custom-purple text-[3.4vw] sm:text-[5vw] sm:font-medium sm:pb-0	 md:text-[2.5vw] lg:text-[2vw] lg:leading-customh1 ">
-              Detroit International Women's Day Summit 2024
+              Detroit International Women's Day Innovation Summit 2025
             </h2>
             <p>
-              Celebrate International Women's Day with us at a vibrant summit on
-              March 30th in Detroit, hosted at the DTE Headquarters. Inspire,
+              Celebrate International Women's Day with us at a vibrant innovation summit on
+              March 29th in Detroit, hosted at the DTE Headquarters. Inspire,
               empower, and connect with women in tech.
             </p>
             <button className="btn tickets-btn" onClick={handleClick}>

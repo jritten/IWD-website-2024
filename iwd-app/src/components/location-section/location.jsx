@@ -15,7 +15,7 @@ function Location() {
           ></img>
           <div className="text-column">
             <p className="text-header">When</p>
-            <p className="text-description">Sat, Mar 30, 8:30 AM (EDT)</p>
+            <p className="text-description">Sat, Mar 29, 8:30 AM (EDT)</p>
           </div>
         </div>
         <div class="flex flex-row items-center justify-center m-2 md:flex-1">

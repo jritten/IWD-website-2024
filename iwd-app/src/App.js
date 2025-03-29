@@ -5,11 +5,13 @@ import DevTeam from "./components/devTeam-section/devTeam";
 import Hero from "./components/hero-banner/hero";
 import Hosts from "./components/hosts-section/hosts";
 import Location from "./components/location-section/location";
+import ContactUs from "./components/contactus-section/contactus";
 import NavBar from "./components/navbar/navbar";
 import Organizers from "./components/organizers-section/organizers";
 import Partners from "./components/partners-section/partners";
 import Sessions from "./components/sessions-section/sessions";
 import Speakers from "./components/speakers-section/speakers";
+import JobBoard from "./components/Job_Board_section/JobBoard";
 
 function App() {
   return (
@@ -21,11 +23,14 @@ function App() {
       <Sessions />
       <Speakers />
       <Attendees />
-      <Organizers />
+      {/* Hosts section is modified to reflect Organizers for the IWD 2025 Summit */}
+      {/* <Organizers /> */}
       <Hosts />
       <Partners />
       {/* <Facilitators /> */}
+      <JobBoard />
       <DevTeam />
+      <ContactUs />
     </div>
   );
 }

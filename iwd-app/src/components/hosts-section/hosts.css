@@ -1,4 +1,7 @@
 .hosts-div{
     background-color: rgb(241 245 249);
     padding: 30px;
+    position: relative;
+    z-index: 9;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.148);
 }
