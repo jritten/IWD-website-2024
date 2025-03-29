@@ -2,6 +2,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
+import compasslogo from "../../assets/navbar/compass.png"; 
+
 
 function NavBar() {
   const [activeItem, setActiveItem] = useState(null);
@@ -94,6 +96,9 @@ function NavBar() {
   return (
     <div className={`navbar ${navbarStyle ? "navbar-alternate" : ""}`}>
       <nav className="Nav">
+        <div className="logo">
+          <img src={compasslogo} alt="Compass Logo" />
+        </div>
         <div className="hamburger">
           <Button onClick={toggleDrawer}>
             <MenuIcon />
