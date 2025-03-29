@@ -49,6 +49,7 @@ const agendaCards = [
     time: "9:30 AM",
     // place: "G.O. 9th floor auditorium",
     type: "regular",
+    description: "A warm welcome and a grand kickoff to the IWD Innovation Summit 2025 by the Women Techmakers and GDG Detroit team.",
     speaker:
       "Compass Detroit & Google Women Techmakers",
     showImageBorder: false,
@@ -71,7 +72,7 @@ const agendaCards = [
     time: "10:00 AM",
     // place: "G.O. 9th floor auditorium",
     description:
-      "Learn about the essentials must knows in this era of Artificial Intelligence.",
+      "Learn the risks of AI-driven data collection and get practical tips to protect your privacy and control your digital identity in today's connected world.",
     type: "regular",
     speaker: "  Kavitha Bangalore @ Cleveland Clinic",
     showImageBorder: true,
@@ -83,7 +84,7 @@ const agendaCards = [
     time: "10:30 AM",
     // place: "G.O. 9th floor auditorium",
     description:
-      "This session will explore the design process, challenges, and innovations behind creating a truly inclusive parking solution",
+      "This session will explore the design process, challenges, and innovations behind creating a truly inclusive parking solution.",
     type: "regular",
     speaker: "Hoda Solati & Shima Solati @ BraunAbility",
     showImageBorder: true,
@@ -95,7 +96,7 @@ const agendaCards = [
     time: "11:00 AM",
     // place: "G.O. 9th floor auditorium",
     description:
-      "In a world full of challenges and competition, it's easy to overlook your potential. By reflecting on your journey and embracing AI, you’ll learn how to sharpen your abilities and create meaningful impact.",
+      "Discover how to align your unique strengths with the power of AI to create lasting impact. This session will help you move beyond personal success to build a legacy that inspires change in your organization, community, and future leaders.",
     type: "regular",
     speaker: "Shruti Agarwal @ Levelwing Media LLC",
     showImageBorder: true,
@@ -106,9 +107,9 @@ const agendaCards = [
     time: "11:30 AM",
     // place: "G.O. 9th floor auditorium",//"Main Hall"
     description:
-      "Enjoy a delicious lunchThe future of technology is not shaped by advanced degrees—it’s driven by experience, adaptability and the power of global networks. and network with other attendees! Use this time to connect, share ideas, and build relationships.",
-    type: "social",
-    speaker: "Jessica Hoopfer",
+      "Learn how to build a global tech career without a traditional path. This session explores how experience, remote work, and inclusion—not location or degrees—are redefining success. Discover how women are leading in AI and how you can break in, level up, and lead from anywhere.",
+    type: "regular",
+    speaker: "Jessica Hoopfer, Manager, North America - Enterprise Sales @ Checkout.com",
     showImageBorder: true,
   },
   {
@@ -116,8 +117,8 @@ const agendaCards = [
     imageUrl: people,
     time: "12:00 PM",
     // place: "G.O. 9th floor auditorium",//"Main Hall"
-    // description:
-    //   "Join DTE Energy for an inspiring afternoon keynote, featuring Alissa Sevrioukova, Chief of Staff | Manager, Public Affairs.",
+    description:
+      "Make fast, focused connections through guided conversations centered around your interests, goals, or expertise.",
     type: "social",
     speaker:
       "JC Price @ Scope Focus",
@@ -128,6 +129,7 @@ const agendaCards = [
       "Lunch Break & Networking",
     imageUrl: lunch,
     time: "12:15 PM",
+    description: "Take a break, grab a bite, and connect with fellow attendees. This is a great time to recharge, share ideas, and build meaningful connections in a relaxed setting.",
     // place: "G.O. 9th floor auditorium",//"Main Hall"
     type: "social",
     showImageBorder: false,
@@ -137,7 +139,7 @@ const agendaCards = [
     imageUrl: panel,
     time: "1:00 PM",
     description:
-      "Redefine for growth and development.",
+      "Redefine for growth and development. Join a dynamic conversation with trailblazers who’ve challenged norms, broken barriers, and reimagined success in tech and beyond. This panel will explore how bold ideas, inclusive leadership, and unconventional journeys are transforming what’s possible for the next generation of innovators.",
     type: "panel",
     moderator: "Tim Moore",
     panelists: "Ida Byrd-Hill (CEO @ Automation Workz), Lia Moore (CEO @ Coo-Lio), Lisa McKenzie (President & General Manager @ Freudenberg e-Power Systems), and Megan Torrance (CEO & Chief Energy Officer @ TorranceLearning) ",
@@ -170,7 +172,7 @@ const agendaCards = [
     // place: "Main Hall",
     description: "In this engaging session, we will break down the imposter phenomenon, why it happens, and how to break free from it. Through interactive discussion and real-world strategies, attendees will learn how to reframe self-doubt, build confidence, and step into their leadership potential—without waiting for external validation.",
     type: "regular",
-    speaker: "Lorrena Black",
+    speaker: "Lorrena Black, Founder and CEO @ She Served LLC and Kanika Mohan, Product Manager @ IBM",
     showImageBorder: true,
   },
   {
@@ -178,9 +180,9 @@ const agendaCards = [
     imageUrl: BrittanyMcGee,
     time: "3:30 PM",
     // place: "Main Hall",
-    description: "Technology in the current days.",
-    type: "social",
-    speaker: "Brittany McGee",
+    description: "Technology in the current days. This session dives into the real stories behind breaking into tech—no gatekeeping, no fluff. We’ll explore how unconventional paths, diverse voices, and unapologetic authenticity are reshaping the industry and driving meaningful innovation.",
+    type: "regular",
+    speaker: "Brittany McGee, Founder and CEO @ OptimizeEV",
     showImageBorder: true,
   }, 
   {
